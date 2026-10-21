@@ -50,6 +50,9 @@ def group_items(data):
     return {g: v for g, v in groups.items() if v}
 
 
+ZH_BLOB = "https://github.com/Yu-Xiao-Sheng/fabric-patterns-zh/blob/main/"
+
+
 def render_md(data):
     groups = group_items(data)
     lines = [
@@ -59,7 +62,7 @@ def render_md(data):
         f" · 同步于 {data['synced_at']} · 上游 commit `{data['upstream_commit'][:7]}`"
         f" · 共 {data['count']} 条",
         "",
-        "每条的英文名即直达链接，指向源仓库中该 Pattern 的 `system.md` 原文。",
+        "每条的英文名即直达链接，指向源仓库中该 Pattern 的 `system.md` 原文；「中文版」链接指向本仓库 `patterns-zh/` 下的中文全文译版。",
         "",
     ]
     for g, items in groups.items():
@@ -70,8 +73,9 @@ def render_md(data):
             d = (m["zh_desc"] or m.get("desc_en", "")).replace("|", "/")
             s = (m["scenario"] or "").replace("|", "/")
             st = "" if m.get("status") == "translated" else m.get("status", "")
+            zh = f"（[中文版]({m['zh_prompt']})）" if m.get("zh_prompt") else ""
             lines.append(
-                f"| [{m['name']}]({m['source_url']}) | {m['zh_title']} | {d} | {s} "
+                f"| [{m['name']}]({m['source_url']}){zh} | {m['zh_title']} | {d} | {s} "
                 f"| {'/'.join(m['tags'])} | {st} |"
             )
         lines.append("")
@@ -87,13 +91,17 @@ def render_html(data):
         for m in items:
             tags = " · ".join(m["tags"])
             badge = "" if m.get("status") == "translated" else f'<span class="badge">{esc(m.get("status",""))}</span>'
+            zh_link = (
+                f' · <a href="{ZH_BLOB}{esc(m["zh_prompt"])}" target="_blank">中文版提示词 ↗</a>'
+                if m.get("zh_prompt") else ""
+            )
             rows.append(
                 f'<div class="row" data-search="{esc((m["name"] + " " + m["zh_title"] + " " + m["zh_desc"] + " " + m["scenario"] + " " + tags).lower())}">'
                 f'<div class="rname"><a href="{esc(m["source_url"])}" target="_blank">{esc(m["name"])}</a>'
                 f'<div class="rtitle">{esc(m["zh_title"])}{badge}</div></div>'
                 f'<div class="rdesc">{esc(m["zh_desc"] or m.get("desc_en",""))}</div>'
                 f'<div class="rscene">{esc(m["scenario"])}</div>'
-                f'<div class="rtags">{esc(tags)} · <a href="{esc(m["source_url"])}" target="_blank">源仓库原文 ↗</a></div></div>'
+                f'<div class="rtags">{esc(tags)} · <a href="{esc(m["source_url"])}" target="_blank">源仓库原文 ↗</a>{zh_link}</div></div>'
             )
         sections.append(
             f'<section id="{esc(g)}"><h2>{esc(g)} <span class="cnt">{len(items)} 个</span></h2>'
@@ -130,7 +138,7 @@ h2{{font-size:25px;margin:52px 0 4px}}h2 .cnt{{color:var(--acc);font-size:16px}}
 </style></head><body><div class="wrap">
 <div class="kicker">Fabric Patterns · Chinese Catalog</div>
 <h1>Fabric 全部提示词中文目录</h1>
-<p class="sub">源仓库 danielmiessler/Fabric 全部 Pattern 的中文索引：逐个依据其 system.md 原文撰写中文简介与使用场景，每条附源仓库原文直达链接。本页每日自动与上游同步。</p>
+<p class="sub">源仓库 danielmiessler/Fabric 全部 Pattern 的中文索引：逐个依据其 system.md 原文撰写中文简介与使用场景，并提供提示词全文的中文译版（patterns-zh/），每条附源仓库原文与中文版直达链接。本页每日自动与上游同步，新增与变更的译版随同步更新。</p>
 <div class="stats">
 <div class="stat"><b>{data['count']}</b><span>条目总数</span></div>
 <div class="stat"><b>{data['synced_at']}</b><span>最近同步日期</span></div>
@@ -139,7 +147,7 @@ h2{{font-size:25px;margin:52px 0 4px}}h2 .cnt{{color:var(--acc);font-size:16px}}
 <div class="search"><input id="q" type="text" placeholder="搜索：英文名、中文名或关键词，如 review、审查、视频、威胁建模…"></div>
 <nav>{''.join(nav)}</nav>
 {''.join(sections)}
-<footer>数据来源：github.com/danielmiessler/Fabric（MIT）。中文简介为依据原文的概括，非逐字翻译；使用前建议点开原文核对输出格式。本目录由脚本从 data/patterns.json 生成。</footer>
+<footer>数据来源：github.com/danielmiessler/Fabric（MIT）。中文简介为依据原文的概括；中文版提示词为原文全文翻译，保留原结构与输出格式约束，个别输出章节名等格式标签按原文保留英文。本目录由脚本从 data/patterns.json 生成。</footer>
 </div>
 <script>
 const q=document.getElementById('q');

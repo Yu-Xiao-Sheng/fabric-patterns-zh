@@ -18,7 +18,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_email_headers/system.md",
    "upstream_path": "data/patterns/analyze_email_headers/system.md",
    "content_hash": "8a6fa4889df7680e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_email_headers/system.zh.md",
+   "zh_base_hash": "8a6fa4889df7680e"
   },
   {
    "name": "analyze_incident",
@@ -33,7 +35,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_incident/system.md",
    "upstream_path": "data/patterns/analyze_incident/system.md",
    "content_hash": "182fe9741f539b77",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_incident/system.zh.md",
+   "zh_base_hash": "182fe9741f539b77"
   },
   {
    "name": "analyze_logs",
@@ -49,7 +53,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_logs/system.md",
    "upstream_path": "data/patterns/analyze_logs/system.md",
    "content_hash": "886723b15c3f68b9",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_logs/system.zh.md",
+   "zh_base_hash": "886723b15c3f68b9"
   },
   {
    "name": "analyze_malware",
@@ -64,7 +70,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_malware/system.md",
    "upstream_path": "data/patterns/analyze_malware/system.md",
    "content_hash": "fc6acadfcbd574f9",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_malware/system.zh.md",
+   "zh_base_hash": "fc6acadfcbd574f9"
   },
   {
    "name": "analyze_risk",
@@ -79,7 +87,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_risk/system.md",
    "upstream_path": "data/patterns/analyze_risk/system.md",
    "content_hash": "7971f26716f699a0",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_risk/system.zh.md",
+   "zh_base_hash": "7971f26716f699a0"
   },
   {
    "name": "analyze_threat_report",
@@ -94,7 +104,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_threat_report/system.md",
    "upstream_path": "data/patterns/analyze_threat_report/system.md",
    "content_hash": "244561b076bdf357",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_threat_report/system.zh.md",
+   "zh_base_hash": "244561b076bdf357"
   },
   {
    "name": "analyze_threat_report_cmds",
@@ -109,7 +121,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_threat_report_cmds/system.md",
    "upstream_path": "data/patterns/analyze_threat_report_cmds/system.md",
    "content_hash": "0c7de563629959eb",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_threat_report_cmds/system.zh.md",
+   "zh_base_hash": "0c7de563629959eb"
   },
   {
    "name": "analyze_threat_report_trends",
@@ -124,7 +138,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_threat_report_trends/system.md",
    "upstream_path": "data/patterns/analyze_threat_report_trends/system.md",
    "content_hash": "a53e54c0f447893f",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_threat_report_trends/system.zh.md",
+   "zh_base_hash": "a53e54c0f447893f"
   },
   {
    "name": "ask_secure_by_design_questions",
@@ -140,7 +156,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/ask_secure_by_design_questions/system.md",
    "upstream_path": "data/patterns/ask_secure_by_design_questions/system.md",
    "content_hash": "4daf2b6d5cc43bcb",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/ask_secure_by_design_questions/system.zh.md",
+   "zh_base_hash": "4daf2b6d5cc43bcb"
   },
   {
    "name": "chinese_code_review",
@@ -157,7 +175,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/chinese_code_review/system.md",
    "upstream_path": "data/patterns/chinese_code_review/system.md",
    "content_hash": "318728c8534744ba",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/chinese_code_review/system.zh.md",
+   "zh_base_hash": "318728c8534744ba"
   },
   {
    "name": "create_command",
@@ -173,7 +193,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_command/system.md",
    "upstream_path": "data/patterns/create_command/system.md",
    "content_hash": "2f9d6a3800a06c90",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_command/system.zh.md",
+   "zh_base_hash": "2f9d6a3800a06c90"
   },
   {
    "name": "create_cyber_summary",
@@ -188,7 +210,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_cyber_summary/system.md",
    "upstream_path": "data/patterns/create_cyber_summary/system.md",
    "content_hash": "4c58ffc4ea11a790",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_cyber_summary/system.zh.md",
+   "zh_base_hash": "4c58ffc4ea11a790"
   },
   {
    "name": "create_graph_from_input",
@@ -205,7 +229,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_graph_from_input/system.md",
    "upstream_path": "data/patterns/create_graph_from_input/system.md",
    "content_hash": "c1e38f2e2f9c2e69",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_graph_from_input/system.zh.md",
+   "zh_base_hash": "c1e38f2e2f9c2e69"
   },
   {
    "name": "create_investigation_visualization",
@@ -222,7 +248,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_investigation_visualization/system.md",
    "upstream_path": "data/patterns/create_investigation_visualization/system.md",
    "content_hash": "f7af79811b825541",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_investigation_visualization/system.zh.md",
+   "zh_base_hash": "f7af79811b825541"
   },
   {
    "name": "create_network_threat_landscape",
@@ -237,7 +265,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_network_threat_landscape/system.md",
    "upstream_path": "data/patterns/create_network_threat_landscape/system.md",
    "content_hash": "da1b48aa89017675",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_network_threat_landscape/system.zh.md",
+   "zh_base_hash": "da1b48aa89017675"
   },
   {
    "name": "create_report_finding",
@@ -252,7 +282,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_report_finding/system.md",
    "upstream_path": "data/patterns/create_report_finding/system.md",
    "content_hash": "fb81b16da322b488",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_report_finding/system.zh.md",
+   "zh_base_hash": "fb81b16da322b488"
   },
   {
    "name": "create_security_update",
@@ -267,7 +299,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_security_update/system.md",
    "upstream_path": "data/patterns/create_security_update/system.md",
    "content_hash": "9a8d414bc3ad2f63",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_security_update/system.zh.md",
+   "zh_base_hash": "9a8d414bc3ad2f63"
   },
   {
    "name": "create_sigma_rules",
@@ -283,7 +317,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_sigma_rules/system.md",
    "upstream_path": "data/patterns/create_sigma_rules/system.md",
    "content_hash": "460167a094c2ee6c",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_sigma_rules/system.zh.md",
+   "zh_base_hash": "460167a094c2ee6c"
   },
   {
    "name": "create_stride_threat_model",
@@ -298,7 +334,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_stride_threat_model/system.md",
    "upstream_path": "data/patterns/create_stride_threat_model/system.md",
    "content_hash": "25e253c049d3acae",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_stride_threat_model/system.zh.md",
+   "zh_base_hash": "25e253c049d3acae"
   },
   {
    "name": "create_threat_scenarios",
@@ -313,7 +351,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_threat_scenarios/system.md",
    "upstream_path": "data/patterns/create_threat_scenarios/system.md",
    "content_hash": "5a97d5a36c11eff9",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_threat_scenarios/system.zh.md",
+   "zh_base_hash": "5a97d5a36c11eff9"
   },
   {
    "name": "create_ttrc_graph",
@@ -329,7 +369,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_ttrc_graph/system.md",
    "upstream_path": "data/patterns/create_ttrc_graph/system.md",
    "content_hash": "c6fca58aacd9c8d2",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_ttrc_graph/system.zh.md",
+   "zh_base_hash": "c6fca58aacd9c8d2"
   },
   {
    "name": "create_ttrc_narrative",
@@ -344,7 +386,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_ttrc_narrative/system.md",
    "upstream_path": "data/patterns/create_ttrc_narrative/system.md",
    "content_hash": "a4ca6210994b6fa0",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_ttrc_narrative/system.zh.md",
+   "zh_base_hash": "a4ca6210994b6fa0"
   },
   {
    "name": "extract_ctf_writeup",
@@ -359,7 +403,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_ctf_writeup/system.md",
    "upstream_path": "data/patterns/extract_ctf_writeup/system.md",
    "content_hash": "973442ce4073efa1",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_ctf_writeup/system.zh.md",
+   "zh_base_hash": "973442ce4073efa1"
   },
   {
    "name": "greybeard_secure_prompt_engineer",
@@ -379,7 +425,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/greybeard_secure_prompt_engineer/system.md",
    "upstream_path": "data/patterns/greybeard_secure_prompt_engineer/system.md",
    "content_hash": "84ab2cc74a1eb9fe",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/greybeard_secure_prompt_engineer/system.zh.md",
+   "zh_base_hash": "84ab2cc74a1eb9fe"
   },
   {
    "name": "improve_report_finding",
@@ -394,7 +442,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/improve_report_finding/system.md",
    "upstream_path": "data/patterns/improve_report_finding/system.md",
    "content_hash": "d14381daddb8d9de",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/improve_report_finding/system.zh.md",
+   "zh_base_hash": "d14381daddb8d9de"
   },
   {
    "name": "recommend_pipeline_upgrades",
@@ -410,7 +460,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/recommend_pipeline_upgrades/system.md",
    "upstream_path": "data/patterns/recommend_pipeline_upgrades/system.md",
    "content_hash": "c999789220ed315a",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/recommend_pipeline_upgrades/system.zh.md",
+   "zh_base_hash": "c999789220ed315a"
   },
   {
    "name": "review_code",
@@ -427,7 +479,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/review_code/system.md",
    "upstream_path": "data/patterns/review_code/system.md",
    "content_hash": "d67da54180f1c8e4",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/review_code/system.zh.md",
+   "zh_base_hash": "d67da54180f1c8e4"
   },
   {
    "name": "t_red_team_thinking",
@@ -445,7 +499,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_red_team_thinking/system.md",
    "upstream_path": "data/patterns/t_red_team_thinking/system.md",
    "content_hash": "cfac4700c38fd5f9",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_red_team_thinking/system.zh.md",
+   "zh_base_hash": "cfac4700c38fd5f9"
   },
   {
    "name": "t_threat_model_plans",
@@ -462,7 +518,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_threat_model_plans/system.md",
    "upstream_path": "data/patterns/t_threat_model_plans/system.md",
    "content_hash": "2c702b5e9e338c32",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_threat_model_plans/system.zh.md",
+   "zh_base_hash": "2c702b5e9e338c32"
   },
   {
    "name": "write_hackerone_report",
@@ -479,7 +537,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_hackerone_report/system.md",
    "upstream_path": "data/patterns/write_hackerone_report/system.md",
    "content_hash": "bc17381a31e33d94",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/write_hackerone_report/system.zh.md",
+   "zh_base_hash": "bc17381a31e33d94"
   },
   {
    "name": "write_nuclei_template_rule",
@@ -495,7 +555,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_nuclei_template_rule/system.md",
    "upstream_path": "data/patterns/write_nuclei_template_rule/system.md",
    "content_hash": "5dbaf26a8b538bf1",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/write_nuclei_template_rule/system.zh.md",
+   "zh_base_hash": "5dbaf26a8b538bf1"
   },
   {
    "name": "write_semgrep_rule",
@@ -511,7 +573,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_semgrep_rule/system.md",
    "upstream_path": "data/patterns/write_semgrep_rule/system.md",
    "content_hash": "183f0dfa117f1666",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/write_semgrep_rule/system.zh.md",
+   "zh_base_hash": "183f0dfa117f1666"
   },
   {
    "name": "agility_story",
@@ -526,7 +590,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/agility_story/system.md",
    "upstream_path": "data/patterns/agility_story/system.md",
    "content_hash": "b6449ad438ec5b42",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/agility_story/system.zh.md",
+   "zh_base_hash": "b6449ad438ec5b42"
   },
   {
    "name": "analyze_prose_json",
@@ -543,7 +609,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_prose_json/system.md",
    "upstream_path": "data/patterns/analyze_prose_json/system.md",
    "content_hash": "1e88f2d6143b62c8",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_prose_json/system.zh.md",
+   "zh_base_hash": "1e88f2d6143b62c8"
   },
   {
    "name": "analyze_terraform_plan",
@@ -559,7 +627,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_terraform_plan/system.md",
    "upstream_path": "data/patterns/analyze_terraform_plan/system.md",
    "content_hash": "a007fdf01e018cbf",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_terraform_plan/system.zh.md",
+   "zh_base_hash": "a007fdf01e018cbf"
   },
   {
    "name": "answer_interview_question",
@@ -575,7 +645,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/answer_interview_question/system.md",
    "upstream_path": "data/patterns/answer_interview_question/system.md",
    "content_hash": "a902a2a5f731d306",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/answer_interview_question/system.zh.md",
+   "zh_base_hash": "a902a2a5f731d306"
   },
   {
    "name": "ask_uncle_duke",
@@ -591,7 +663,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/ask_uncle_duke/system.md",
    "upstream_path": "data/patterns/ask_uncle_duke/system.md",
    "content_hash": "fa83bf26aa069ca6",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/ask_uncle_duke/system.zh.md",
+   "zh_base_hash": "fa83bf26aa069ca6"
   },
   {
    "name": "coding_master",
@@ -607,7 +681,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/coding_master/system.md",
    "upstream_path": "data/patterns/coding_master/system.md",
    "content_hash": "c6416ac7149fa9d3",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/coding_master/system.zh.md",
+   "zh_base_hash": "c6416ac7149fa9d3"
   },
   {
    "name": "create_bd_issue",
@@ -622,7 +698,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_bd_issue/system.md",
    "upstream_path": "data/patterns/create_bd_issue/system.md",
    "content_hash": "4262272f2d2d576b",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_bd_issue/system.zh.md",
+   "zh_base_hash": "4262272f2d2d576b"
   },
   {
    "name": "create_coding_feature",
@@ -637,7 +715,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_coding_feature/system.md",
    "upstream_path": "data/patterns/create_coding_feature/system.md",
    "content_hash": "8a59ec66624205e5",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_coding_feature/system.zh.md",
+   "zh_base_hash": "8a59ec66624205e5"
   },
   {
    "name": "create_coding_project",
@@ -652,7 +732,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_coding_project/system.md",
    "upstream_path": "data/patterns/create_coding_project/system.md",
    "content_hash": "dd6921ba824c7709",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_coding_project/system.zh.md",
+   "zh_base_hash": "dd6921ba824c7709"
   },
   {
    "name": "create_design_document",
@@ -669,7 +751,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_design_document/system.md",
    "upstream_path": "data/patterns/create_design_document/system.md",
    "content_hash": "23ef7ffda48444bc",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_design_document/system.zh.md",
+   "zh_base_hash": "23ef7ffda48444bc"
   },
   {
    "name": "create_design_system",
@@ -686,7 +770,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_design_system/system.md",
    "upstream_path": "data/patterns/create_design_system/system.md",
    "content_hash": "b148c02e0e4b47a5",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_design_system/system.zh.md",
+   "zh_base_hash": "b148c02e0e4b47a5"
   },
   {
    "name": "create_git_diff_commit",
@@ -701,7 +787,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_git_diff_commit/system.md",
    "upstream_path": "data/patterns/create_git_diff_commit/system.md",
    "content_hash": "8002a38688601ca0",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_git_diff_commit/system.zh.md",
+   "zh_base_hash": "8002a38688601ca0"
   },
   {
    "name": "create_golden_rules",
@@ -718,7 +806,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_golden_rules/system.md",
    "upstream_path": "data/patterns/create_golden_rules/system.md",
    "content_hash": "ff6a2cf64d4608fa",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_golden_rules/system.zh.md",
+   "zh_base_hash": "ff6a2cf64d4608fa"
   },
   {
    "name": "create_loe_document",
@@ -734,7 +824,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_loe_document/system.md",
    "upstream_path": "data/patterns/create_loe_document/system.md",
    "content_hash": "3cb181a8a9518ba2",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_loe_document/system.zh.md",
+   "zh_base_hash": "3cb181a8a9518ba2"
   },
   {
    "name": "create_mermaid_visualization",
@@ -750,7 +842,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_mermaid_visualization/system.md",
    "upstream_path": "data/patterns/create_mermaid_visualization/system.md",
    "content_hash": "871a5cd183f38ed6",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_mermaid_visualization/system.zh.md",
+   "zh_base_hash": "871a5cd183f38ed6"
   },
   {
    "name": "create_mermaid_visualization_for_github",
@@ -766,7 +860,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_mermaid_visualization_for_github/system.md",
    "upstream_path": "data/patterns/create_mermaid_visualization_for_github/system.md",
    "content_hash": "bbac67a3cd214718",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_mermaid_visualization_for_github/system.zh.md",
+   "zh_base_hash": "bbac67a3cd214718"
   },
   {
    "name": "create_pattern",
@@ -782,7 +878,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_pattern/system.md",
    "upstream_path": "data/patterns/create_pattern/system.md",
    "content_hash": "543cd8ed5a6e2c13",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_pattern/system.zh.md",
+   "zh_base_hash": "543cd8ed5a6e2c13"
   },
   {
    "name": "create_prd",
@@ -799,7 +897,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_prd/system.md",
    "upstream_path": "data/patterns/create_prd/system.md",
    "content_hash": "21893c15e0e87aca",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_prd/system.zh.md",
+   "zh_base_hash": "21893c15e0e87aca"
   },
   {
    "name": "create_user_story",
@@ -815,7 +915,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_user_story/system.md",
    "upstream_path": "data/patterns/create_user_story/system.md",
    "content_hash": "4c402272ce075513",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_user_story/system.zh.md",
+   "zh_base_hash": "4c402272ce075513"
   },
   {
    "name": "explain_code",
@@ -831,7 +933,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_code/system.md",
    "upstream_path": "data/patterns/explain_code/system.md",
    "content_hash": "fe381e0b31b2e3d9",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/explain_code/system.zh.md",
+   "zh_base_hash": "fe381e0b31b2e3d9"
   },
   {
    "name": "explain_docs",
@@ -847,7 +951,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_docs/system.md",
    "upstream_path": "data/patterns/explain_docs/system.md",
    "content_hash": "d114e659f1235439",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/explain_docs/system.zh.md",
+   "zh_base_hash": "d114e659f1235439"
   },
   {
    "name": "explain_project",
@@ -863,7 +969,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_project/system.md",
    "upstream_path": "data/patterns/explain_project/system.md",
    "content_hash": "2b99f4ccf16b89f4",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/explain_project/system.zh.md",
+   "zh_base_hash": "2b99f4ccf16b89f4"
   },
   {
    "name": "export_data_as_csv",
@@ -879,7 +987,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/export_data_as_csv/system.md",
    "upstream_path": "data/patterns/export_data_as_csv/system.md",
    "content_hash": "d1ca0083aeff5aff",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/export_data_as_csv/system.zh.md",
+   "zh_base_hash": "d1ca0083aeff5aff"
   },
   {
    "name": "extract_algorithm_update_recommendations",
@@ -896,7 +1006,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_algorithm_update_recommendations/system.md",
    "upstream_path": "data/patterns/extract_algorithm_update_recommendations/system.md",
    "content_hash": "b6c74d7f8dc886d2",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_algorithm_update_recommendations/system.zh.md",
+   "zh_base_hash": "b6c74d7f8dc886d2"
   },
   {
    "name": "extract_bd_ideas",
@@ -913,7 +1025,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_bd_ideas/system.md",
    "upstream_path": "data/patterns/extract_bd_ideas/system.md",
    "content_hash": "0413349fe5c507d2",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_bd_ideas/system.zh.md",
+   "zh_base_hash": "0413349fe5c507d2"
   },
   {
    "name": "extract_mcp_servers",
@@ -931,7 +1045,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_mcp_servers/system.md",
    "upstream_path": "data/patterns/extract_mcp_servers/system.md",
    "content_hash": "11171a1a174cf98f",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_mcp_servers/system.zh.md",
+   "zh_base_hash": "11171a1a174cf98f"
   },
   {
    "name": "extract_poc",
@@ -947,7 +1063,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_poc/system.md",
    "upstream_path": "data/patterns/extract_poc/system.md",
    "content_hash": "177018dbf0829286",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_poc/system.zh.md",
+   "zh_base_hash": "177018dbf0829286"
   },
   {
    "name": "extract_product_features",
@@ -964,7 +1082,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_product_features/system.md",
    "upstream_path": "data/patterns/extract_product_features/system.md",
    "content_hash": "c0d89086c418b810",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_product_features/system.zh.md",
+   "zh_base_hash": "c0d89086c418b810"
   },
   {
    "name": "generate_code_rules",
@@ -982,7 +1102,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/generate_code_rules/system.md",
    "upstream_path": "data/patterns/generate_code_rules/system.md",
    "content_hash": "367a86bda5435c67",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/generate_code_rules/system.zh.md",
+   "zh_base_hash": "367a86bda5435c67"
   },
   {
    "name": "identify_job_stories",
@@ -999,7 +1121,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/identify_job_stories/system.md",
    "upstream_path": "data/patterns/identify_job_stories/system.md",
    "content_hash": "f86affbaba2911d3",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/identify_job_stories/system.zh.md",
+   "zh_base_hash": "f86affbaba2911d3"
   },
   {
    "name": "improve_prompt",
@@ -1016,7 +1140,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/improve_prompt/system.md",
    "upstream_path": "data/patterns/improve_prompt/system.md",
    "content_hash": "81a1d238b0087d62",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/improve_prompt/system.zh.md",
+   "zh_base_hash": "81a1d238b0087d62"
   },
   {
    "name": "official_pattern_template",
@@ -1032,7 +1158,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/official_pattern_template/system.md",
    "upstream_path": "data/patterns/official_pattern_template/system.md",
    "content_hash": "8632b01343b54f6f",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/official_pattern_template/system.zh.md",
+   "zh_base_hash": "8632b01343b54f6f"
   },
   {
    "name": "refine_design_document",
@@ -1048,7 +1176,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/refine_design_document/system.md",
    "upstream_path": "data/patterns/refine_design_document/system.md",
    "content_hash": "4f08ab330b57ca66",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/refine_design_document/system.zh.md",
+   "zh_base_hash": "4f08ab330b57ca66"
   },
   {
    "name": "review_design",
@@ -1065,7 +1195,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/review_design/system.md",
    "upstream_path": "data/patterns/review_design/system.md",
    "content_hash": "75ea9f2270321ccf",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/review_design/system.zh.md",
+   "zh_base_hash": "75ea9f2270321ccf"
   },
   {
    "name": "sanitize_broken_html_to_markdown",
@@ -1081,7 +1213,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/sanitize_broken_html_to_markdown/system.md",
    "upstream_path": "data/patterns/sanitize_broken_html_to_markdown/system.md",
    "content_hash": "91873fa37f9c6bdd",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/sanitize_broken_html_to_markdown/system.zh.md",
+   "zh_base_hash": "91873fa37f9c6bdd"
   },
   {
    "name": "suggest_gt_command",
@@ -1097,7 +1231,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/suggest_gt_command/system.md",
    "upstream_path": "data/patterns/suggest_gt_command/system.md",
    "content_hash": "1ed1c3b2e3de2d4a",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/suggest_gt_command/system.zh.md",
+   "zh_base_hash": "1ed1c3b2e3de2d4a"
   },
   {
    "name": "suggest_openclaw_pattern",
@@ -1113,7 +1249,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/suggest_openclaw_pattern/system.md",
    "upstream_path": "data/patterns/suggest_openclaw_pattern/system.md",
    "content_hash": "2be25f50102e48d4",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/suggest_openclaw_pattern/system.zh.md",
+   "zh_base_hash": "2be25f50102e48d4"
   },
   {
    "name": "suggest_pattern",
@@ -1130,7 +1268,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/suggest_pattern/system.md",
    "upstream_path": "data/patterns/suggest_pattern/system.md",
    "content_hash": "571a7c2499cd24ab",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/suggest_pattern/system.zh.md",
+   "zh_base_hash": "571a7c2499cd24ab"
   },
   {
    "name": "summarize_git_changes",
@@ -1146,7 +1286,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_git_changes/system.md",
    "upstream_path": "data/patterns/summarize_git_changes/system.md",
    "content_hash": "12cd31fe6aafc29d",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_git_changes/system.zh.md",
+   "zh_base_hash": "12cd31fe6aafc29d"
   },
   {
    "name": "summarize_git_diff",
@@ -1162,7 +1304,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_git_diff/system.md",
    "upstream_path": "data/patterns/summarize_git_diff/system.md",
    "content_hash": "891e143ef5750799",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_git_diff/system.zh.md",
+   "zh_base_hash": "891e143ef5750799"
   },
   {
    "name": "summarize_pull-requests",
@@ -1178,7 +1322,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_pull-requests/system.md",
    "upstream_path": "data/patterns/summarize_pull-requests/system.md",
    "content_hash": "7acd1a8ae960e3cf",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_pull-requests/system.zh.md",
+   "zh_base_hash": "7acd1a8ae960e3cf"
   },
   {
    "name": "write_pull-request",
@@ -1193,7 +1339,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_pull-request/system.md",
    "upstream_path": "data/patterns/write_pull-request/system.md",
    "content_hash": "9b0849a395dee331",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/write_pull-request/system.zh.md",
+   "zh_base_hash": "9b0849a395dee331"
   },
   {
    "name": "create_art_prompt",
@@ -1209,7 +1357,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_art_prompt/system.md",
    "upstream_path": "data/patterns/create_art_prompt/system.md",
    "content_hash": "f49e5e4a05bea12a",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_art_prompt/system.zh.md",
+   "zh_base_hash": "f49e5e4a05bea12a"
   },
   {
    "name": "create_conceptmap",
@@ -1224,7 +1374,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_conceptmap/system.md",
    "upstream_path": "data/patterns/create_conceptmap/system.md",
    "content_hash": "eeca4b56b68c48ae",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_conceptmap/system.zh.md",
+   "zh_base_hash": "eeca4b56b68c48ae"
   },
   {
    "name": "create_excalidraw_visualization",
@@ -1239,7 +1391,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_excalidraw_visualization/system.md",
    "upstream_path": "data/patterns/create_excalidraw_visualization/system.md",
    "content_hash": "3064920f4e2dfc26",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_excalidraw_visualization/system.zh.md",
+   "zh_base_hash": "3064920f4e2dfc26"
   },
   {
    "name": "create_idea_compass",
@@ -1256,7 +1410,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_idea_compass/system.md",
    "upstream_path": "data/patterns/create_idea_compass/system.md",
    "content_hash": "150750fb01373258",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_idea_compass/system.zh.md",
+   "zh_base_hash": "150750fb01373258"
   },
   {
    "name": "create_keynote",
@@ -1272,7 +1428,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_keynote/system.md",
    "upstream_path": "data/patterns/create_keynote/system.md",
    "content_hash": "cd526650fd5d8949",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_keynote/system.zh.md",
+   "zh_base_hash": "cd526650fd5d8949"
   },
   {
    "name": "create_logo",
@@ -1288,7 +1446,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_logo/system.md",
    "upstream_path": "data/patterns/create_logo/system.md",
    "content_hash": "11820aa3eea97311",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_logo/system.zh.md",
+   "zh_base_hash": "11820aa3eea97311"
   },
   {
    "name": "create_markmap_visualization",
@@ -1305,7 +1465,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_markmap_visualization/system.md",
    "upstream_path": "data/patterns/create_markmap_visualization/system.md",
    "content_hash": "5f6bdf44ef25aaf8",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_markmap_visualization/system.zh.md",
+   "zh_base_hash": "5f6bdf44ef25aaf8"
   },
   {
    "name": "create_recursive_outline",
@@ -1321,7 +1483,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_recursive_outline/system.md",
    "upstream_path": "data/patterns/create_recursive_outline/system.md",
    "content_hash": "ace268b1372de042",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_recursive_outline/system.zh.md",
+   "zh_base_hash": "ace268b1372de042"
   },
   {
    "name": "create_slides",
@@ -1338,7 +1502,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_slides/system.md",
    "upstream_path": "data/patterns/create_slides/system.md",
    "content_hash": "cfebbdefdc7800a8",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_slides/system.zh.md",
+   "zh_base_hash": "cfebbdefdc7800a8"
   },
   {
    "name": "create_video_chapters",
@@ -1354,7 +1520,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_video_chapters/system.md",
    "upstream_path": "data/patterns/create_video_chapters/system.md",
    "content_hash": "85b892c3cbae7da1",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_video_chapters/system.zh.md",
+   "zh_base_hash": "85b892c3cbae7da1"
   },
   {
    "name": "create_visualization",
@@ -1369,7 +1537,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_visualization/system.md",
    "upstream_path": "data/patterns/create_visualization/system.md",
    "content_hash": "a1dddc03c03d12eb",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_visualization/system.zh.md",
+   "zh_base_hash": "a1dddc03c03d12eb"
   },
   {
    "name": "enrich_blog_post",
@@ -1385,7 +1555,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/enrich_blog_post/system.md",
    "upstream_path": "data/patterns/enrich_blog_post/system.md",
    "content_hash": "4a0740f13e86dc4f",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/enrich_blog_post/system.zh.md",
+   "zh_base_hash": "4a0740f13e86dc4f"
   },
   {
    "name": "t_visualize_mission_goals_projects",
@@ -1402,7 +1574,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_visualize_mission_goals_projects/system.md",
    "upstream_path": "data/patterns/t_visualize_mission_goals_projects/system.md",
    "content_hash": "3444b04dd3b42892",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_visualize_mission_goals_projects/system.zh.md",
+   "zh_base_hash": "3444b04dd3b42892"
   },
   {
    "name": "analyze_debate",
@@ -1419,7 +1593,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_debate/system.md",
    "upstream_path": "data/patterns/analyze_debate/system.md",
    "content_hash": "1ab60c7712415171",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_debate/system.zh.md",
+   "zh_base_hash": "1ab60c7712415171"
   },
   {
    "name": "capture_thinkers_work",
@@ -1436,7 +1612,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/capture_thinkers_work/system.md",
    "upstream_path": "data/patterns/capture_thinkers_work/system.md",
    "content_hash": "1f188a0d87dce785",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/capture_thinkers_work/system.zh.md",
+   "zh_base_hash": "1f188a0d87dce785"
   },
   {
    "name": "chinese_article_summary",
@@ -1452,7 +1630,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/chinese_article_summary/system.md",
    "upstream_path": "data/patterns/chinese_article_summary/system.md",
    "content_hash": "3bf73dd26d5058a2",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/chinese_article_summary/system.zh.md",
+   "zh_base_hash": "3bf73dd26d5058a2"
   },
   {
    "name": "concall_summary",
@@ -1468,7 +1648,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/concall_summary/system.md",
    "upstream_path": "data/patterns/concall_summary/system.md",
    "content_hash": "72a97866ddbcb19c",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/concall_summary/system.zh.md",
+   "zh_base_hash": "72a97866ddbcb19c"
   },
   {
    "name": "create_5_sentence_summary",
@@ -1484,7 +1666,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_5_sentence_summary/system.md",
    "upstream_path": "data/patterns/create_5_sentence_summary/system.md",
    "content_hash": "25c3789926d19227",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_5_sentence_summary/system.zh.md",
+   "zh_base_hash": "25c3789926d19227"
   },
   {
    "name": "create_micro_summary",
@@ -1500,7 +1684,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_micro_summary/system.md",
    "upstream_path": "data/patterns/create_micro_summary/system.md",
    "content_hash": "860d44e44534b269",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_micro_summary/system.zh.md",
+   "zh_base_hash": "860d44e44534b269"
   },
   {
    "name": "create_newsletter_entry",
@@ -1517,7 +1703,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_newsletter_entry/system.md",
    "upstream_path": "data/patterns/create_newsletter_entry/system.md",
    "content_hash": "96b19e124e2a3bb8",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_newsletter_entry/system.zh.md",
+   "zh_base_hash": "96b19e124e2a3bb8"
   },
   {
    "name": "create_summary",
@@ -1533,7 +1721,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_summary/system.md",
    "upstream_path": "data/patterns/create_summary/system.md",
    "content_hash": "29d393bf16f9a894",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_summary/system.zh.md",
+   "zh_base_hash": "29d393bf16f9a894"
   },
   {
    "name": "extract_book_recommendations",
@@ -1550,7 +1740,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_book_recommendations/system.md",
    "upstream_path": "data/patterns/extract_book_recommendations/system.md",
    "content_hash": "1199b1019f995a4a",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_book_recommendations/system.zh.md",
+   "zh_base_hash": "1199b1019f995a4a"
   },
   {
    "name": "extract_core_message",
@@ -1566,7 +1758,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_core_message/system.md",
    "upstream_path": "data/patterns/extract_core_message/system.md",
    "content_hash": "8b83712aa4038bdc",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_core_message/system.zh.md",
+   "zh_base_hash": "8b83712aa4038bdc"
   },
   {
    "name": "extract_latest_video",
@@ -1582,7 +1776,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_latest_video/system.md",
    "upstream_path": "data/patterns/extract_latest_video/system.md",
    "content_hash": "5645888ff9da9bda",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_latest_video/system.zh.md",
+   "zh_base_hash": "5645888ff9da9bda"
   },
   {
    "name": "extract_main_idea",
@@ -1599,7 +1795,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_main_idea/system.md",
    "upstream_path": "data/patterns/extract_main_idea/system.md",
    "content_hash": "71dcfd4d82c03a93",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_main_idea/system.zh.md",
+   "zh_base_hash": "71dcfd4d82c03a93"
   },
   {
    "name": "summarize",
@@ -1615,7 +1813,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize/system.md",
    "upstream_path": "data/patterns/summarize/system.md",
    "content_hash": "29d393bf16f9a894",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize/system.zh.md",
+   "zh_base_hash": "29d393bf16f9a894"
   },
   {
    "name": "summarize_debate",
@@ -1632,7 +1832,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_debate/system.md",
    "upstream_path": "data/patterns/summarize_debate/system.md",
    "content_hash": "c2aefd35c5f5bd5a",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_debate/system.zh.md",
+   "zh_base_hash": "c2aefd35c5f5bd5a"
   },
   {
    "name": "summarize_lecture",
@@ -1649,7 +1851,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_lecture/system.md",
    "upstream_path": "data/patterns/summarize_lecture/system.md",
    "content_hash": "86fb4902e76662ea",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_lecture/system.zh.md",
+   "zh_base_hash": "86fb4902e76662ea"
   },
   {
    "name": "summarize_legislation",
@@ -1666,7 +1870,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_legislation/system.md",
    "upstream_path": "data/patterns/summarize_legislation/system.md",
    "content_hash": "d0efdf071a4a2401",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_legislation/system.zh.md",
+   "zh_base_hash": "d0efdf071a4a2401"
   },
   {
    "name": "summarize_meeting",
@@ -1683,7 +1889,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_meeting/system.md",
    "upstream_path": "data/patterns/summarize_meeting/system.md",
    "content_hash": "2a255ab3ac6ab7e5",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_meeting/system.zh.md",
+   "zh_base_hash": "2a255ab3ac6ab7e5"
   },
   {
    "name": "summarize_micro",
@@ -1699,7 +1907,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_micro/system.md",
    "upstream_path": "data/patterns/summarize_micro/system.md",
    "content_hash": "860d44e44534b269",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_micro/system.zh.md",
+   "zh_base_hash": "860d44e44534b269"
   },
   {
    "name": "summarize_newsletter",
@@ -1715,7 +1925,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_newsletter/system.md",
    "upstream_path": "data/patterns/summarize_newsletter/system.md",
    "content_hash": "11b8162f41fbf360",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_newsletter/system.zh.md",
+   "zh_base_hash": "11b8162f41fbf360"
   },
   {
    "name": "summarize_paper",
@@ -1733,7 +1945,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_paper/system.md",
    "upstream_path": "data/patterns/summarize_paper/system.md",
    "content_hash": "3061c19e654e4fac",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_paper/system.zh.md",
+   "zh_base_hash": "3061c19e654e4fac"
   },
   {
    "name": "summarize_rpg_session",
@@ -1750,7 +1964,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_rpg_session/system.md",
    "upstream_path": "data/patterns/summarize_rpg_session/system.md",
    "content_hash": "87da4d294f889b26",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_rpg_session/system.zh.md",
+   "zh_base_hash": "87da4d294f889b26"
   },
   {
    "name": "youtube_summary",
@@ -1765,7 +1981,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/youtube_summary/system.md",
    "upstream_path": "data/patterns/youtube_summary/system.md",
    "content_hash": "1d7b341a6a985832",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/youtube_summary/system.zh.md",
+   "zh_base_hash": "1d7b341a6a985832"
   },
   {
    "name": "analyze_comments",
@@ -1781,7 +1999,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_comments/system.md",
    "upstream_path": "data/patterns/analyze_comments/system.md",
    "content_hash": "31a0e8b32bb868ba",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_comments/system.zh.md",
+   "zh_base_hash": "31a0e8b32bb868ba"
   },
   {
    "name": "create_aphorisms",
@@ -1797,7 +2017,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_aphorisms/system.md",
    "upstream_path": "data/patterns/create_aphorisms/system.md",
    "content_hash": "dadf327155a171a4",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_aphorisms/system.zh.md",
+   "zh_base_hash": "dadf327155a171a4"
   },
   {
    "name": "create_tags",
@@ -1814,7 +2036,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_tags/system.md",
    "upstream_path": "data/patterns/create_tags/system.md",
    "content_hash": "08ef636c4f3059e2",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_tags/system.zh.md",
+   "zh_base_hash": "08ef636c4f3059e2"
   },
   {
    "name": "create_upgrade_pack",
@@ -1831,7 +2055,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_upgrade_pack/system.md",
    "upstream_path": "data/patterns/create_upgrade_pack/system.md",
    "content_hash": "6c749a11cfe389c8",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_upgrade_pack/system.zh.md",
+   "zh_base_hash": "6c749a11cfe389c8"
   },
   {
    "name": "extract_affiliate_products",
@@ -1847,7 +2073,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_affiliate_products/system.md",
    "upstream_path": "data/patterns/extract_affiliate_products/system.md",
    "content_hash": "5c025d07300ee85e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_affiliate_products/system.zh.md",
+   "zh_base_hash": "5c025d07300ee85e"
   },
   {
    "name": "extract_all_quotes",
@@ -1862,7 +2090,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_all_quotes/system.md",
    "upstream_path": "data/patterns/extract_all_quotes/system.md",
    "content_hash": "cb84926ff75aae41",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_all_quotes/system.zh.md",
+   "zh_base_hash": "cb84926ff75aae41"
   },
   {
    "name": "extract_alpha",
@@ -1880,7 +2110,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_alpha/system.md",
    "upstream_path": "data/patterns/extract_alpha/system.md",
    "content_hash": "c288226c00bb1e8b",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_alpha/system.zh.md",
+   "zh_base_hash": "c288226c00bb1e8b"
   },
   {
    "name": "extract_article_wisdom",
@@ -1897,7 +2129,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_article_wisdom/system.md",
    "upstream_path": "data/patterns/extract_article_wisdom/system.md",
    "content_hash": "ddf21cfdecd71174",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_article_wisdom/system.zh.md",
+   "zh_base_hash": "ddf21cfdecd71174"
   },
   {
    "name": "extract_book_ideas",
@@ -1914,7 +2148,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_book_ideas/system.md",
    "upstream_path": "data/patterns/extract_book_ideas/system.md",
    "content_hash": "ee82c170172a62b7",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_book_ideas/system.zh.md",
+   "zh_base_hash": "ee82c170172a62b7"
   },
   {
    "name": "extract_controversial_ideas",
@@ -1931,7 +2167,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_controversial_ideas/system.md",
    "upstream_path": "data/patterns/extract_controversial_ideas/system.md",
    "content_hash": "eddcc245a3cf3689",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_controversial_ideas/system.zh.md",
+   "zh_base_hash": "eddcc245a3cf3689"
   },
   {
    "name": "extract_domains",
@@ -1947,7 +2185,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_domains/system.md",
    "upstream_path": "data/patterns/extract_domains/system.md",
    "content_hash": "ccc49cbd2add114a",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_domains/system.zh.md",
+   "zh_base_hash": "ccc49cbd2add114a"
   },
   {
    "name": "extract_ethical_framework",
@@ -1964,7 +2204,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_ethical_framework/system.md",
    "upstream_path": "data/patterns/extract_ethical_framework/system.md",
    "content_hash": "2aa2b31f1b1057a7",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_ethical_framework/system.zh.md",
+   "zh_base_hash": "2aa2b31f1b1057a7"
   },
   {
    "name": "extract_ideas",
@@ -1981,7 +2223,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_ideas/system.md",
    "upstream_path": "data/patterns/extract_ideas/system.md",
    "content_hash": "4528373a96b7a0ed",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_ideas/system.zh.md",
+   "zh_base_hash": "4528373a96b7a0ed"
   },
   {
    "name": "extract_insights",
@@ -1997,7 +2241,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_insights/system.md",
    "upstream_path": "data/patterns/extract_insights/system.md",
    "content_hash": "162746ee7332ac33",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_insights/system.zh.md",
+   "zh_base_hash": "162746ee7332ac33"
   },
   {
    "name": "extract_insights_dm",
@@ -2014,7 +2260,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_insights_dm/system.md",
    "upstream_path": "data/patterns/extract_insights_dm/system.md",
    "content_hash": "cc95eafdba04386e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_insights_dm/system.zh.md",
+   "zh_base_hash": "cc95eafdba04386e"
   },
   {
    "name": "extract_instructions",
@@ -2031,7 +2279,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_instructions/system.md",
    "upstream_path": "data/patterns/extract_instructions/system.md",
    "content_hash": "b376f0f28c464810",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_instructions/system.zh.md",
+   "zh_base_hash": "b376f0f28c464810"
   },
   {
    "name": "extract_main_activities",
@@ -2047,7 +2297,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_main_activities/system.md",
    "upstream_path": "data/patterns/extract_main_activities/system.md",
    "content_hash": "398f1fc0e788cf86",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_main_activities/system.zh.md",
+   "zh_base_hash": "398f1fc0e788cf86"
   },
   {
    "name": "extract_patterns",
@@ -2064,7 +2316,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_patterns/system.md",
    "upstream_path": "data/patterns/extract_patterns/system.md",
    "content_hash": "06622e86bf2fb454",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_patterns/system.zh.md",
+   "zh_base_hash": "06622e86bf2fb454"
   },
   {
    "name": "extract_predictions",
@@ -2081,7 +2335,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_predictions/system.md",
    "upstream_path": "data/patterns/extract_predictions/system.md",
    "content_hash": "fff99bc94f54774e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_predictions/system.zh.md",
+   "zh_base_hash": "fff99bc94f54774e"
   },
   {
    "name": "extract_primary_problem",
@@ -2098,7 +2354,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_primary_problem/system.md",
    "upstream_path": "data/patterns/extract_primary_problem/system.md",
    "content_hash": "0be31c5922dffb15",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_primary_problem/system.zh.md",
+   "zh_base_hash": "0be31c5922dffb15"
   },
   {
    "name": "extract_primary_solution",
@@ -2114,7 +2372,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_primary_solution/system.md",
    "upstream_path": "data/patterns/extract_primary_solution/system.md",
    "content_hash": "6a02dbef73055215",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_primary_solution/system.zh.md",
+   "zh_base_hash": "6a02dbef73055215"
   },
   {
    "name": "extract_questions",
@@ -2131,7 +2391,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_questions/system.md",
    "upstream_path": "data/patterns/extract_questions/system.md",
    "content_hash": "2ef0baef9572a607",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_questions/system.zh.md",
+   "zh_base_hash": "2ef0baef9572a607"
   },
   {
    "name": "extract_recommendations",
@@ -2149,7 +2411,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_recommendations/system.md",
    "upstream_path": "data/patterns/extract_recommendations/system.md",
    "content_hash": "d3abdf0f9a86c7be",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_recommendations/system.zh.md",
+   "zh_base_hash": "d3abdf0f9a86c7be"
   },
   {
    "name": "extract_references",
@@ -2167,7 +2431,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_references/system.md",
    "upstream_path": "data/patterns/extract_references/system.md",
    "content_hash": "dada08eff4dda660",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_references/system.zh.md",
+   "zh_base_hash": "dada08eff4dda660"
   },
   {
    "name": "extract_skills",
@@ -2184,7 +2450,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_skills/system.md",
    "upstream_path": "data/patterns/extract_skills/system.md",
    "content_hash": "94cbc9abf25830ab",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_skills/system.zh.md",
+   "zh_base_hash": "94cbc9abf25830ab"
   },
   {
    "name": "extract_sponsors",
@@ -2200,7 +2468,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_sponsors/system.md",
    "upstream_path": "data/patterns/extract_sponsors/system.md",
    "content_hash": "082559279e1818d9",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_sponsors/system.zh.md",
+   "zh_base_hash": "082559279e1818d9"
   },
   {
    "name": "extract_video_commerce_entities",
@@ -2216,7 +2486,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_video_commerce_entities/system.md",
    "upstream_path": "data/patterns/extract_video_commerce_entities/system.md",
    "content_hash": "978b34e0c098a263",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_video_commerce_entities/system.zh.md",
+   "zh_base_hash": "978b34e0c098a263"
   },
   {
    "name": "extract_videoid",
@@ -2232,7 +2504,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_videoid/system.md",
    "upstream_path": "data/patterns/extract_videoid/system.md",
    "content_hash": "2b740091408bec1a",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_videoid/system.zh.md",
+   "zh_base_hash": "2b740091408bec1a"
   },
   {
    "name": "extract_wisdom",
@@ -2249,7 +2523,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom/system.md",
    "upstream_path": "data/patterns/extract_wisdom/system.md",
    "content_hash": "1dfc5719961081cd",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_wisdom/system.zh.md",
+   "zh_base_hash": "1dfc5719961081cd"
   },
   {
    "name": "extract_wisdom_agents",
@@ -2266,7 +2542,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom_agents/system.md",
    "upstream_path": "data/patterns/extract_wisdom_agents/system.md",
    "content_hash": "d7cf071cf27aba54",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_wisdom_agents/system.zh.md",
+   "zh_base_hash": "d7cf071cf27aba54"
   },
   {
    "name": "extract_wisdom_dm",
@@ -2284,7 +2562,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom_dm/system.md",
    "upstream_path": "data/patterns/extract_wisdom_dm/system.md",
    "content_hash": "fd114a9e6d798826",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_wisdom_dm/system.zh.md",
+   "zh_base_hash": "fd114a9e6d798826"
   },
   {
    "name": "extract_wisdom_nometa",
@@ -2301,7 +2581,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom_nometa/system.md",
    "upstream_path": "data/patterns/extract_wisdom_nometa/system.md",
    "content_hash": "69596b21b9eb0846",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_wisdom_nometa/system.zh.md",
+   "zh_base_hash": "69596b21b9eb0846"
   },
   {
    "name": "extract_wisdom_with_attribution",
@@ -2318,7 +2600,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom_with_attribution/system.md",
    "upstream_path": "data/patterns/extract_wisdom_with_attribution/system.md",
    "content_hash": "d14e3fa0aeb4fec1",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_wisdom_with_attribution/system.zh.md",
+   "zh_base_hash": "d14e3fa0aeb4fec1"
   },
   {
    "name": "generate_frontmatter",
@@ -2335,7 +2619,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/generate_frontmatter/system.md",
    "upstream_path": "data/patterns/generate_frontmatter/system.md",
    "content_hash": "8c16917715941125",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/generate_frontmatter/system.zh.md",
+   "zh_base_hash": "8c16917715941125"
   },
   {
    "name": "t_extract_intro_sentences",
@@ -2352,7 +2638,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_extract_intro_sentences/system.md",
    "upstream_path": "data/patterns/t_extract_intro_sentences/system.md",
    "content_hash": "4ccd84df56e3df12",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_extract_intro_sentences/system.zh.md",
+   "zh_base_hash": "4ccd84df56e3df12"
   },
   {
    "name": "t_extract_panel_topics",
@@ -2369,7 +2657,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_extract_panel_topics/system.md",
    "upstream_path": "data/patterns/t_extract_panel_topics/system.md",
    "content_hash": "6e0269c59736d13e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_extract_panel_topics/system.zh.md",
+   "zh_base_hash": "6e0269c59736d13e"
   },
   {
    "name": "ai",
@@ -2385,7 +2675,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/ai/system.md",
    "upstream_path": "data/patterns/ai/system.md",
    "content_hash": "aee9312e9d01e622",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/ai/system.zh.md",
+   "zh_base_hash": "aee9312e9d01e622"
   },
   {
    "name": "create_ai_jobs_analysis",
@@ -2402,7 +2694,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_ai_jobs_analysis/system.md",
    "upstream_path": "data/patterns/create_ai_jobs_analysis/system.md",
    "content_hash": "c9765c01560eb84c",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_ai_jobs_analysis/system.zh.md",
+   "zh_base_hash": "c9765c01560eb84c"
   },
   {
    "name": "create_prediction_block",
@@ -2419,7 +2713,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_prediction_block/system.md",
    "upstream_path": "data/patterns/create_prediction_block/system.md",
    "content_hash": "9ba3a994d12ddedc",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_prediction_block/system.zh.md",
+   "zh_base_hash": "9ba3a994d12ddedc"
   },
   {
    "name": "judge_output",
@@ -2436,7 +2732,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/judge_output/system.md",
    "upstream_path": "data/patterns/judge_output/system.md",
    "content_hash": "e72596f9452b2786",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/judge_output/system.zh.md",
+   "zh_base_hash": "e72596f9452b2786"
   },
   {
    "name": "rate_ai_response",
@@ -2453,7 +2751,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/rate_ai_response/system.md",
    "upstream_path": "data/patterns/rate_ai_response/system.md",
    "content_hash": "67972770cd8a9bb9",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/rate_ai_response/system.zh.md",
+   "zh_base_hash": "67972770cd8a9bb9"
   },
   {
    "name": "rate_ai_result",
@@ -2470,7 +2770,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/rate_ai_result/system.md",
    "upstream_path": "data/patterns/rate_ai_result/system.md",
    "content_hash": "15d8a7c66ea6f9ae",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/rate_ai_result/system.zh.md",
+   "zh_base_hash": "15d8a7c66ea6f9ae"
   },
   {
    "name": "raw_query",
@@ -2486,7 +2788,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/raw_query/system.md",
    "upstream_path": "data/patterns/raw_query/system.md",
    "content_hash": "6aa1a1caef96cf42",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/raw_query/system.zh.md",
+   "zh_base_hash": "6aa1a1caef96cf42"
   },
   {
    "name": "summarize_prompt",
@@ -2502,7 +2806,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_prompt/system.md",
    "upstream_path": "data/patterns/summarize_prompt/system.md",
    "content_hash": "5cd7f85303e4c4de",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_prompt/system.zh.md",
+   "zh_base_hash": "5cd7f85303e4c4de"
   },
   {
    "name": "analyze_discord_structure",
@@ -2518,7 +2824,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_discord_structure/system.md",
    "upstream_path": "data/patterns/analyze_discord_structure/system.md",
    "content_hash": "150db51d576509fc",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_discord_structure/system.zh.md",
+   "zh_base_hash": "150db51d576509fc"
   },
   {
    "name": "analyze_interviewer_techniques",
@@ -2534,7 +2842,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_interviewer_techniques/system.md",
    "upstream_path": "data/patterns/analyze_interviewer_techniques/system.md",
    "content_hash": "d17f4d72656ffe36",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_interviewer_techniques/system.zh.md",
+   "zh_base_hash": "d17f4d72656ffe36"
   },
   {
    "name": "analyze_monetization_opportunities",
@@ -2551,7 +2861,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_monetization_opportunities/system.md",
    "upstream_path": "data/patterns/analyze_monetization_opportunities/system.md",
    "content_hash": "2f8238d378cf6f76",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_monetization_opportunities/system.zh.md",
+   "zh_base_hash": "2f8238d378cf6f76"
   },
   {
    "name": "analyze_patent",
@@ -2567,7 +2879,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_patent/system.md",
    "upstream_path": "data/patterns/analyze_patent/system.md",
    "content_hash": "0428f30f27c91615",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_patent/system.zh.md",
+   "zh_base_hash": "0428f30f27c91615"
   },
   {
    "name": "analyze_presentation",
@@ -2584,7 +2898,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_presentation/system.md",
    "upstream_path": "data/patterns/analyze_presentation/system.md",
    "content_hash": "6a8ec9655d9b02c5",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_presentation/system.zh.md",
+   "zh_base_hash": "6a8ec9655d9b02c5"
   },
   {
    "name": "analyze_product_feedback",
@@ -2600,7 +2916,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_product_feedback/system.md",
    "upstream_path": "data/patterns/analyze_product_feedback/system.md",
    "content_hash": "fb95247f1e7776d1",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_product_feedback/system.zh.md",
+   "zh_base_hash": "fb95247f1e7776d1"
   },
   {
    "name": "analyze_sales_call",
@@ -2616,7 +2934,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_sales_call/system.md",
    "upstream_path": "data/patterns/analyze_sales_call/system.md",
    "content_hash": "4c7a067ffdba368f",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_sales_call/system.zh.md",
+   "zh_base_hash": "4c7a067ffdba368f"
   },
   {
    "name": "analyze_tech_impact",
@@ -2633,7 +2953,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_tech_impact/system.md",
    "upstream_path": "data/patterns/analyze_tech_impact/system.md",
    "content_hash": "17bbdec6ee59edb1",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_tech_impact/system.zh.md",
+   "zh_base_hash": "17bbdec6ee59edb1"
   },
   {
    "name": "check_agreement",
@@ -2649,7 +2971,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/check_agreement/system.md",
    "upstream_path": "data/patterns/check_agreement/system.md",
    "content_hash": "d5a27aa1bba59deb",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/check_agreement/system.zh.md",
+   "zh_base_hash": "d5a27aa1bba59deb"
   },
   {
    "name": "chinese_contract_review",
@@ -2666,7 +2990,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/chinese_contract_review/system.md",
    "upstream_path": "data/patterns/chinese_contract_review/system.md",
    "content_hash": "7f91ca2099197a93",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/chinese_contract_review/system.zh.md",
+   "zh_base_hash": "7f91ca2099197a93"
   },
   {
    "name": "create_formal_email",
@@ -2682,7 +3008,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_formal_email/system.md",
    "upstream_path": "data/patterns/create_formal_email/system.md",
    "content_hash": "377d28aa87afab4d",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_formal_email/system.zh.md",
+   "zh_base_hash": "377d28aa87afab4d"
   },
   {
    "name": "create_hormozi_offer",
@@ -2698,7 +3026,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_hormozi_offer/system.md",
    "upstream_path": "data/patterns/create_hormozi_offer/system.md",
    "content_hash": "3bfa7686b606ce6f",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_hormozi_offer/system.zh.md",
+   "zh_base_hash": "3bfa7686b606ce6f"
   },
   {
    "name": "eisenhower_matrix",
@@ -2715,7 +3045,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/eisenhower_matrix/system.md",
    "upstream_path": "data/patterns/eisenhower_matrix/system.md",
    "content_hash": "79a562fe58f78c2d",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/eisenhower_matrix/system.zh.md",
+   "zh_base_hash": "79a562fe58f78c2d"
   },
   {
    "name": "extract_business_ideas",
@@ -2730,7 +3062,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_business_ideas/system.md",
    "upstream_path": "data/patterns/extract_business_ideas/system.md",
    "content_hash": "69fd43d41257b0fa",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_business_ideas/system.zh.md",
+   "zh_base_hash": "69fd43d41257b0fa"
   },
   {
    "name": "prepare_7s_strategy",
@@ -2747,7 +3081,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/prepare_7s_strategy/system.md",
    "upstream_path": "data/patterns/prepare_7s_strategy/system.md",
    "content_hash": "2133005939bc57ac",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/prepare_7s_strategy/system.zh.md",
+   "zh_base_hash": "2133005939bc57ac"
   },
   {
    "name": "rate_value",
@@ -2764,7 +3100,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/rate_value/system.md",
    "upstream_path": "data/patterns/rate_value/system.md",
    "content_hash": "cce12129748f02ee",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/rate_value/system.zh.md",
+   "zh_base_hash": "cce12129748f02ee"
   },
   {
    "name": "summarize_board_meeting",
@@ -2780,7 +3118,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_board_meeting/system.md",
    "upstream_path": "data/patterns/summarize_board_meeting/system.md",
    "content_hash": "5b730111f5a687f8",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/summarize_board_meeting/system.zh.md",
+   "zh_base_hash": "5b730111f5a687f8"
   },
   {
    "name": "t_check_metrics",
@@ -2796,7 +3136,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_check_metrics/system.md",
    "upstream_path": "data/patterns/t_check_metrics/system.md",
    "content_hash": "a60ea875d04f2bd8",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_check_metrics/system.zh.md",
+   "zh_base_hash": "a60ea875d04f2bd8"
   },
   {
    "name": "t_create_h3_career",
@@ -2813,7 +3155,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_create_h3_career/system.md",
    "upstream_path": "data/patterns/t_create_h3_career/system.md",
    "content_hash": "e7af026e58735820",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_create_h3_career/system.zh.md",
+   "zh_base_hash": "e7af026e58735820"
   },
   {
    "name": "t_year_in_review",
@@ -2830,7 +3174,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_year_in_review/system.md",
    "upstream_path": "data/patterns/t_year_in_review/system.md",
    "content_hash": "4b7a29695e280d49",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_year_in_review/system.zh.md",
+   "zh_base_hash": "4b7a29695e280d49"
   },
   {
    "name": "transcribe_minutes",
@@ -2847,7 +3193,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/transcribe_minutes/system.md",
    "upstream_path": "data/patterns/transcribe_minutes/system.md",
    "content_hash": "47683f325f363ace",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/transcribe_minutes/system.zh.md",
+   "zh_base_hash": "47683f325f363ace"
   },
   {
    "name": "analyze_answers",
@@ -2863,7 +3211,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_answers/system.md",
    "upstream_path": "data/patterns/analyze_answers/system.md",
    "content_hash": "c119f5cf0ee4b1ad",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_answers/system.zh.md",
+   "zh_base_hash": "c119f5cf0ee4b1ad"
   },
   {
    "name": "analyze_candidates",
@@ -2879,7 +3229,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_candidates/system.md",
    "upstream_path": "data/patterns/analyze_candidates/system.md",
    "content_hash": "0a1d12ff39f79f9b",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_candidates/system.zh.md",
+   "zh_base_hash": "0a1d12ff39f79f9b"
   },
   {
    "name": "analyze_claims",
@@ -2896,7 +3248,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_claims/system.md",
    "upstream_path": "data/patterns/analyze_claims/system.md",
    "content_hash": "5650bdfcad97f140",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_claims/system.zh.md",
+   "zh_base_hash": "5650bdfcad97f140"
   },
   {
    "name": "analyze_paper",
@@ -2913,7 +3267,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_paper/system.md",
    "upstream_path": "data/patterns/analyze_paper/system.md",
    "content_hash": "95bb5d707959e406",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_paper/system.zh.md",
+   "zh_base_hash": "95bb5d707959e406"
   },
   {
    "name": "analyze_paper_simple",
@@ -2930,7 +3286,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_paper_simple/system.md",
    "upstream_path": "data/patterns/analyze_paper_simple/system.md",
    "content_hash": "f53b2bb1a5e8e63e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_paper_simple/system.zh.md",
+   "zh_base_hash": "f53b2bb1a5e8e63e"
   },
   {
    "name": "analyze_personality",
@@ -2947,7 +3305,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_personality/system.md",
    "upstream_path": "data/patterns/analyze_personality/system.md",
    "content_hash": "d567b7f70c301838",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_personality/system.zh.md",
+   "zh_base_hash": "d567b7f70c301838"
   },
   {
    "name": "analyze_proposition",
@@ -2963,7 +3323,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_proposition/system.md",
    "upstream_path": "data/patterns/analyze_proposition/system.md",
    "content_hash": "b16e6db29be2807f",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_proposition/system.zh.md",
+   "zh_base_hash": "b16e6db29be2807f"
   },
   {
    "name": "analyze_spiritual_text",
@@ -2981,7 +3343,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_spiritual_text/system.md",
    "upstream_path": "data/patterns/analyze_spiritual_text/system.md",
    "content_hash": "c77b84d967c6e59d",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_spiritual_text/system.zh.md",
+   "zh_base_hash": "c77b84d967c6e59d"
   },
   {
    "name": "chinese_poetry_analysis",
@@ -2998,7 +3362,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/chinese_poetry_analysis/system.md",
    "upstream_path": "data/patterns/chinese_poetry_analysis/system.md",
    "content_hash": "26c44a449f114e38",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/chinese_poetry_analysis/system.zh.md",
+   "zh_base_hash": "26c44a449f114e38"
   },
   {
    "name": "create_academic_paper",
@@ -3015,7 +3381,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_academic_paper/system.md",
    "upstream_path": "data/patterns/create_academic_paper/system.md",
    "content_hash": "6bc228a615e954d6",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_academic_paper/system.zh.md",
+   "zh_base_hash": "6bc228a615e954d6"
   },
   {
    "name": "create_diy",
@@ -3032,7 +3400,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_diy/system.md",
    "upstream_path": "data/patterns/create_diy/system.md",
    "content_hash": "81161fa76f781c30",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_diy/system.zh.md",
+   "zh_base_hash": "81161fa76f781c30"
   },
   {
    "name": "create_flash_cards",
@@ -3047,7 +3417,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_flash_cards/system.md",
    "upstream_path": "data/patterns/create_flash_cards/system.md",
    "content_hash": "ee127a50fc972f72",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_flash_cards/system.zh.md",
+   "zh_base_hash": "ee127a50fc972f72"
   },
   {
    "name": "create_mnemonic_phrases",
@@ -3063,7 +3435,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_mnemonic_phrases/system.md",
    "upstream_path": "data/patterns/create_mnemonic_phrases/system.md",
    "content_hash": "3ddea2a56c4d1700",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_mnemonic_phrases/system.zh.md",
+   "zh_base_hash": "3ddea2a56c4d1700"
   },
   {
    "name": "create_quiz",
@@ -3078,7 +3452,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_quiz/system.md",
    "upstream_path": "data/patterns/create_quiz/system.md",
    "content_hash": "fdbd849782c1ded4",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_quiz/system.zh.md",
+   "zh_base_hash": "fdbd849782c1ded4"
   },
   {
    "name": "create_reading_plan",
@@ -3094,7 +3470,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_reading_plan/system.md",
    "upstream_path": "data/patterns/create_reading_plan/system.md",
    "content_hash": "05f1d2bd83a7344b",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_reading_plan/system.zh.md",
+   "zh_base_hash": "05f1d2bd83a7344b"
   },
   {
    "name": "create_story_explanation",
@@ -3110,7 +3488,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_story_explanation/system.md",
    "upstream_path": "data/patterns/create_story_explanation/system.md",
    "content_hash": "e2c12875f0195b53",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_story_explanation/system.zh.md",
+   "zh_base_hash": "e2c12875f0195b53"
   },
   {
    "name": "dialog_with_socrates",
@@ -3127,7 +3507,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/dialog_with_socrates/system.md",
    "upstream_path": "data/patterns/dialog_with_socrates/system.md",
    "content_hash": "2099a31418f657df",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/dialog_with_socrates/system.zh.md",
+   "zh_base_hash": "2099a31418f657df"
   },
   {
    "name": "explain_math",
@@ -3142,7 +3524,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_math/system.md",
    "upstream_path": "data/patterns/explain_math/system.md",
    "content_hash": "a0147a01ebd041fd",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/explain_math/system.zh.md",
+   "zh_base_hash": "a0147a01ebd041fd"
   },
   {
    "name": "explain_terms",
@@ -3158,7 +3542,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_terms/system.md",
    "upstream_path": "data/patterns/explain_terms/system.md",
    "content_hash": "77891b3b73e758e5",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/explain_terms/system.zh.md",
+   "zh_base_hash": "77891b3b73e758e5"
   },
   {
    "name": "extract_extraordinary_claims",
@@ -3175,7 +3561,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_extraordinary_claims/system.md",
    "upstream_path": "data/patterns/extract_extraordinary_claims/system.md",
    "content_hash": "be66d37e6bdfb8ab",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_extraordinary_claims/system.zh.md",
+   "zh_base_hash": "be66d37e6bdfb8ab"
   },
   {
    "name": "find_hidden_message",
@@ -3192,7 +3580,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/find_hidden_message/system.md",
    "upstream_path": "data/patterns/find_hidden_message/system.md",
    "content_hash": "133aae33fcbc81bd",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/find_hidden_message/system.zh.md",
+   "zh_base_hash": "133aae33fcbc81bd"
   },
   {
    "name": "find_logical_fallacies",
@@ -3209,7 +3599,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/find_logical_fallacies/system.md",
    "upstream_path": "data/patterns/find_logical_fallacies/system.md",
    "content_hash": "ef4e0afe46f4bbed",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/find_logical_fallacies/system.zh.md",
+   "zh_base_hash": "ef4e0afe46f4bbed"
   },
   {
    "name": "identify_dsrp_distinctions",
@@ -3225,7 +3617,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/identify_dsrp_distinctions/system.md",
    "upstream_path": "data/patterns/identify_dsrp_distinctions/system.md",
    "content_hash": "ca861f265cd02f42",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/identify_dsrp_distinctions/system.zh.md",
+   "zh_base_hash": "ca861f265cd02f42"
   },
   {
    "name": "identify_dsrp_perspectives",
@@ -3241,7 +3635,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/identify_dsrp_perspectives/system.md",
    "upstream_path": "data/patterns/identify_dsrp_perspectives/system.md",
    "content_hash": "d446b0982bb9068a",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/identify_dsrp_perspectives/system.zh.md",
+   "zh_base_hash": "d446b0982bb9068a"
   },
   {
    "name": "identify_dsrp_relationships",
@@ -3257,7 +3653,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/identify_dsrp_relationships/system.md",
    "upstream_path": "data/patterns/identify_dsrp_relationships/system.md",
    "content_hash": "7503ef58e67c4297",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/identify_dsrp_relationships/system.zh.md",
+   "zh_base_hash": "7503ef58e67c4297"
   },
   {
    "name": "identify_dsrp_systems",
@@ -3273,7 +3671,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/identify_dsrp_systems/system.md",
    "upstream_path": "data/patterns/identify_dsrp_systems/system.md",
    "content_hash": "beeadfe13be5758a",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/identify_dsrp_systems/system.zh.md",
+   "zh_base_hash": "beeadfe13be5758a"
   },
   {
    "name": "improve_academic_writing",
@@ -3289,7 +3689,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/improve_academic_writing/system.md",
    "upstream_path": "data/patterns/improve_academic_writing/system.md",
    "content_hash": "ba8e75ab5d9ac19e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/improve_academic_writing/system.zh.md",
+   "zh_base_hash": "ba8e75ab5d9ac19e"
   },
   {
    "name": "provide_guidance",
@@ -3307,7 +3709,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/provide_guidance/system.md",
    "upstream_path": "data/patterns/provide_guidance/system.md",
    "content_hash": "76ab1dcaf67ec648",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/provide_guidance/system.zh.md",
+   "zh_base_hash": "76ab1dcaf67ec648"
   },
   {
    "name": "recommend_artists",
@@ -3324,7 +3728,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/recommend_artists/system.md",
    "upstream_path": "data/patterns/recommend_artists/system.md",
    "content_hash": "4898f10720fc82d4",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/recommend_artists/system.zh.md",
+   "zh_base_hash": "4898f10720fc82d4"
   },
   {
    "name": "to_flashcards",
@@ -3340,7 +3746,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/to_flashcards/system.md",
    "upstream_path": "data/patterns/to_flashcards/system.md",
    "content_hash": "3a51b055d7777a22",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/to_flashcards/system.zh.md",
+   "zh_base_hash": "3a51b055d7777a22"
   },
   {
    "name": "write_essay_pg",
@@ -3357,7 +3765,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_essay_pg/system.md",
    "upstream_path": "data/patterns/write_essay_pg/system.md",
    "content_hash": "6d2cd8f88e75c3bb",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/write_essay_pg/system.zh.md",
+   "zh_base_hash": "6d2cd8f88e75c3bb"
   },
   {
    "name": "write_latex",
@@ -3374,7 +3784,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_latex/system.md",
    "upstream_path": "data/patterns/write_latex/system.md",
    "content_hash": "f7877fddd9be3b86",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/write_latex/system.zh.md",
+   "zh_base_hash": "f7877fddd9be3b86"
   },
   {
    "name": "write_micro_essay",
@@ -3390,7 +3802,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_micro_essay/system.md",
    "upstream_path": "data/patterns/write_micro_essay/system.md",
    "content_hash": "895db1719fcba5b7",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/write_micro_essay/system.zh.md",
+   "zh_base_hash": "895db1719fcba5b7"
   },
   {
    "name": "analyze_mistakes",
@@ -3407,7 +3821,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_mistakes/system.md",
    "upstream_path": "data/patterns/analyze_mistakes/system.md",
    "content_hash": "8c1731107677be17",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_mistakes/system.zh.md",
+   "zh_base_hash": "8c1731107677be17"
   },
   {
    "name": "create_better_frame",
@@ -3425,7 +3841,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_better_frame/system.md",
    "upstream_path": "data/patterns/create_better_frame/system.md",
    "content_hash": "1d8cb832fb0fef15",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_better_frame/system.zh.md",
+   "zh_base_hash": "1d8cb832fb0fef15"
   },
   {
    "name": "create_story_about_person",
@@ -3441,7 +3859,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_story_about_person/system.md",
    "upstream_path": "data/patterns/create_story_about_person/system.md",
    "content_hash": "3bd8d884d9d2cdb9",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_story_about_person/system.zh.md",
+   "zh_base_hash": "3bd8d884d9d2cdb9"
   },
   {
    "name": "explain_terms_and_conditions",
@@ -3457,7 +3877,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_terms_and_conditions/system.md",
    "upstream_path": "data/patterns/explain_terms_and_conditions/system.md",
    "content_hash": "6921e30d1418fac5",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/explain_terms_and_conditions/system.zh.md",
+   "zh_base_hash": "6921e30d1418fac5"
   },
   {
    "name": "extract_most_redeeming_thing",
@@ -3474,7 +3896,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_most_redeeming_thing/system.md",
    "upstream_path": "data/patterns/extract_most_redeeming_thing/system.md",
    "content_hash": "d43c4ff5f369110f",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_most_redeeming_thing/system.zh.md",
+   "zh_base_hash": "d43c4ff5f369110f"
   },
   {
    "name": "extract_recipe",
@@ -3489,7 +3913,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_recipe/system.md",
    "upstream_path": "data/patterns/extract_recipe/system.md",
    "content_hash": "21957bf3e9c72def",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_recipe/system.zh.md",
+   "zh_base_hash": "21957bf3e9c72def"
   },
   {
    "name": "extract_song_meaning",
@@ -3505,7 +3931,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_song_meaning/system.md",
    "upstream_path": "data/patterns/extract_song_meaning/system.md",
    "content_hash": "bc118a04039ac0aa",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_song_meaning/system.zh.md",
+   "zh_base_hash": "bc118a04039ac0aa"
   },
   {
    "name": "find_female_life_partner",
@@ -3520,7 +3948,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/find_female_life_partner/system.md",
    "upstream_path": "data/patterns/find_female_life_partner/system.md",
    "content_hash": "e99d777490c2ec60",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/find_female_life_partner/system.zh.md",
+   "zh_base_hash": "e99d777490c2ec60"
   },
   {
    "name": "heal_person",
@@ -3537,7 +3967,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/heal_person/system.md",
    "upstream_path": "data/patterns/heal_person/system.md",
    "content_hash": "c5e4663698d1ef34",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/heal_person/system.zh.md",
+   "zh_base_hash": "c5e4663698d1ef34"
   },
   {
    "name": "model_as_sherlock_freud",
@@ -3554,7 +3986,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/model_as_sherlock_freud/system.md",
    "upstream_path": "data/patterns/model_as_sherlock_freud/system.md",
    "content_hash": "4e4cf09889805bb1",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/model_as_sherlock_freud/system.zh.md",
+   "zh_base_hash": "4e4cf09889805bb1"
   },
   {
    "name": "predict_person_actions",
@@ -3571,7 +4005,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/predict_person_actions/system.md",
    "upstream_path": "data/patterns/predict_person_actions/system.md",
    "content_hash": "69b4b777dd30964b",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/predict_person_actions/system.zh.md",
+   "zh_base_hash": "69b4b777dd30964b"
   },
   {
    "name": "recommend_yoga_practice",
@@ -3587,7 +4023,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/recommend_yoga_practice/system.md",
    "upstream_path": "data/patterns/recommend_yoga_practice/system.md",
    "content_hash": "849f5fd9ecb13258",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/recommend_yoga_practice/system.zh.md",
+   "zh_base_hash": "849f5fd9ecb13258"
   },
   {
    "name": "t_check_dunning_kruger",
@@ -3604,7 +4042,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_check_dunning_kruger/system.md",
    "upstream_path": "data/patterns/t_check_dunning_kruger/system.md",
    "content_hash": "0ed96ca91b2e6891",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_check_dunning_kruger/system.zh.md",
+   "zh_base_hash": "0ed96ca91b2e6891"
   },
   {
    "name": "t_describe_life_outlook",
@@ -3621,7 +4061,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_describe_life_outlook/system.md",
    "upstream_path": "data/patterns/t_describe_life_outlook/system.md",
    "content_hash": "57d894613bfc8cd4",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_describe_life_outlook/system.zh.md",
+   "zh_base_hash": "57d894613bfc8cd4"
   },
   {
    "name": "t_find_neglected_goals",
@@ -3638,7 +4080,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_find_neglected_goals/system.md",
    "upstream_path": "data/patterns/t_find_neglected_goals/system.md",
    "content_hash": "3b10f4b3bfc09947",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_find_neglected_goals/system.zh.md",
+   "zh_base_hash": "3b10f4b3bfc09947"
   },
   {
    "name": "t_give_encouragement",
@@ -3655,7 +4099,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_give_encouragement/system.md",
    "upstream_path": "data/patterns/t_give_encouragement/system.md",
    "content_hash": "d2450dc6be6700fc",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_give_encouragement/system.zh.md",
+   "zh_base_hash": "d2450dc6be6700fc"
   },
   {
    "name": "analyze_prose",
@@ -3672,7 +4118,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_prose/system.md",
    "upstream_path": "data/patterns/analyze_prose/system.md",
    "content_hash": "9b2d62fcd2b1973c",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_prose/system.zh.md",
+   "zh_base_hash": "9b2d62fcd2b1973c"
   },
   {
    "name": "analyze_prose_pinker",
@@ -3688,7 +4136,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_prose_pinker/system.md",
    "upstream_path": "data/patterns/analyze_prose_pinker/system.md",
    "content_hash": "186978f5d4b52c66",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_prose_pinker/system.zh.md",
+   "zh_base_hash": "186978f5d4b52c66"
   },
   {
    "name": "chinese_news_translate",
@@ -3704,7 +4154,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/chinese_news_translate/system.md",
    "upstream_path": "data/patterns/chinese_news_translate/system.md",
    "content_hash": "c64bd58fbd8e99da",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/chinese_news_translate/system.zh.md",
+   "zh_base_hash": "c64bd58fbd8e99da"
   },
   {
    "name": "clean_text",
@@ -3720,7 +4172,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/clean_text/system.md",
    "upstream_path": "data/patterns/clean_text/system.md",
    "content_hash": "80b535b41e20bc8f",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/clean_text/system.zh.md",
+   "zh_base_hash": "80b535b41e20bc8f"
   },
   {
    "name": "compare_and_contrast",
@@ -3736,7 +4190,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/compare_and_contrast/system.md",
    "upstream_path": "data/patterns/compare_and_contrast/system.md",
    "content_hash": "c130f06e041da732",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/compare_and_contrast/system.zh.md",
+   "zh_base_hash": "c130f06e041da732"
   },
   {
    "name": "convert_to_markdown",
@@ -3752,7 +4208,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/convert_to_markdown/system.md",
    "upstream_path": "data/patterns/convert_to_markdown/system.md",
    "content_hash": "513042ba489bf0e5",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/convert_to_markdown/system.zh.md",
+   "zh_base_hash": "513042ba489bf0e5"
   },
   {
    "name": "create_show_intro",
@@ -3767,7 +4225,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_show_intro/system.md",
    "upstream_path": "data/patterns/create_show_intro/system.md",
    "content_hash": "8b65b5f40205f543",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_show_intro/system.zh.md",
+   "zh_base_hash": "8b65b5f40205f543"
   },
   {
    "name": "create_story_about_people_interaction",
@@ -3783,7 +4243,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_story_about_people_interaction/system.md",
    "upstream_path": "data/patterns/create_story_about_people_interaction/system.md",
    "content_hash": "269d20b146ad7f90",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_story_about_people_interaction/system.zh.md",
+   "zh_base_hash": "269d20b146ad7f90"
   },
   {
    "name": "extract_characters",
@@ -3799,7 +4261,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_characters/system.md",
    "upstream_path": "data/patterns/extract_characters/system.md",
    "content_hash": "54511908418dbec4",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_characters/system.zh.md",
+   "zh_base_hash": "54511908418dbec4"
   },
   {
    "name": "fix_typos",
@@ -3814,7 +4278,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/fix_typos/system.md",
    "upstream_path": "data/patterns/fix_typos/system.md",
    "content_hash": "ecb2c15caea4649e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/fix_typos/system.zh.md",
+   "zh_base_hash": "ecb2c15caea4649e"
   },
   {
    "name": "humanize",
@@ -3830,7 +4296,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/humanize/system.md",
    "upstream_path": "data/patterns/humanize/system.md",
    "content_hash": "76a611009c523709",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/humanize/system.zh.md",
+   "zh_base_hash": "76a611009c523709"
   },
   {
    "name": "improve_writing",
@@ -3845,7 +4313,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/improve_writing/system.md",
    "upstream_path": "data/patterns/improve_writing/system.md",
    "content_hash": "98288d12a0aa175b",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/improve_writing/system.zh.md",
+   "zh_base_hash": "98288d12a0aa175b"
   },
   {
    "name": "label_and_rate",
@@ -3862,7 +4332,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/label_and_rate/system.md",
    "upstream_path": "data/patterns/label_and_rate/system.md",
    "content_hash": "4280fb6d0f294964",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/label_and_rate/system.zh.md",
+   "zh_base_hash": "4280fb6d0f294964"
   },
   {
    "name": "lens_rhetorical",
@@ -3879,7 +4351,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/lens_rhetorical/system.md",
    "upstream_path": "data/patterns/lens_rhetorical/system.md",
    "content_hash": "ed109c0cd569f015",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/lens_rhetorical/system.zh.md",
+   "zh_base_hash": "ed109c0cd569f015"
   },
   {
    "name": "md_callout",
@@ -3895,7 +4369,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/md_callout/system.md",
    "upstream_path": "data/patterns/md_callout/system.md",
    "content_hash": "0670bf5ca3d80e41",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/md_callout/system.zh.md",
+   "zh_base_hash": "0670bf5ca3d80e41"
   },
   {
    "name": "rate_content",
@@ -3912,7 +4388,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/rate_content/system.md",
    "upstream_path": "data/patterns/rate_content/system.md",
    "content_hash": "1d1d54510add3eef",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/rate_content/system.zh.md",
+   "zh_base_hash": "1d1d54510add3eef"
   },
   {
    "name": "recommend_talkpanel_topics",
@@ -3928,7 +4406,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/recommend_talkpanel_topics/system.md",
    "upstream_path": "data/patterns/recommend_talkpanel_topics/system.md",
    "content_hash": "4dd035d07113ff78",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/recommend_talkpanel_topics/system.zh.md",
+   "zh_base_hash": "4dd035d07113ff78"
   },
   {
    "name": "t_create_opening_sentences",
@@ -3943,7 +4423,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_create_opening_sentences/system.md",
    "upstream_path": "data/patterns/t_create_opening_sentences/system.md",
    "content_hash": "dc8a9e4ccb156bd3",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_create_opening_sentences/system.zh.md",
+   "zh_base_hash": "dc8a9e4ccb156bd3"
   },
   {
    "name": "tweet",
@@ -3959,7 +4441,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/tweet/system.md",
    "upstream_path": "data/patterns/tweet/system.md",
    "content_hash": "7b9b53b9e8e1cd16",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/tweet/system.zh.md",
+   "zh_base_hash": "7b9b53b9e8e1cd16"
   },
   {
    "name": "write_essay",
@@ -3975,7 +4459,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_essay/system.md",
    "upstream_path": "data/patterns/write_essay/system.md",
    "content_hash": "dee6044e64d91a3d",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/write_essay/system.zh.md",
+   "zh_base_hash": "dee6044e64d91a3d"
   },
   {
    "name": "analyze_bill",
@@ -3991,7 +4477,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_bill/system.md",
    "upstream_path": "data/patterns/analyze_bill/system.md",
    "content_hash": "c7a3cf369cd6b915",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_bill/system.zh.md",
+   "zh_base_hash": "c7a3cf369cd6b915"
   },
   {
    "name": "analyze_bill_short",
@@ -4007,7 +4495,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_bill_short/system.md",
    "upstream_path": "data/patterns/analyze_bill_short/system.md",
    "content_hash": "95b021a6df750742",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_bill_short/system.zh.md",
+   "zh_base_hash": "95b021a6df750742"
   },
   {
    "name": "analyze_cfp_submission",
@@ -4023,7 +4513,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_cfp_submission/system.md",
    "upstream_path": "data/patterns/analyze_cfp_submission/system.md",
    "content_hash": "371aa7414672306e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_cfp_submission/system.zh.md",
+   "zh_base_hash": "371aa7414672306e"
   },
   {
    "name": "analyze_military_strategy",
@@ -4039,7 +4531,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_military_strategy/system.md",
    "upstream_path": "data/patterns/analyze_military_strategy/system.md",
    "content_hash": "d0ddbca64eea22a4",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/analyze_military_strategy/system.zh.md",
+   "zh_base_hash": "d0ddbca64eea22a4"
   },
   {
    "name": "apply_ul_tags",
@@ -4055,7 +4549,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/apply_ul_tags/system.md",
    "upstream_path": "data/patterns/apply_ul_tags/system.md",
    "content_hash": "6154aec592d7f5cc",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/apply_ul_tags/system.zh.md",
+   "zh_base_hash": "6154aec592d7f5cc"
   },
   {
    "name": "audit_consent",
@@ -4071,7 +4567,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/audit_consent/system.md",
    "upstream_path": "data/patterns/audit_consent/system.md",
    "content_hash": "cfb3adf57c59e5d2",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/audit_consent/system.zh.md",
+   "zh_base_hash": "cfb3adf57c59e5d2"
   },
   {
    "name": "audit_transparency",
@@ -4087,7 +4585,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/audit_transparency/system.md",
    "upstream_path": "data/patterns/audit_transparency/system.md",
    "content_hash": "dcc8ba62503dcc53",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/audit_transparency/system.zh.md",
+   "zh_base_hash": "dcc8ba62503dcc53"
   },
   {
    "name": "check_falsifiability",
@@ -4103,7 +4603,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/check_falsifiability/system.md",
    "upstream_path": "data/patterns/check_falsifiability/system.md",
    "content_hash": "99d0d71b5e0ce4c4",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/check_falsifiability/system.zh.md",
+   "zh_base_hash": "99d0d71b5e0ce4c4"
   },
   {
    "name": "detect_mind_virus",
@@ -4119,7 +4621,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/detect_mind_virus/system.md",
    "upstream_path": "data/patterns/detect_mind_virus/system.md",
    "content_hash": "da873a9abe537a3c",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/detect_mind_virus/system.zh.md",
+   "zh_base_hash": "da873a9abe537a3c"
   },
   {
    "name": "detect_silent_victims",
@@ -4135,7 +4639,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/detect_silent_victims/system.md",
    "upstream_path": "data/patterns/detect_silent_victims/system.md",
    "content_hash": "0c6f98face4dca9a",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/detect_silent_victims/system.zh.md",
+   "zh_base_hash": "0c6f98face4dca9a"
   },
   {
    "name": "get_wow_per_minute",
@@ -4151,7 +4657,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/get_wow_per_minute/system.md",
    "upstream_path": "data/patterns/get_wow_per_minute/system.md",
    "content_hash": "e62b04e6458f4501",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/get_wow_per_minute/system.zh.md",
+   "zh_base_hash": "e62b04e6458f4501"
   },
   {
    "name": "judge_ultimate_law",
@@ -4167,7 +4675,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/judge_ultimate_law/system.md",
    "upstream_path": "data/patterns/judge_ultimate_law/system.md",
    "content_hash": "d911b5b1b2b8f6ce",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/judge_ultimate_law/system.zh.md",
+   "zh_base_hash": "d911b5b1b2b8f6ce"
   },
   {
    "name": "lens_deconstructive",
@@ -4183,7 +4693,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/lens_deconstructive/system.md",
    "upstream_path": "data/patterns/lens_deconstructive/system.md",
    "content_hash": "8d0fda5977f92ab0",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/lens_deconstructive/system.zh.md",
+   "zh_base_hash": "8d0fda5977f92ab0"
   },
   {
    "name": "lens_stoic",
@@ -4200,7 +4712,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/lens_stoic/system.md",
    "upstream_path": "data/patterns/lens_stoic/system.md",
    "content_hash": "7b37a141bb24ea2e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/lens_stoic/system.zh.md",
+   "zh_base_hash": "7b37a141bb24ea2e"
   },
   {
    "name": "t_analyze_challenge_handling",
@@ -4217,7 +4731,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_analyze_challenge_handling/system.md",
    "upstream_path": "data/patterns/t_analyze_challenge_handling/system.md",
    "content_hash": "f7c8f12f21328ef7",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_analyze_challenge_handling/system.zh.md",
+   "zh_base_hash": "f7c8f12f21328ef7"
   },
   {
    "name": "t_find_blindspots",
@@ -4234,7 +4750,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_find_blindspots/system.md",
    "upstream_path": "data/patterns/t_find_blindspots/system.md",
    "content_hash": "aed3fa9c14e5fbd1",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_find_blindspots/system.zh.md",
+   "zh_base_hash": "aed3fa9c14e5fbd1"
   },
   {
    "name": "t_find_negative_thinking",
@@ -4251,7 +4769,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_find_negative_thinking/system.md",
    "upstream_path": "data/patterns/t_find_negative_thinking/system.md",
    "content_hash": "bd008a930860c14e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/t_find_negative_thinking/system.zh.md",
+   "zh_base_hash": "bd008a930860c14e"
   },
   {
    "name": "ultimate_law_safety",
@@ -4267,7 +4787,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/ultimate_law_safety/system.md",
    "upstream_path": "data/patterns/ultimate_law_safety/system.md",
    "content_hash": "02f70eb57db5ba63",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/ultimate_law_safety/system.zh.md",
+   "zh_base_hash": "02f70eb57db5ba63"
   },
   {
    "name": "create_npc",
@@ -4282,7 +4804,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_npc/system.md",
    "upstream_path": "data/patterns/create_npc/system.md",
    "content_hash": "243bae65fe75c04a",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_npc/system.zh.md",
+   "zh_base_hash": "243bae65fe75c04a"
   },
   {
    "name": "create_rpg_summary",
@@ -4297,7 +4821,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_rpg_summary/system.md",
    "upstream_path": "data/patterns/create_rpg_summary/system.md",
    "content_hash": "c126cbd95aa3ab63",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/create_rpg_summary/system.zh.md",
+   "zh_base_hash": "c126cbd95aa3ab63"
   },
   {
    "name": "extract_jokes",
@@ -4312,7 +4838,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_jokes/system.md",
    "upstream_path": "data/patterns/extract_jokes/system.md",
    "content_hash": "832c5e92b78b644e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/extract_jokes/system.zh.md",
+   "zh_base_hash": "832c5e92b78b644e"
   },
   {
    "name": "pattern_explanations.md",
@@ -4340,7 +4868,9 @@
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/translate/system.md",
    "upstream_path": "data/patterns/translate/system.md",
    "content_hash": "ae70cf1ef7742e9e",
-   "status": "translated"
+   "status": "translated",
+   "zh_prompt": "patterns-zh/translate/system.zh.md",
+   "zh_base_hash": "ae70cf1ef7742e9e"
   }
  ]
 }

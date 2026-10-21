@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
 .upstream-clone/
+.upstream/
 sync_output.txt
 pending.txt
