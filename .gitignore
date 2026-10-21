@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.upstream-clone/
+sync_output.txt
+pending.txt

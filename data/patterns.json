@@ -1,0 +1,4346 @@
+{
+ "upstream_repo": "danielmiessler/Fabric",
+ "upstream_commit": "6f9bfb503c7af9b393f0f663f815aeab82ecdca7",
+ "upstream_commit_date": "2026-10-20",
+ "synced_at": "2026-10-21",
+ "count": 266,
+ "patterns": [
+  {
+   "name": "analyze_email_headers",
+   "zh_title": "邮件头安全分析",
+   "zh_desc": "解析邮件头中的SPF、DKIM、DMARC和ARC验证结果，检查域名对齐情况，指出安全隐患并给出可落地的修复建议。",
+   "scenario": "排查钓鱼邮件和发信认证时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Analyze email authentication headers to assess security and provide recommendations.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_email_headers/system.md",
+   "upstream_path": "data/patterns/analyze_email_headers/system.md",
+   "content_hash": "8a6fa4889df7680e",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_incident",
+   "zh_title": "安全事件报道提取",
+   "zh_desc": "从网络安全入侵事件报道中快速提取关键信息，包括攻击方式、受影响对象和影响范围，整理成简洁有序的摘要。",
+   "scenario": "整理勒索入侵事件情报时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Extract info from breach articles, including attack details and impact.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_incident/system.md",
+   "upstream_path": "data/patterns/analyze_incident/system.md",
+   "content_hash": "182fe9741f539b77",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_logs",
+   "zh_title": "服务器日志排障分析",
+   "zh_desc": "以运维和可靠性工程师视角审查服务器日志，识别异常模式和潜在故障，给出问题定位思路与可靠性改进建议。",
+   "scenario": "线上故障排查和日志巡检时",
+   "tags": [
+    "DEVELOPMENT",
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Examine server logs to identify patterns and potential system issues.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_logs/system.md",
+   "upstream_path": "data/patterns/analyze_logs/system.md",
+   "content_hash": "886723b15c3f68b9",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_malware",
+   "zh_title": "恶意软件分析",
+   "zh_desc": "分析各平台恶意软件的行为与特征，提取失陷指标IOC和技术细节，结合遥测与社区信息给出分析结论和处置建议。",
+   "scenario": "安全团队研判病毒样本时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Analyze malware behavior, extract IOCs, MITRE ATT&CK, provide recommendations.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_malware/system.md",
+   "upstream_path": "data/patterns/analyze_malware/system.md",
+   "content_hash": "fc6acadfcbd574f9",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_risk",
+   "zh_title": "第三方供应商风险评估",
+   "zh_desc": "评估第三方供应商对安全与隐私标准的合规情况，依据合同与数据处理协议等文档给出低中高风险评级及所需安全控制。",
+   "scenario": "引入供应商前做安全审查时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Assess vendor security compliance to determine risk levels.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_risk/system.md",
+   "upstream_path": "data/patterns/analyze_risk/system.md",
+   "content_hash": "7971f26716f699a0",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_threat_report",
+   "zh_title": "威胁报告要点提取",
+   "zh_desc": "从网络安全威胁报告中提取最值得关注的洞见、趋势和建议，帮助安全人员快速把握报告核心发现而非通读全文。",
+   "scenario": "快速消化安全威胁报告时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Extract/analyze insights, trends, and recommendations from threat reports.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_threat_report/system.md",
+   "upstream_path": "data/patterns/analyze_threat_report/system.md",
+   "content_hash": "244561b076bdf357",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_threat_report_cmds",
+   "zh_title": "威胁报告命令解读",
+   "zh_desc": "从威胁报告材料中提取具体命令和命令行参数，结合多领域专家视角解释其用途，给出可复用的可执行命令说明。",
+   "scenario": "复现报告中攻击命令时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Interpret commands from threat reports, providing implementation guidance.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_threat_report_cmds/system.md",
+   "upstream_path": "data/patterns/analyze_threat_report_cmds/system.md",
+   "content_hash": "0c7de563629959eb",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_threat_report_trends",
+   "zh_title": "威胁报告趋势分析",
+   "zh_desc": "专注从网络安全威胁报告中提取和分析新兴趋势与模式，识别正在抬头的攻击手法和威胁演变方向。",
+   "scenario": "研判安全威胁演变趋势时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Extract/analyze trends from threat reports to identify emerging patterns.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_threat_report_trends/system.md",
+   "upstream_path": "data/patterns/analyze_threat_report_trends/system.md",
+   "content_hash": "a53e54c0f447893f",
+   "status": "translated"
+  },
+  {
+   "name": "ask_secure_by_design_questions",
+   "zh_title": "安全设计提问清单",
+   "zh_desc": "针对要构建的系统或产品，生成一组安全设计导向的关键问题，帮助建设者在设计阶段就确保安全性被充分考虑。",
+   "scenario": "系统设计评审查安全时",
+   "tags": [
+    "SECURITY",
+    "DEVELOPMENT"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Generate security-focused questions to guide secure system design.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/ask_secure_by_design_questions/system.md",
+   "upstream_path": "data/patterns/ask_secure_by_design_questions/system.md",
+   "content_hash": "4daf2b6d5cc43bcb",
+   "status": "translated"
+  },
+  {
+   "name": "chinese_code_review",
+   "zh_title": "中文代码审查",
+   "zh_desc": "输入代码，从正确性、安全性、性能、可读性和可维护性多维度审查，按严重程度标注问题并给出修改建议与示例代码，中文输出。",
+   "scenario": "提交前中文代码评审时",
+   "tags": [
+    "DEVELOPMENT",
+    "REVIEW",
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Review code for correctness, security and performance, with feedback in Chinese.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/chinese_code_review/system.md",
+   "upstream_path": "data/patterns/chinese_code_review/system.md",
+   "content_hash": "318728c8534744ba",
+   "status": "translated"
+  },
+  {
+   "name": "create_command",
+   "zh_title": "渗透工具命令生成",
+   "zh_desc": "输入渗透测试工具的帮助文档和任务目标，严格只用文档中列出的参数选项，生成可直接运行的精确CLI命令，绝不臆造开关。",
+   "scenario": "拼渗透测试工具命令时",
+   "tags": [
+    "SECURITY",
+    "DEVELOPMENT"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Generate precise CLI commands for penetration testing tools based on docs.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_command/system.md",
+   "upstream_path": "data/patterns/create_command/system.md",
+   "content_hash": "2f9d6a3800a06c90",
+   "status": "translated"
+  },
+  {
+   "name": "create_cyber_summary",
+   "zh_title": "网络安全简报",
+   "zh_desc": "输入安全事件或漏洞信息，为忙碌的技术人员提炼要点，输出简洁清晰的网络安全情报简报，突出关键事实与影响。",
+   "scenario": "汇总安全事件与漏洞情报时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Summarize incidents, vulnerabilities into concise intelligence briefings.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_cyber_summary/system.md",
+   "upstream_path": "data/patterns/create_cyber_summary/system.md",
+   "content_hash": "4c58ffc4ea11a790",
+   "status": "translated"
+  },
+  {
+   "name": "create_graph_from_input",
+   "zh_title": "安全进展图数据",
+   "zh_desc": "输入安全项目的各项指标数据，将其整理成CSV格式的时间序列数据，用于绘制安全工作随时间改进的进展图表。",
+   "scenario": "制作安全度量趋势图时",
+   "tags": [
+    "VISUALIZE",
+    "SECURITY",
+    "CONVERSION"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Transform security metrics to CSV for visualizing progress over time.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_graph_from_input/system.md",
+   "upstream_path": "data/patterns/create_graph_from_input/system.md",
+   "content_hash": "c1e38f2e2f9c2e69",
+   "status": "translated"
+  },
+  {
+   "name": "create_investigation_visualization",
+   "zh_title": "调查关系图谱",
+   "zh_desc": "输入情报调查数据，用GraphViz生成完整的关系可视化图，呈现数据中最关键、最出人意料的关联与发现，便于研判案情。",
+   "scenario": "可视化情报调查数据时",
+   "tags": [
+    "VISUALIZE",
+    "SECURITY",
+    "ANALYSIS"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Create Graphviz vis. of investigation data showing relationships and findings.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_investigation_visualization/system.md",
+   "upstream_path": "data/patterns/create_investigation_visualization/system.md",
+   "content_hash": "f7af79811b825541",
+   "status": "translated"
+  },
+  {
+   "name": "create_network_threat_landscape",
+   "zh_title": "网络威胁态势报告",
+   "zh_desc": "输入端口扫描得到的开放端口与服务统计，分析潜在威胁，输出Markdown格式的威胁态势报告与整改建议，供正式安全报告引用。",
+   "scenario": "分析网络端口扫描结果时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Analyze network ports/services to create threat reports with recommendations.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_network_threat_landscape/system.md",
+   "upstream_path": "data/patterns/create_network_threat_landscape/system.md",
+   "content_hash": "da1b48aa89017675",
+   "status": "translated"
+  },
+  {
+   "name": "create_report_finding",
+   "zh_title": "撰写安全评估发现",
+   "zh_desc": "根据漏洞标题和简要说明撰写安全评估报告条目：输出含描述、风险、整改建议、参考、趋势与引用证据的Markdown发现项。",
+   "scenario": "渗透测试后写评估报告时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Document security findings with descriptions, recommendations, and evidence.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_report_finding/system.md",
+   "upstream_path": "data/patterns/create_report_finding/system.md",
+   "content_hash": "fb81b16da322b488",
+   "status": "translated"
+  },
+  {
+   "name": "create_security_update",
+   "zh_title": "编写安全动态简报",
+   "zh_desc": "汇总整理安全资讯成简洁的新闻简报条目：输入威胁情报与公告素材，输出含威胁、咨询与进展并附链接的安全更新。",
+   "scenario": "做安全周报、内部简报时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Compile security newsletters covering threats, advisories, developments with links.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_security_update/system.md",
+   "upstream_path": "data/patterns/create_security_update/system.md",
+   "content_hash": "9a8d414bc3ad2f63",
+   "status": "translated"
+  },
+  {
+   "name": "create_sigma_rules",
+   "zh_title": "生成Sigma检测规则",
+   "zh_desc": "从安全新闻报道中提取攻击者TTPs战术技术，将其转成YAML格式Sigma检测规则，聚焦Sysmon与Windows日志的主机侧检测。",
+   "scenario": "安全运营写SIEM规则时",
+   "tags": [
+    "SECURITY",
+    "DEVELOPMENT"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Extract TTPs and translate them into YAML Sigma detection rules.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_sigma_rules/system.md",
+   "upstream_path": "data/patterns/create_sigma_rules/system.md",
+   "content_hash": "460167a094c2ee6c",
+   "status": "translated"
+  },
+  {
+   "name": "create_stride_threat_model",
+   "zh_title": "STRIDE威胁建模",
+   "zh_desc": "对输入系统按STRIDE逐元素方法做威胁建模：识别欺骗、篡改、抵赖、信息泄露、拒绝服务与提权威胁并排序优先级。",
+   "scenario": "系统上线前做安全评审时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Generate threat models using STRIDE to prioritize security threats.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_stride_threat_model/system.md",
+   "upstream_path": "data/patterns/create_stride_threat_model/system.md",
+   "content_hash": "25e253c049d3acae",
+   "status": "translated"
+  },
+  {
+   "name": "create_threat_scenarios",
+   "zh_title": "编写威胁场景",
+   "zh_desc": "基于风险分析为各类场景编写叙事化威胁模型：覆盖物理安全到网络安全，用简单故事形式呈现可信的攻击与风险情形。",
+   "scenario": "安全培训、风险推演时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Develop realistic security threat scenarios based on risk analysis.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_threat_scenarios/system.md",
+   "upstream_path": "data/patterns/create_threat_scenarios/system.md",
+   "content_hash": "5a97d5a36c11eff9",
+   "status": "translated"
+  },
+  {
+   "name": "create_ttrc_graph",
+   "zh_title": "绘制漏洞修复时效图",
+   "zh_desc": "围绕关键漏洞修复时长TTRC指标生成随时间变化的进展图表数据，用时间序列可视化展示安全修复效率的改善趋势。",
+   "scenario": "汇报安全运营指标时用",
+   "tags": [
+    "SECURITY",
+    "VISUALIZE"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Generate time-series for visualizing vulnerability remediation metrics.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_ttrc_graph/system.md",
+   "upstream_path": "data/patterns/create_ttrc_graph/system.md",
+   "content_hash": "c6fca58aacd9c8d2",
+   "status": "translated"
+  },
+  {
+   "name": "create_ttrc_narrative",
+   "zh_title": "撰写修复时效叙事",
+   "zh_desc": "围绕关键漏洞修复时长TTRC指标撰写随时间进展的叙事说明，解读修复效率提升过程，供安全项目改进汇报使用。",
+   "scenario": "安全项目复盘汇报时用",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Create narratives for security program improvements in remediation efficiency.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_ttrc_narrative/system.md",
+   "upstream_path": "data/patterns/create_ttrc_narrative/system.md",
+   "content_hash": "a4ca6210994b6fa0",
+   "status": "translated"
+  },
+  {
+   "name": "extract_ctf_writeup",
+   "zh_title": "解读CTF解题报告",
+   "zh_desc": "以资深安全专家视角解读CTF解题报告，先简要概括攻击过程，再分步骤通俗讲解复杂技术手法，整理成可学习的资料。",
+   "scenario": "学习CTF攻防技术手法时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Extract techniques from CTF writeups to create learning resources.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_ctf_writeup/system.md",
+   "upstream_path": "data/patterns/extract_ctf_writeup/system.md",
+   "content_hash": "973442ce4073efa1",
+   "status": "translated"
+  },
+  {
+   "name": "greybeard_secure_prompt_engineer",
+   "zh_title": "安全提示词工程师",
+   "zh_desc": "输入模糊或不安全的提示词需求，输出可上生产的安全系统提示词，配套开发者提示、注入攻击测试集和评估量表，强化指令层级与抗对抗能力。",
+   "scenario": "为生产系统加固提示词时",
+   "tags": [
+    "security",
+    "prompt-engineering",
+    "system-prompts",
+    "prompt-injection",
+    "llm-security",
+    "hardening"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Creates secure, production-grade system prompts with NASA-style mission assurance. Outputs include hardened prompts, developer prompts, prompt-injection test suites, and evaluation rubrics. Enforces instruction hierarchy, resists adversarial inputs, and maintains auditability.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/greybeard_secure_prompt_engineer/system.md",
+   "upstream_path": "data/patterns/greybeard_secure_prompt_engineer/system.md",
+   "content_hash": "84ab2cc74a1eb9fe",
+   "status": "translated"
+  },
+  {
+   "name": "improve_report_finding",
+   "zh_title": "安全发现报告润色",
+   "zh_desc": "输入渗透测试报告中的一条安全发现，由资深安全顾问重写润色，输出更清晰、准确、专业的Markdown发现条目，涵盖Web、API等场景。",
+   "scenario": "完善渗透测试报告条目时",
+   "tags": [
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Enhance security report by improving clarity and accuracy.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/improve_report_finding/system.md",
+   "upstream_path": "data/patterns/improve_report_finding/system.md",
+   "content_hash": "d14381daddb8d9de",
+   "status": "translated"
+  },
+  {
+   "name": "recommend_pipeline_upgrades",
+   "zh_title": "流水线安全升级建议",
+   "zh_desc": "针对CI/CD流水线中检查自身系统漏洞的环节，给出优化升级建议，提升漏洞发现步骤的效率与安全性，减少遗漏。",
+   "scenario": "优化CI/CD安全检查环节时",
+   "tags": [
+    "DEVELOPMENT",
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Suggest CI/CD pipeline improvements for efficiency and security.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/recommend_pipeline_upgrades/system.md",
+   "upstream_path": "data/patterns/recommend_pipeline_upgrades/system.md",
+   "content_hash": "c999789220ed315a",
+   "status": "translated"
+  },
+  {
+   "name": "review_code",
+   "zh_title": "代码审查",
+   "zh_desc": "输入待审查的代码，由首席软件工程师做全面审查，围绕正确性、安全性与性能指出问题，给出具体改进建议并讲解背后的原理。",
+   "scenario": "提交代码前的全面审查时",
+   "tags": [
+    "DEVELOPMENT",
+    "REVIEW",
+    "SECURITY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Performs a comprehensive code review, providing detailed feedback on correctness, security, and performance.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/review_code/system.md",
+   "upstream_path": "data/patterns/review_code/system.md",
+   "content_hash": "d67da54180f1c8e4",
+   "status": "translated"
+  },
+  {
+   "name": "t_red_team_thinking",
+   "zh_title": "红队对抗思维",
+   "zh_desc": "结合目标背景资料，站在对手和攻击者视角审视方案，主动寻找弱点和可被利用的漏洞，提前暴露风险。",
+   "scenario": "方案上线前压力测试时",
+   "tags": [
+    "ANALYSIS",
+    "SECURITY",
+    "STRATEGY",
+    "CR THINKING"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Apply adversarial thinking to identify weaknesses.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_red_team_thinking/system.md",
+   "upstream_path": "data/patterns/t_red_team_thinking/system.md",
+   "content_hash": "cfac4700c38fd5f9",
+   "status": "translated"
+  },
+  {
+   "name": "t_threat_model_plans",
+   "zh_title": "计划威胁建模",
+   "zh_desc": "结合背景资料，用安全视角审视一份计划或方案，识别潜在威胁、攻击面和风险点，并提示应对方向。",
+   "scenario": "评估新计划安全风险时",
+   "tags": [
+    "SECURITY",
+    "ANALYSIS",
+    "STRATEGY"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Analyze plans through a security lens to identify threats.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_threat_model_plans/system.md",
+   "upstream_path": "data/patterns/t_threat_model_plans/system.md",
+   "content_hash": "2c702b5e9e338c32",
+   "status": "translated"
+  },
+  {
+   "name": "write_hackerone_report",
+   "zh_title": "HackerOne漏洞报告",
+   "zh_desc": "输入漏洞细节，按HackerOne格式写出简洁易复现的赏金漏洞报告，信息足够分诊员快速理解又不堆砌冗余步骤。",
+   "scenario": "提交安全漏洞赏金报告时",
+   "tags": [
+    "SECURITY",
+    "WRITING",
+    "ANALYSIS"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Create vulnerability reports following HackerOne's format.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_hackerone_report/system.md",
+   "upstream_path": "data/patterns/write_hackerone_report/system.md",
+   "content_hash": "bc17381a31e33d94",
+   "status": "translated"
+  },
+  {
+   "name": "write_nuclei_template_rule",
+   "zh_title": "Nuclei扫描模板",
+   "zh_desc": "输入漏洞或检测需求，编写符合ProjectDiscovery Nuclei规范的YAML扫描模板，包含完整的请求与匹配检测逻辑。",
+   "scenario": "做安全扫描规则开发时",
+   "tags": [
+    "SECURITY",
+    "DEVELOPMENT"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Generate Nuclei scanning templates with detection logic.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_nuclei_template_rule/system.md",
+   "upstream_path": "data/patterns/write_nuclei_template_rule/system.md",
+   "content_hash": "5dbaf26a8b538bf1",
+   "status": "translated"
+  },
+  {
+   "name": "write_semgrep_rule",
+   "zh_title": "Semgrep规则编写",
+   "zh_desc": "输入想检测的代码模式或安全问题，编写可直接用于静态代码分析的Semgrep规则，含匹配模式和提示信息。",
+   "scenario": "做代码安全静态扫描时",
+   "tags": [
+    "SECURITY",
+    "DEVELOPMENT"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Create Semgrep rules for static code analysis.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_semgrep_rule/system.md",
+   "upstream_path": "data/patterns/write_semgrep_rule/system.md",
+   "content_hash": "183f0dfa117f1666",
+   "status": "translated"
+  },
+  {
+   "name": "agility_story",
+   "zh_title": "敏捷用户故事生成",
+   "zh_desc": "输入功能主题，按敏捷格式生成用户故事和验收标准，明确用户角色、想要的功能与价值，输出可直接进入需求池的故事条目。",
+   "scenario": "产品需求拆解和迭代规划时",
+   "tags": [
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Generate agile user stories and acceptance criteria following agile formats.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/agility_story/system.md",
+   "upstream_path": "data/patterns/agility_story/system.md",
+   "content_hash": "b6449ad438ec5b42",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_prose_json",
+   "zh_title": "文章质量评审JSON版",
+   "zh_desc": "与analyze_prose相同的写作质量评估，从新颖度、清晰度和有效性打分给建议，但以JSON格式结构化输出便于程序处理。",
+   "scenario": "批量评文需机器处理时",
+   "tags": [
+    "ANALYSIS",
+    "WRITING",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Evaluate writing and provide JSON output rating novelty, clarity, effectiveness.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_prose_json/system.md",
+   "upstream_path": "data/patterns/analyze_prose_json/system.md",
+   "content_hash": "1e88f2d6143b62c8",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_terraform_plan",
+   "zh_title": "Terraform计划分析",
+   "zh_desc": "解析Terraform plan输出，总结基础设施变更要点，评估安全风险、成本影响与合规问题，输出Markdown格式的变更摘要。",
+   "scenario": "执行基础设施变更前评审时",
+   "tags": [
+    "ANALYSIS",
+    "DEVOPS"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Analyze Terraform plans for infrastructure changes, security risks, and cost implications.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_terraform_plan/system.md",
+   "upstream_path": "data/patterns/analyze_terraform_plan/system.md",
+   "content_hash": "a007fdf01e018cbf",
+   "status": "translated"
+  },
+  {
+   "name": "answer_interview_question",
+   "zh_title": "技术面试答题助手",
+   "zh_desc": "针对技术面试问题生成得体回答，兼顾知识深度与实战经验表达，简洁全面地展现候选人的能力和前瞻性。",
+   "scenario": "准备技术面试问答演练时",
+   "tags": [
+    "DEVELOPMENT",
+    "LEARNING"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Generate appropriate responses to technical interview questions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/answer_interview_question/system.md",
+   "upstream_path": "data/patterns/answer_interview_question/system.md",
+   "content_hash": "a902a2a5f731d306",
+   "status": "translated"
+  },
+  {
+   "name": "ask_uncle_duke",
+   "zh_title": "Java开发顾问Duke",
+   "zh_desc": "以Duke人设解答软件开发问题，专长Java、Spring和Maven，也涵盖前端技术，倡导SOLID、TDD等最佳实践，可深入浅出讲解。",
+   "scenario": "Java项目开发答疑解惑时",
+   "tags": [
+    "DEVELOPMENT",
+    "LEARNING"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Expert software dev. guidance focusing on Java, Spring, frontend, and best practices.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/ask_uncle_duke/system.md",
+   "upstream_path": "data/patterns/ask_uncle_duke/system.md",
+   "content_hash": "fa83bf26aa069ca6",
+   "status": "translated"
+  },
+  {
+   "name": "coding_master",
+   "zh_title": "编程概念讲解",
+   "zh_desc": "输入一个编程概念或语言知识点，用初学者能懂的方式讲解，配来自Codecademy等可靠来源的示例，代码用Markdown呈现。",
+   "scenario": "向新手讲解编程概念时",
+   "tags": [
+    "DEVELOPMENT",
+    "LEARNING"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Explain coding concepts/languages for beginners",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/coding_master/system.md",
+   "upstream_path": "data/patterns/coding_master/system.md",
+   "content_hash": "c6416ac7149fa9d3",
+   "status": "translated"
+  },
+  {
+   "name": "create_bd_issue",
+   "zh_title": "生成bd工单命令",
+   "zh_desc": "输入自然语言描述的问题，按Beads工单规范选好标志参数，输出一条完整规范的bd create命令，捕获全部相关细节以便直接建单。",
+   "scenario": "用bd快速创建工单时",
+   "tags": [
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Transform natural language descriptions into optimal bd create commands for issue tracking.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_bd_issue/system.md",
+   "upstream_path": "data/patterns/create_bd_issue/system.md",
+   "content_hash": "4262272f2d2d576b",
+   "status": "translated"
+  },
+  {
+   "name": "create_coding_feature",
+   "zh_title": "按目录生成新功能",
+   "zh_desc": "输入包含项目目录结构与文件内容的JSON，按修改指令用最新技术与最佳实践生成安全、可组合的新功能代码并按格式输出。",
+   "scenario": "基于现有代码加功能时",
+   "tags": [
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Generate secure and composable code features using latest technology and best practices.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_coding_feature/system.md",
+   "upstream_path": "data/patterns/create_coding_feature/system.md",
+   "content_hash": "8a59ec66624205e5",
+   "status": "translated"
+  },
+  {
+   "name": "create_coding_project",
+   "zh_title": "代码项目生成",
+   "zh_desc": "输入一个项目想法，输出架构清晰、步骤明确的完整代码实现，采用最新技术与最佳实践，代码安全且可组合，适合直接起项目。",
+   "scenario": "从零开始搭建新代码项目时",
+   "tags": [
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Design coding projects with clear architecture, steps, and best practices.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_coding_project/system.md",
+   "upstream_path": "data/patterns/create_coding_project/system.md",
+   "content_hash": "dd6921ba824c7709",
+   "status": "translated"
+  },
+  {
+   "name": "create_design_document",
+   "zh_title": "软件设计文档",
+   "zh_desc": "输入系统或组件信息，以软件、云与安全架构专家视角撰写清晰的设计文档，采用C4模型描述架构层级与组件关系。",
+   "scenario": "编写系统架构设计文档时",
+   "tags": [
+    "DEVELOPMENT",
+    "WRITING",
+    "VISUALIZE"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Create software architecture docs using C4 model.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_design_document/system.md",
+   "upstream_path": "data/patterns/create_design_document/system.md",
+   "content_hash": "23ef7ffda48444bc",
+   "status": "translated"
+  },
+  {
+   "name": "create_design_system",
+   "zh_title": "CSS设计系统",
+   "zh_desc": "输入需求或现有设计，生成生产可用的完整CSS设计系统，涵盖设计令牌、字体、间距与组件规范，可直接用于现代Web项目。",
+   "scenario": "从零搭建前端设计系统时",
+   "tags": [
+    "DEVELOPMENT",
+    "VISUALIZE",
+    "WRITING"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Create comprehensive CSS design systems with tokens, typography, spacing, and components.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_design_system/system.md",
+   "upstream_path": "data/patterns/create_design_system/system.md",
+   "content_hash": "b148c02e0e4b47a5",
+   "status": "translated"
+  },
+  {
+   "name": "create_git_diff_commit",
+   "zh_title": "Git提交信息生成",
+   "zh_desc": "输入Git diff变更内容，提炼到底改了什么，生成干净清晰的提交说明与提交命令，像项目经理一样准确概括代码变更。",
+   "scenario": "根据diff写提交信息时",
+   "tags": [
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Generate clear git commit messages and commands for code changes.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_git_diff_commit/system.md",
+   "upstream_path": "data/patterns/create_git_diff_commit/system.md",
+   "content_hash": "8002a38688601ca0",
+   "status": "translated"
+  },
+  {
+   "name": "create_golden_rules",
+   "zh_title": "黄金规则提炼",
+   "zh_desc": "输入代码库、文档或团队实践，提炼其中隐含的规范成清晰可强制执行的黄金规则，遵循即可避免约八成的常见错误与不一致。",
+   "scenario": "沉淀团队统一编码规范时",
+   "tags": [
+    "ANALYSIS",
+    "DEVELOPMENT",
+    "EXTRACT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Extract enforceable rules from codebases to prevent common mistakes and ensure consistency.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_golden_rules/system.md",
+   "upstream_path": "data/patterns/create_golden_rules/system.md",
+   "content_hash": "ff6a2cf64d4608fa",
+   "status": "translated"
+  },
+  {
+   "name": "create_loe_document",
+   "zh_title": "工作量评估文档",
+   "zh_desc": "输入任务或项目需求，撰写结构清晰的工作量等级评估文档，估算所需人力、资源与成本，供项目报价与排期决策使用。",
+   "scenario": "评估项目工作量成本时",
+   "tags": [
+    "DEVELOPMENT",
+    "BUSINESS"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Create detailed Level of Effort (LOE) estimation documents.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_loe_document/system.md",
+   "upstream_path": "data/patterns/create_loe_document/system.md",
+   "content_hash": "3cb181a8a9518ba2",
+   "status": "translated"
+  },
+  {
+   "name": "create_mermaid_visualization",
+   "zh_title": "Mermaid图表",
+   "zh_desc": "输入任意概念或流程，分析其核心结构并输出Mermaid的Markdown语法代码，可在支持的工具中直接渲染成流程图等图表。",
+   "scenario": "把想法快速画成流程图时",
+   "tags": [
+    "VISUALIZE",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Transform concepts into visual diagrams using Mermaid syntax.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_mermaid_visualization/system.md",
+   "upstream_path": "data/patterns/create_mermaid_visualization/system.md",
+   "content_hash": "871a5cd183f38ed6",
+   "status": "translated"
+  },
+  {
+   "name": "create_mermaid_visualization_for_github",
+   "zh_title": "GitHub用Mermaid图",
+   "zh_desc": "输入工作流或系统说明，生成适配GitHub文档渲染的Mermaid图表语法，嵌入Markdown即可在仓库页面中展示流程与结构。",
+   "scenario": "给GitHub文档配图时",
+   "tags": [
+    "VISUALIZE",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Create Mermaid diagrams to visualize workflows in documentation.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_mermaid_visualization_for_github/system.md",
+   "upstream_path": "data/patterns/create_mermaid_visualization_for_github/system.md",
+   "content_hash": "bbac67a3cd214718",
+   "status": "translated"
+  },
+  {
+   "name": "create_pattern",
+   "zh_title": "创建提示词Pattern",
+   "zh_desc": "把用户给出的提示词需求拆解重组：分析指令结构与示例，输出符合Fabric规范、含身份目的、步骤与输出格式的结构化Pattern。",
+   "scenario": "为Fabric新建提示词模板时",
+   "tags": [
+    "AI",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Design structured patterns for AI prompts with identity, purpose, steps, output.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_pattern/system.md",
+   "upstream_path": "data/patterns/create_pattern/system.md",
+   "content_hash": "543cd8ed5a6e2c13",
+   "status": "translated"
+  },
+  {
+   "name": "create_prd",
+   "zh_title": "生成产品需求文档",
+   "zh_desc": "把产品想法、描述或提示转成结构化PRD：输出目标、功能、技术要求、用户体验与成功指标等完整章节，供开发与干系人对齐。",
+   "scenario": "新产品立项、写需求文档时",
+   "tags": [
+    "DEVELOPMENT",
+    "WRITING",
+    "BUSINESS"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Create Product Requirements Documents (PRDs) from input specs.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_prd/system.md",
+   "upstream_path": "data/patterns/create_prd/system.md",
+   "content_hash": "21893c15e0e87aca",
+   "status": "translated"
+  },
+  {
+   "name": "create_user_story",
+   "zh_title": "撰写用户故事",
+   "zh_desc": "为复杂软件的新功能撰写简洁清晰的技术用户故事：输出角色需求描述与验收标准，帮助开发团队明确要实现什么。",
+   "scenario": "敏捷开发写需求条目时",
+   "tags": [
+    "DEVELOPMENT",
+    "WRITING"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Write clear user stories with descriptions and acceptance criteria.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_user_story/system.md",
+   "upstream_path": "data/patterns/create_user_story/system.md",
+   "content_hash": "4c402272ce075513",
+   "status": "translated"
+  },
+  {
+   "name": "explain_code",
+   "zh_title": "讲解代码",
+   "zh_desc": "深入分析输入的代码、安全工具输出或配置文件并加以讲解，帮助读者理解其功能、逻辑与关键细节，自由组织讲法。",
+   "scenario": "拿到陌生代码需要看懂时",
+   "tags": [
+    "DEVELOPMENT",
+    "LEARNING"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Analyze/explain code, security tool outputs, and configs.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_code/system.md",
+   "upstream_path": "data/patterns/explain_code/system.md",
+   "content_hash": "fe381e0b31b2e3d9",
+   "status": "translated"
+  },
+  {
+   "name": "explain_docs",
+   "zh_title": "重写技术文档说明",
+   "zh_desc": "抓住技术文档与使用说明中最重要的部分，将其改写成更清晰易懂的新说明，配以更好理解的步骤与表达方式。",
+   "scenario": "官方文档难懂需简化时",
+   "tags": [
+    "WRITING",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Transform technical docs into clearer explanations with examples.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_docs/system.md",
+   "upstream_path": "data/patterns/explain_docs/system.md",
+   "content_hash": "d114e659f1235439",
+   "status": "translated"
+  },
+  {
+   "name": "explain_project",
+   "zh_title": "讲解项目全貌",
+   "zh_desc": "读取项目文档后输出面向用户与开发者的精炼概览：说明项目做什么、如何使用，并给出使用说明与示例要点。",
+   "scenario": "快速了解新开源项目时",
+   "tags": [
+    "DEVELOPMENT",
+    "BUSINESS"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Create project overviews with instructions and usage examples.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_project/system.md",
+   "upstream_path": "data/patterns/explain_project/system.md",
+   "content_hash": "2b99f4ccf16b89f4",
+   "status": "translated"
+  },
+  {
+   "name": "export_data_as_csv",
+   "zh_title": "导出数据为CSV",
+   "zh_desc": "扫描输入文本中出现的所有数据结构，将其提取整理成格式规范的CSV数据输出，确保数据完整性不丢失不失真。",
+   "scenario": "把文档数据搬进表格时",
+   "tags": [
+    "CONVERSION",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Extract data and convert to CSV, preserving data integrity.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/export_data_as_csv/system.md",
+   "upstream_path": "data/patterns/export_data_as_csv/system.md",
+   "content_hash": "d1ca0083aeff5aff",
+   "status": "translated"
+  },
+  {
+   "name": "extract_algorithm_update_recommendations",
+   "zh_title": "提取算法改进建议",
+   "zh_desc": "解读输入内容中描述的做事算法与流程，输出一份建议清单，指出应如何改进现有做法的步骤与具体的调整方向。",
+   "scenario": "想优化工作流程方法时",
+   "tags": [
+    "EXTRACT",
+    "DEVELOPMENT",
+    "ANALYSIS"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Extract recommendations for improving algorithms, focusing on steps.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_algorithm_update_recommendations/system.md",
+   "upstream_path": "data/patterns/extract_algorithm_update_recommendations/system.md",
+   "content_hash": "b6c74d7f8dc886d2",
+   "status": "translated"
+  },
+  {
+   "name": "extract_bd_ideas",
+   "zh_title": "提取待办议题",
+   "zh_desc": "从会议记录、头脑风暴、文章或对话中提取具体可执行的想法，将其转成结构良好的bd议题创建命令，含优先级与范围。",
+   "scenario": "把讨论变成任务清单时",
+   "tags": [
+    "EXTRACT",
+    "ANALYSIS",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Extract actionable ideas from content and transform into bd create commands.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_bd_ideas/system.md",
+   "upstream_path": "data/patterns/extract_bd_ideas/system.md",
+   "content_hash": "0413349fe5c507d2",
+   "status": "translated"
+  },
+  {
+   "name": "extract_mcp_servers",
+   "zh_title": "提取MCP服务器信息",
+   "zh_desc": "分析涉及MCP协议的内容，识别并提取其中提到的MCP服务器及其功能、能力、集成方式和使用模式等详细信息。",
+   "scenario": "调研MCP生态工具时",
+   "tags": [
+    "ANALYSIS",
+    "EXTRACT",
+    "DEVELOPMENT",
+    "AI"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Analyzes content to identify and extract detailed information about Model Context Protocol (MCP) servers.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_mcp_servers/system.md",
+   "upstream_path": "data/patterns/extract_mcp_servers/system.md",
+   "content_hash": "11171a1a174cf98f",
+   "status": "translated"
+  },
+  {
+   "name": "extract_poc",
+   "zh_title": "提取漏洞验证PoC",
+   "zh_desc": "从安全报告和漏洞赏金报告中找出漏洞验证的PoC链接及其他验证方法，输出可直接运行的命令加URL的验证方式。",
+   "scenario": "需要复现验证安全漏洞时",
+   "tags": [
+    "DEVELOPMENT",
+    "BUSINESS"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Extract/document proof-of-concept demos from technical content.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_poc/system.md",
+   "upstream_path": "data/patterns/extract_poc/system.md",
+   "content_hash": "177018dbf0829286",
+   "status": "translated"
+  },
+  {
+   "name": "extract_product_features",
+   "zh_title": "提取产品功能列表",
+   "zh_desc": "从产品介绍、文档等输入中提取完整的产品功能特性列表，并按类别整理成结构化清单，便于产品分析和竞品对比。",
+   "scenario": "做产品分析或竞品对比时",
+   "tags": [
+    "EXTRACT",
+    "BUSINESS",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Extract/categorize product features into a structured list.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_product_features/system.md",
+   "upstream_path": "data/patterns/extract_product_features/system.md",
+   "content_hash": "c0d89086c418b810",
+   "status": "translated"
+  },
+  {
+   "name": "generate_code_rules",
+   "zh_title": "生成AI编程规则",
+   "zh_desc": "从编程教程或文字稿中提炼AI辅助编程的最佳实践，压缩成最精简的规则集合，每条用一句话的直接指令以列表输出。",
+   "scenario": "为编程助手制定规范时",
+   "tags": [
+    "ANALYSIS",
+    "EXTRACT",
+    "DEVELOPMENT",
+    "AI"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Extracts a list of best practices rules for AI coding assisted tools.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/generate_code_rules/system.md",
+   "upstream_path": "data/patterns/generate_code_rules/system.md",
+   "content_hash": "367a86bda5435c67",
+   "status": "translated"
+  },
+  {
+   "name": "identify_job_stories",
+   "zh_title": "用户任务故事提取",
+   "zh_desc": "输入用户访谈、反馈或产品使用描述，从中提取和分析Job Stories用户任务故事，理清用户在具体情境下的动机、期望结果与成功标准。",
+   "scenario": "做产品需求和用户研究时",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Extract/analyze user job stories to understand motivations.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/identify_job_stories/system.md",
+   "upstream_path": "data/patterns/identify_job_stories/system.md",
+   "content_hash": "f86affbaba2911d3",
+   "status": "translated"
+  },
+  {
+   "name": "improve_prompt",
+   "zh_title": "提示词优化",
+   "zh_desc": "输入一条现有的大模型提示词，运用提示工程的策略与技巧进行改写优化，输出一条更清晰、更具体、效果更好的提示词版本。",
+   "scenario": "打磨已有提示词效果时",
+   "tags": [
+    "AI",
+    "WRITING",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Enhance AI prompts by refining clarity and specificity.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/improve_prompt/system.md",
+   "upstream_path": "data/patterns/improve_prompt/system.md",
+   "content_hash": "81a1d238b0087d62",
+   "status": "translated"
+  },
+  {
+   "name": "official_pattern_template",
+   "zh_title": "官方Pattern模板",
+   "zh_desc": "这是创建新Fabric Pattern的官方模板骨架，留有身份与专长的填空占位符，按统一的章节结构填写后即可生成一个规范的新Pattern。",
+   "scenario": "新建自定义Pattern时",
+   "tags": [
+    "DEVELOPMENT",
+    "WRITING"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Define pattern templates with sections for consistent creation.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/official_pattern_template/system.md",
+   "upstream_path": "data/patterns/official_pattern_template/system.md",
+   "content_hash": "8632b01343b54f6f",
+   "status": "translated"
+  },
+  {
+   "name": "refine_design_document",
+   "zh_title": "设计文档精炼",
+   "zh_desc": "输入软件、云或安全架构的设计文档草稿，凭借架构专家视角进行精炼改写，输出更清晰、准确、表述更专业的正式设计文档。",
+   "scenario": "打磨系统设计文档的时候",
+   "tags": [
+    "DEVELOPMENT",
+    "WRITING"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Enhance design docs by improving clarity and accuracy.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/refine_design_document/system.md",
+   "upstream_path": "data/patterns/refine_design_document/system.md",
+   "content_hash": "4f08ab330b57ca66",
+   "status": "translated"
+  },
+  {
+   "name": "review_design",
+   "zh_title": "方案设计评审",
+   "zh_desc": "输入软件系统的设计方案，由资深解决方案架构师通读后进行评审，重点评估其可扩展性与安全性等方面的问题与风险。",
+   "scenario": "评审技术方案设计的时候",
+   "tags": [
+    "DEVELOPMENT",
+    "ANALYSIS",
+    "REVIEW"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Evaluate software designs for scalability and security.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/review_design/system.md",
+   "upstream_path": "data/patterns/review_design/system.md",
+   "content_hash": "75ea9f2270321ccf",
+   "status": "translated"
+  },
+  {
+   "name": "sanitize_broken_html_to_markdown",
+   "zh_title": "破损HTML转Markdown",
+   "zh_desc": "输入混乱破损的HTML代码，按特定的一套规则将其清洗并转换成规范整洁的Markdown，风格适配作者个人网站的排版要求。",
+   "scenario": "清理网页HTML转Markdown时",
+   "tags": [
+    "CONVERSION",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Clean/convert malformed HTML to markdown.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/sanitize_broken_html_to_markdown/system.md",
+   "upstream_path": "data/patterns/sanitize_broken_html_to_markdown/system.md",
+   "content_hash": "91873fa37f9c6bdd",
+   "status": "translated"
+  },
+  {
+   "name": "suggest_gt_command",
+   "zh_title": "Gas Town命令推荐",
+   "zh_desc": "用自然语言描述你想完成的任务，它会理解你的意图并给出最准确的Gas Town即GT命令，附带防错说明和可替代的其他做法。",
+   "scenario": "不知道该用哪条GT命令时",
+   "tags": [
+    "DEVELOPMENT",
+    "ANALYSIS"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Suggest optimal Gas Town (GT) commands based on user intent and task description.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/suggest_gt_command/system.md",
+   "upstream_path": "data/patterns/suggest_gt_command/system.md",
+   "content_hash": "1ed1c3b2e3de2d4a",
+   "status": "translated"
+  },
+  {
+   "name": "suggest_openclaw_pattern",
+   "zh_title": "OpenClaw命令推荐",
+   "zh_desc": "用自然语言描述你想完成的任务，它会给出最准确的OpenClaw CLI命令，这个智能体框架可连接大模型与消息平台、设备及开发工具。",
+   "scenario": "不知道该用哪条OpenClaw命令时",
+   "tags": [
+    "DEVELOPMENT",
+    "ANALYSIS"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Suggest optimal Openclaw CLI commands based on user intent and task description.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/suggest_openclaw_pattern/system.md",
+   "upstream_path": "data/patterns/suggest_openclaw_pattern/system.md",
+   "content_hash": "2be25f50102e48d4",
+   "status": "translated"
+  },
+  {
+   "name": "suggest_pattern",
+   "zh_title": "Fabric Pattern推荐",
+   "zh_desc": "输入你想达成的目标或需求，它会分析需求并从Fabric的全部Pattern中推荐最合适的一个或命令组合，告诉你该用哪个来完成任务。",
+   "scenario": "面对众多Pattern不知选哪个时",
+   "tags": [
+    "AI",
+    "ANALYSIS",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Recommend Fabric patterns based on user requirements.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/suggest_pattern/system.md",
+   "upstream_path": "data/patterns/suggest_pattern/system.md",
+   "content_hash": "571a7c2499cd24ab",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_git_changes",
+   "zh_title": "Git一周变更摘要",
+   "zh_desc": "输入GitHub项目最近7天的提交与变更记录，提炼关键功能修改和重要调整，输出干净易读的项目进展更新说明。",
+   "scenario": "写项目周报或版本动态时",
+   "tags": [
+    "DEVELOPMENT",
+    "SUMMARIZE"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Summarize git changes highlighting key modifications.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_git_changes/system.md",
+   "upstream_path": "data/patterns/summarize_git_changes/system.md",
+   "content_hash": "12cd31fe6aafc29d",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_git_diff",
+   "zh_title": "Git Diff变更摘要",
+   "zh_desc": "输入git diff输出内容，忽略格式噪音，聚焦功能层面的增删改变化，生成简洁清晰的代码变更摘要说明。",
+   "scenario": "提交代码前自查改动时",
+   "tags": [
+    "DEVELOPMENT",
+    "ANALYSIS"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Summarize git diff output highlighting functional changes.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_git_diff/system.md",
+   "upstream_path": "data/patterns/summarize_git_diff/system.md",
+   "content_hash": "891e143ef5750799",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_pull-requests",
+   "zh_title": "PR变更摘要",
+   "zh_desc": "输入代码仓库的Pull Request内容，提炼每个PR改了什么、为什么改，输出便于reviewer快速浏览的变更摘要。",
+   "scenario": "评审大量待合并PR时",
+   "tags": [
+    "SUMMARIZE",
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Summarize pull requests highlighting code changes.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_pull-requests/system.md",
+   "upstream_path": "data/patterns/summarize_pull-requests/system.md",
+   "content_hash": "7acd1a8ae960e3cf",
+   "status": "translated"
+  },
+  {
+   "name": "write_pull-request",
+   "zh_title": "PR描述撰写",
+   "zh_desc": "输入当前分支与主分支的git diff内容，以资深工程师视角写出PR描述，讲清改动、理由并列出潜在的bug风险。",
+   "scenario": "提PR前写变更说明时",
+   "tags": [
+    "DEVELOPMENT"
+   ],
+   "group": "开发与代码",
+   "desc_en": "Create pull request descriptions with summaries of changes.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_pull-request/system.md",
+   "upstream_path": "data/patterns/write_pull-request/system.md",
+   "content_hash": "9b0849a395dee331",
+   "status": "translated"
+  },
+  {
+   "name": "create_art_prompt",
+   "zh_title": "AI绘画提示词",
+   "zh_desc": "输入一个概念，先输出约100词的视觉描述，再将其转化为给AI绘画模型的直接指令，写清画面样貌与情绪以生成贴合的艺术图。",
+   "scenario": "为概念生成绘图提示时",
+   "tags": [
+    "AI",
+    "VISUALIZE"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Transform concepts into detailed AI art prompts with style references.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_art_prompt/system.md",
+   "upstream_path": "data/patterns/create_art_prompt/system.md",
+   "content_hash": "f49e5e4a05bea12a",
+   "status": "translated"
+  },
+  {
+   "name": "create_conceptmap",
+   "zh_title": "交互式概念图",
+   "zh_desc": "输入非结构化文本，抽取核心概念、子主题与逻辑关系，生成用Vis.js构建的独立可交互HTML概念图，以节点和有向边呈现。",
+   "scenario": "把文章内容做成概念图时",
+   "tags": [
+    "VISUALIZE"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Transforms unstructured text or markdown content into an interactive HTML concept map using Vis.js by extracting key concepts and their logical relationships.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_conceptmap/system.md",
+   "upstream_path": "data/patterns/create_conceptmap/system.md",
+   "content_hash": "eeca4b56b68c48ae",
+   "status": "translated"
+  },
+  {
+   "name": "create_excalidraw_visualization",
+   "zh_title": "Excalidraw图表",
+   "zh_desc": "输入一组概念及其关系，将其映射为Excalidraw的图表语法，输出可在Excalidraw中渲染的关系图，帮助直观理解复杂想法。",
+   "scenario": "绘制手绘风格关系图时",
+   "tags": [
+    "VISUALIZATION"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Create visualizations using Excalidraw.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_excalidraw_visualization/system.md",
+   "upstream_path": "data/patterns/create_excalidraw_visualization/system.md",
+   "content_hash": "3064920f4e2dfc26",
+   "status": "translated"
+  },
+  {
+   "name": "create_idea_compass",
+   "zh_title": "想法罗盘梳理",
+   "zh_desc": "输入一个想法或议题，从定义、证据、关系与影响等维度系统梳理，构建结构化且相互关联的思考体系，帮你想透一个问题。",
+   "scenario": "系统性梳理复杂想法时",
+   "tags": [
+    "ANALYSIS",
+    "VISUALIZE",
+    "CR THINKING"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Organize thoughts analyzing definitions, evidence, relationships, implications.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_idea_compass/system.md",
+   "upstream_path": "data/patterns/create_idea_compass/system.md",
+   "content_hash": "150750fb01373258",
+   "status": "translated"
+  },
+  {
+   "name": "create_keynote",
+   "zh_title": "TED式演讲稿",
+   "zh_desc": "输入主题素材，设计TED水准的主题演讲，包含叙事主线、幻灯片结构与演讲备注，打造有感染力的完整演讲方案。",
+   "scenario": "筹备主题演讲与演示时",
+   "tags": [
+    "WRITING",
+    "VISUALIZE"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Design TED-style presentations with narrative, slides and notes.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_keynote/system.md",
+   "upstream_path": "data/patterns/create_keynote/system.md",
+   "content_hash": "cd526650fd5d8949",
+   "status": "translated"
+  },
+  {
+   "name": "create_logo",
+   "zh_title": "极简Logo方案",
+   "zh_desc": "输入公司或品牌信息，构思简洁优雅、无文字的极简矢量Logo方案，抓住品牌核心气质，输出可用于生成Logo的设计描述。",
+   "scenario": "为品牌设计Logo时",
+   "tags": [
+    "VISUALIZE",
+    "BUSINESS"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Generate minimalist logo prompts capturing brand essence via vector graphics.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_logo/system.md",
+   "upstream_path": "data/patterns/create_logo/system.md",
+   "content_hash": "11820aa3eea97311",
+   "status": "translated"
+  },
+  {
+   "name": "create_markmap_visualization",
+   "zh_title": "Markmap思维导图",
+   "zh_desc": "输入任意复杂内容，提炼核心要点并按层级组织，输出Markmap语法，可直接渲染成思维导图呈现内容骨架。",
+   "scenario": "将长篇内容转思维导图时",
+   "tags": [
+    "VISUALIZE",
+    "CONVERSION",
+    "CR THINKING"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Transform complex ideas into mind maps using Markmap syntax.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_markmap_visualization/system.md",
+   "upstream_path": "data/patterns/create_markmap_visualization/system.md",
+   "content_hash": "5f6bdf44ef25aaf8",
+   "status": "translated"
+  },
+  {
+   "name": "create_recursive_outline",
+   "zh_title": "递归拆解任务大纲",
+   "zh_desc": "把复杂任务、项目或想法逐层递归拆解：输入整体目标，输出层级大纲，将每个部分细化到最小可执行行动项为止。",
+   "scenario": "大项目规划、长文结构梳理时",
+   "tags": [
+    "ANALYSIS",
+    "VISUALIZE"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Break down tasks into hierarchical, actionable components via decomposition.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_recursive_outline/system.md",
+   "upstream_path": "data/patterns/create_recursive_outline/system.md",
+   "content_hash": "ace268b1372de042",
+   "status": "translated"
+  },
+  {
+   "name": "create_slides",
+   "zh_title": "生成演示幻灯片",
+   "zh_desc": "把输入文档转成Reveal.js HTML幻灯片：提炼叙事主线与核心论点，输出文字精简、配SVG插图的视觉化演示文稿。",
+   "scenario": "把长文档做成演讲PPT时",
+   "tags": [
+    "VISUALIZE",
+    "WRITING",
+    "CONVERSION"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Transform content into visual Reveal.js HTML slideshows with minimal text and rich SVG illustrations.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_slides/system.md",
+   "upstream_path": "data/patterns/create_slides/system.md",
+   "content_hash": "cfebbdefdc7800a8",
+   "status": "translated"
+  },
+  {
+   "name": "create_video_chapters",
+   "zh_title": "生成视频章节",
+   "zh_desc": "分析视频转录稿，提取最值得看的话题段落并标注时间戳，输出带时间点的章节列表，方便观众定位跳转观看。",
+   "scenario": "给长视频做分章节标注时",
+   "tags": [
+    "EXTRACT",
+    "VISUALIZE"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Organize video content into timestamped chapters highlighting key topics.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_video_chapters/system.md",
+   "upstream_path": "data/patterns/create_video_chapters/system.md",
+   "content_hash": "85b892c3cbae7da1",
+   "status": "translated"
+  },
+  {
+   "name": "create_visualization",
+   "zh_title": "ASCII图示化概念",
+   "zh_desc": "把任意输入的核心概念转成ASCII字符画可视化：即使需要大幅简化也必输出图示，并解释图中各要素之间的关系。",
+   "scenario": "终端里快速画示意图时",
+   "tags": [
+    "VISUALIZE"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Transform concepts to ASCII art with explanations of relationships.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_visualization/system.md",
+   "upstream_path": "data/patterns/create_visualization/system.md",
+   "content_hash": "a1dddc03c03d12eb",
+   "status": "translated"
+  },
+  {
+   "name": "enrich_blog_post",
+   "zh_title": "润色博客文章",
+   "zh_desc": "按静态站点生成规范润色Markdown博客文件：改善文章结构与视觉呈现，使其能被静态生成器正确渲染成HTML页面。",
+   "scenario": "发布静态博客前优化时",
+   "tags": [
+    "WRITING",
+    "VISUALIZE"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Enhance blog posts by improving structure and visuals for static sites.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/enrich_blog_post/system.md",
+   "upstream_path": "data/patterns/enrich_blog_post/system.md",
+   "content_hash": "4a0740f13e86dc4f",
+   "status": "translated"
+  },
+  {
+   "name": "t_visualize_mission_goals_projects",
+   "zh_title": "使命目标可视化",
+   "zh_desc": "结合组织背景资料，把使命、目标与项目之间的层级和关联关系梳理成清晰的可视化结构，便于对齐理解。",
+   "scenario": "梳理公司战略地图对齐时",
+   "tags": [
+    "VISUALIZE",
+    "BUSINESS",
+    "STRATEGY"
+   ],
+   "group": "可视化生成",
+   "desc_en": "Visualize missions and goals to clarify relationships.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_visualize_mission_goals_projects/system.md",
+   "upstream_path": "data/patterns/t_visualize_mission_goals_projects/system.md",
+   "content_hash": "3444b04dd3b42892",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_debate",
+   "zh_title": "辩论结构分析",
+   "zh_desc": "中立分析辩论文字稿，梳理双方论点、共识与分歧以及情绪强度，帮助读者跳出立场更全面地理解辩论全貌。",
+   "scenario": "看完辩论想理清论点时",
+   "tags": [
+    "ANALYSIS",
+    "SUMMARIZE",
+    "CR THINKING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Analyze debates identifying arguments, agreements, and emotional intensity.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_debate/system.md",
+   "upstream_path": "data/patterns/analyze_debate/system.md",
+   "content_hash": "1ab60c7712415171",
+   "status": "translated"
+  },
+  {
+   "name": "capture_thinkers_work",
+   "zh_title": "思想家成果提炼",
+   "zh_desc": "输入一位哲学家、作家或知名思想家，按模板提炼其核心概念、背景和主要思想，系统呈现这位人物教给世人的东西。",
+   "scenario": "快速了解某思想家体系时",
+   "tags": [
+    "SUMMARIZE",
+    "RESEARCH",
+    "CR THINKING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Extract key concepts, background, and ideas from notable thinkers' work.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/capture_thinkers_work/system.md",
+   "upstream_path": "data/patterns/capture_thinkers_work/system.md",
+   "content_hash": "1f188a0d87dce785",
+   "status": "translated"
+  },
+  {
+   "name": "chinese_article_summary",
+   "zh_title": "中文长文摘要",
+   "zh_desc": "输入中文长文，提炼全文主旨和各主要论点，输出不超过原文20%的连贯中文Markdown摘要，保持客观不添加原文外信息。",
+   "scenario": "快速读完中文长篇文章时",
+   "tags": [
+    "SUMMARIZE",
+    "WRITING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Summarize long Chinese articles into concise, objective Chinese summaries.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/chinese_article_summary/system.md",
+   "upstream_path": "data/patterns/chinese_article_summary/system.md",
+   "content_hash": "3bf73dd26d5058a2",
+   "status": "translated"
+  },
+  {
+   "name": "concall_summary",
+   "zh_title": "财报电话会摘要",
+   "zh_desc": "输入财报电话会文字稿，以股票分析师视角提炼管理层表态、分析师提问、财务运营要点、风险信号和战略潜台词，供投资决策参考。",
+   "scenario": "投资者研读业绩会纪要时",
+   "tags": [
+    "SUMMARIZE",
+    "BUSINESS"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Extract strategic insights from earnings transcripts for investors.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/concall_summary/system.md",
+   "upstream_path": "data/patterns/concall_summary/system.md",
+   "content_hash": "72a97866ddbcb19c",
+   "status": "translated"
+  },
+  {
+   "name": "create_5_sentence_summary",
+   "zh_title": "五级极简摘要",
+   "zh_desc": "输入一段内容，按五个由详到简的层级生成摘要，从五句话逐步压缩到一句话乃至更短，层层提炼核心意思供快速抓重点。",
+   "scenario": "需要多层级超浓缩摘要时",
+   "tags": [
+    "SUMMARIZE",
+    "WRITING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Generate concise summaries of content in five levels, five words to one.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_5_sentence_summary/system.md",
+   "upstream_path": "data/patterns/create_5_sentence_summary/system.md",
+   "content_hash": "25c3789926d19227",
+   "status": "translated"
+  },
+  {
+   "name": "create_micro_summary",
+   "zh_title": "微型摘要",
+   "zh_desc": "输入一段内容，输出Markdown格式的精炼摘要，先用一句话给出总览，再列出关键要点，适合快速掌握长篇内容的核心。",
+   "scenario": "需要一句话加要点摘要时",
+   "tags": [
+    "SUMMARIZE",
+    "WRITING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Generate concise summaries with one-sentence overview and key points.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_micro_summary/system.md",
+   "upstream_path": "data/patterns/create_micro_summary/system.md",
+   "content_hash": "860d44e44534b269",
+   "status": "translated"
+  },
+  {
+   "name": "create_newsletter_entry",
+   "zh_title": "通讯稿条目",
+   "zh_desc": "输入素材内容，仿Frontend Weekly风格提炼关键洞察，写成简洁的Newsletter条目，让读者快速抓住值得关注的要点。",
+   "scenario": "撰写技术通讯稿条目时",
+   "tags": [
+    "WRITING",
+    "SUMMARIZE",
+    "BUSINESS"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Write concise newsletter content focusing on key insights.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_newsletter_entry/system.md",
+   "upstream_path": "data/patterns/create_newsletter_entry/system.md",
+   "content_hash": "96b19e124e2a3bb8",
+   "status": "translated"
+  },
+  {
+   "name": "create_summary",
+   "zh_title": "生成内容摘要",
+   "zh_desc": "提炼输入内容的核心要点与主旨，按固定Markdown格式输出简洁摘要，帮助快速掌握长文、报告或转录稿的全貌。",
+   "scenario": "快速读懂长文长报告时",
+   "tags": [
+    "SUMMARIZE",
+    "WRITING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Generate concise summaries by extracting key points and main ideas.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_summary/system.md",
+   "upstream_path": "data/patterns/create_summary/system.md",
+   "content_hash": "29d393bf16f9a894",
+   "status": "translated"
+  },
+  {
+   "name": "extract_book_recommendations",
+   "zh_title": "提炼书籍精华建议",
+   "zh_desc": "输入一本书名，输出该书最重要内容的完整摘要，并提炼和优先排序其中最实用的建议，帮助快速把握全书精华。",
+   "scenario": "快速读懂一本书的核心价值时",
+   "tags": [
+    "EXTRACT",
+    "SUMMARIZE",
+    "SELF"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Extract/prioritize practical advice from books.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_book_recommendations/system.md",
+   "upstream_path": "data/patterns/extract_book_recommendations/system.md",
+   "content_hash": "1199b1019f995a4a",
+   "status": "translated"
+  },
+  {
+   "name": "extract_core_message",
+   "zh_title": "提炼核心信息",
+   "zh_desc": "剖析演讲、文章或一位作者的全部作品，提炼其根本的核心信息，并用一句话清晰有力地表达出来，避免淹没在细节中。",
+   "scenario": "把握演讲或文章主旨时",
+   "tags": [
+    "ANALYSIS",
+    "SUMMARIZE"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Distill the fundamental message into a single, impactful sentence.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_core_message/system.md",
+   "upstream_path": "data/patterns/extract_core_message/system.md",
+   "content_hash": "8b83712aa4038bdc",
+   "status": "translated"
+  },
+  {
+   "name": "extract_latest_video",
+   "zh_title": "获取最新视频信息",
+   "zh_desc": "解析YouTube的RSS订阅源，提取其中最新一期视频的链接、标题和内容信息，便于快速获取频道的最新更新动态。",
+   "scenario": "追踪频道最新一期视频时",
+   "tags": [
+    "EXTRACT",
+    "SUMMARIZE"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Extract info from the latest video, including title and content.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_latest_video/system.md",
+   "upstream_path": "data/patterns/extract_latest_video/system.md",
+   "content_hash": "5645888ff9da9bda",
+   "status": "translated"
+  },
+  {
+   "name": "extract_main_idea",
+   "zh_title": "提取核心想法",
+   "zh_desc": "从任意输入中提取最主要、最令人意外且最有洞察力的核心想法，并给出围绕该想法的核心概念说明与行动推荐。",
+   "scenario": "快速抓住内容最亮观点时",
+   "tags": [
+    "ANALYSIS",
+    "EXTRACT",
+    "SUMMARIZE"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Identify key idea, providing core concept and recommendation.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_main_idea/system.md",
+   "upstream_path": "data/patterns/extract_main_idea/system.md",
+   "content_hash": "71dcfd4d82c03a93",
+   "status": "translated"
+  },
+  {
+   "name": "summarize",
+   "zh_title": "通用内容总结",
+   "zh_desc": "输入文章、报告等任意长内容，提炼其核心要点与关键细节，输出一份格式规范的Markdown摘要，帮你快速把握全文主旨。",
+   "scenario": "快速提炼长文要点的时候",
+   "tags": [
+    "SUMMARIZE",
+    "WRITING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Generate summaries capturing key points and details.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize/system.md",
+   "upstream_path": "data/patterns/summarize/system.md",
+   "content_hash": "29d393bf16f9a894",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_debate",
+   "zh_title": "辩论总结",
+   "zh_desc": "输入一场辩论或讨论的内容，分析各方的主要分歧点与核心论点，提炼共识与争议，输出简洁明了的辩论总结。",
+   "scenario": "复盘辩论讨论的核心分歧时",
+   "tags": [
+    "SUMMARIZE",
+    "ANALYSIS",
+    "CR THINKING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Summarize debates highlighting arguments and agreements.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_debate/system.md",
+   "upstream_path": "data/patterns/summarize_debate/system.md",
+   "content_hash": "c2aefd35c5f5bd5a",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_lecture",
+   "zh_title": "讲座课程摘要",
+   "zh_desc": "输入讲座或课程视频文字稿，按主题结构化提炼核心概念、定义和重点，并标注各话题出现的时间戳方便回看定位。",
+   "scenario": "课后复习整理视频课程时",
+   "tags": [
+    "SUMMARIZE",
+    "LEARNING",
+    "WRITING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Summarize lectures capturing key concepts and takeaways.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_lecture/system.md",
+   "upstream_path": "data/patterns/summarize_lecture/system.md",
+   "content_hash": "86fb4902e76662ea",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_legislation",
+   "zh_title": "法案立法摘要",
+   "zh_desc": "输入复杂的政治提案或立法文本，提炼核心条款、适用范围和潜在影响，输出普通人也能看懂的要点摘要。",
+   "scenario": "快速读懂新法案提案时",
+   "tags": [
+    "SUMMARIZE",
+    "ANALYSIS",
+    "WRITING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Summarize legislation highlighting key provisions and implications.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_legislation/system.md",
+   "upstream_path": "data/patterns/summarize_legislation/system.md",
+   "content_hash": "d0efdf071a4a2401",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_meeting",
+   "zh_title": "会议纪要摘要",
+   "zh_desc": "输入会议录音转写文本，提取讨论要点、关键决议和待办事项，输出结构完整又简洁的会议总结文档。",
+   "scenario": "会后整理会议记录存档时",
+   "tags": [
+    "SUMMARIZE",
+    "WRITING",
+    "BUSINESS"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Summarize meetings capturing discussions and decisions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_meeting/system.md",
+   "upstream_path": "data/patterns/summarize_meeting/system.md",
+   "content_hash": "2a255ab3ac6ab7e5",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_micro",
+   "zh_title": "极简微摘要",
+   "zh_desc": "输入任意长文本，按固定Markdown格式极度压缩，只保留最核心的一句话要点，生成超精简的微型摘要。",
+   "scenario": "需要一句话概括内容时",
+   "tags": [
+    "SUMMARIZE",
+    "WRITING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Generate extremely concise summaries of content.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_micro/system.md",
+   "upstream_path": "data/patterns/summarize_micro/system.md",
+   "content_hash": "860d44e44534b269",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_newsletter",
+   "zh_title": "Newsletter摘要",
+   "zh_desc": "输入一期邮件Newsletter全文，提取刊名期号、20字总览及每条不超过16字的要点列表，快速抓住更新与趋势。",
+   "scenario": "批量速读订阅邮件简报时",
+   "tags": [
+    "SUMMARIZE",
+    "WRITING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Summarize newsletters highlighting updates and trends.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_newsletter/system.md",
+   "upstream_path": "data/patterns/summarize_newsletter/system.md",
+   "content_hash": "11b8162f41fbf360",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_paper",
+   "zh_title": "学术论文摘要",
+   "zh_desc": "输入学术论文全文，按审稿人视角提炼标题作者、研究目标、技术方法与主要发现，输出结构化的论文总结。",
+   "scenario": "快速筛选和精读论文时",
+   "tags": [
+    "SUMMARIZE",
+    "RESEARCH",
+    "WRITING",
+    "LEARNING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Summarize papers highlighting objectives and findings.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_paper/system.md",
+   "upstream_path": "data/patterns/summarize_paper/system.md",
+   "content_hash": "3061c19e654e4fac",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_rpg_session",
+   "zh_title": "桌游跑团剧情摘要",
+   "zh_desc": "输入朋友线下角色扮演游戏的对话实录，过滤闲聊只提取剧情事件、角色行动和关键决定，整理成战报式摘要。",
+   "scenario": "跑团后回顾剧情进度时",
+   "tags": [
+    "SUMMARIZE",
+    "GAMING",
+    "WRITING"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Summarize RPG sessions capturing story events and decisions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_rpg_session/system.md",
+   "upstream_path": "data/patterns/summarize_rpg_session/system.md",
+   "content_hash": "87da4d294f889b26",
+   "status": "translated"
+  },
+  {
+   "name": "youtube_summary",
+   "zh_title": "YouTube视频摘要",
+   "zh_desc": "输入YouTube视频的文字稿，提炼核心观点、主题和重要时刻，输出带时间戳的结构化摘要便于跳看精华片段。",
+   "scenario": "没时间看完长视频精华时",
+   "tags": [
+    "SUMMARIZE"
+   ],
+   "group": "摘要总结",
+   "desc_en": "Summarize YouTube videos with key points and timestamps.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/youtube_summary/system.md",
+   "upstream_path": "data/patterns/youtube_summary/system.md",
+   "content_hash": "1d7b341a6a985832",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_comments",
+   "zh_title": "评论情感分析",
+   "zh_desc": "分析网络评论的整体情感倾向，提取其中的表扬与批评要点，概括受众对内容的真实反应和主要意见分布。",
+   "scenario": "复盘视频文章的评论反馈时",
+   "tags": [
+    "ANALYSIS",
+    "EXTRACT"
+   ],
+   "group": "信息提取",
+   "desc_en": "Analyze user comments for sentiment, extract praise/criticism, and summarize reception.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_comments/system.md",
+   "upstream_path": "data/patterns/analyze_comments/system.md",
+   "content_hash": "31a0e8b32bb868ba",
+   "status": "translated"
+  },
+  {
+   "name": "create_aphorisms",
+   "zh_title": "格言警句汇编",
+   "zh_desc": "输入一个主题，搜集历史上真实存在、注明出处人物的相关格言警句，汇编成有据可查的格言集，而非自行编造句子。",
+   "scenario": "写作演讲需引用格言时",
+   "tags": [
+    "EXTRACT",
+    "WRITING"
+   ],
+   "group": "信息提取",
+   "desc_en": "Compile relevant, attributed aphorisms from historical figures on topics.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_aphorisms/system.md",
+   "upstream_path": "data/patterns/create_aphorisms/system.md",
+   "content_hash": "dadf327155a171a4",
+   "status": "translated"
+  },
+  {
+   "name": "create_tags",
+   "zh_title": "生成内容标签",
+   "zh_desc": "从文本中识别至少五个主题概念，生成单个词的标签（含作者与已有标签），用于内容分类与思维导图整理。",
+   "scenario": "笔记分类、内容打标签时",
+   "tags": [
+    "ANALYSIS",
+    "EXTRACT",
+    "WRITING"
+   ],
+   "group": "信息提取",
+   "desc_en": "Generate single-word tags for content categorization and mind mapping.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_tags/system.md",
+   "upstream_path": "data/patterns/create_tags/system.md",
+   "content_hash": "08ef636c4f3059e2",
+   "status": "translated"
+  },
+  {
+   "name": "create_upgrade_pack",
+   "zh_title": "提取认知升级包",
+   "zh_desc": "从输入内容中提炼世界模型更新与任务算法改进：输出可直接用于优化决策方式与做事方法的一组升级要点集合。",
+   "scenario": "读完好内容后沉淀方法时",
+   "tags": [
+    "EXTRACT",
+    "BUSINESS",
+    "CR THINKING"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract world model updates/algorithms to improve decision-making.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_upgrade_pack/system.md",
+   "upstream_path": "data/patterns/create_upgrade_pack/system.md",
+   "content_hash": "6c749a11cfe389c8",
+   "status": "translated"
+  },
+  {
+   "name": "extract_affiliate_products",
+   "zh_title": "提取联盟营销产品",
+   "zh_desc": "从内容转录稿中找出所有被推广、提及或使用过的产品、工具与品牌，挖掘创作者可获得联盟佣金收入的带货机会。",
+   "scenario": "自媒体找带货选品时用",
+   "tags": [
+    "EXTRACT",
+    "BUSINESS"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract products, tools, and brands from transcripts as affiliate revenue opportunities.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_affiliate_products/system.md",
+   "upstream_path": "data/patterns/extract_affiliate_products/system.md",
+   "content_hash": "5c025d07300ee85e",
+   "status": "translated"
+  },
+  {
+   "name": "extract_all_quotes",
+   "zh_title": "提取全部金句",
+   "zh_desc": "从播客、视频转录稿、文章或传记中提取所有有启发性与教育意义的引言与格言，尤其是创始人等名人的原话。",
+   "scenario": "做读书笔记摘录金句时",
+   "tags": [
+    "EXTRACT"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract all inspirational and educational quotes from content including podcasts and essays.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_all_quotes/system.md",
+   "upstream_path": "data/patterns/extract_all_quotes/system.md",
+   "content_hash": "cb84926ff75aae41",
+   "status": "translated"
+  },
+  {
+   "name": "extract_alpha",
+   "zh_title": "提取增量信息Alpha",
+   "zh_desc": "从输入内容中挖掘最具新颖性与意外性的想法，即信息论意义上的Alpha，帮助用户找到别人没注意到的关键洞见。",
+   "scenario": "从海量内容里找增量洞见时",
+   "tags": [
+    "EXTRACT",
+    "ANALYSIS",
+    "CR THINKING",
+    "WISDOM"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extracts the most novel and surprising ideas (\"alpha\") from content, inspired by information theory.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_alpha/system.md",
+   "upstream_path": "data/patterns/extract_alpha/system.md",
+   "content_hash": "c288226c00bb1e8b",
+   "status": "translated"
+  },
+  {
+   "name": "extract_article_wisdom",
+   "zh_title": "提取文章智慧",
+   "zh_desc": "从文章等文本中提取令人意外、有洞见且有趣的信息要点，整理成可直接行动的收获，帮助读者抓住文章精华。",
+   "scenario": "读文章想抓核心收获时",
+   "tags": [
+    "EXTRACT",
+    "SELF",
+    "WISDOM"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract wisdom from articles, organizing into actionable takeaways.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_article_wisdom/system.md",
+   "upstream_path": "data/patterns/extract_article_wisdom/system.md",
+   "content_hash": "ddf21cfdecd71174",
+   "status": "translated"
+  },
+  {
+   "name": "extract_book_ideas",
+   "zh_title": "提取书中核心思想",
+   "zh_desc": "输入一本书名，按步骤输出该书最重要的内容全貌总结，提炼其中新颖想法，为用户启发新项目与新行动提供素材。",
+   "scenario": "没时间读完一本书想先抓纲时",
+   "tags": [
+    "EXTRACT",
+    "SELF",
+    "WISDOM"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract novel ideas from books to inspire new projects.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_book_ideas/system.md",
+   "upstream_path": "data/patterns/extract_book_ideas/system.md",
+   "content_hash": "ee82c170172a62b7",
+   "status": "translated"
+  },
+  {
+   "name": "extract_controversial_ideas",
+   "zh_title": "提取争议观点",
+   "zh_desc": "从输入内容中提取最具争议性的陈述和观点，保持客观地呈现引发分歧的说法，便于后续核查和讨论其合理性。",
+   "scenario": "梳理敏感议题的争议焦点时",
+   "tags": [
+    "EXTRACT",
+    "ANALYSIS",
+    "CR THINKING"
+   ],
+   "group": "信息提取",
+   "desc_en": "Analyze contentious viewpoints while maintaining objective analysis.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_controversial_ideas/system.md",
+   "upstream_path": "data/patterns/extract_controversial_ideas/system.md",
+   "content_hash": "eddcc245a3cf3689",
+   "status": "translated"
+  },
+  {
+   "name": "extract_domains",
+   "zh_title": "提取域名链接",
+   "zh_desc": "从文章、通讯等输入中提取出现的所有域名和URL链接，汇总其来源出处，帮助了解内容引用了哪些外部信息源。",
+   "scenario": "追溯一篇文章引用来源时",
+   "tags": [
+    "EXTRACT",
+    "ANALYSIS"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract key content and source.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_domains/system.md",
+   "upstream_path": "data/patterns/extract_domains/system.md",
+   "content_hash": "ccc49cbd2add114a",
+   "status": "translated"
+  },
+  {
+   "name": "extract_ethical_framework",
+   "zh_title": "剖析隐含伦理框架",
+   "zh_desc": "提取政策、提案、服务条款等规范性文本中隐含的伦理框架，检查其内部一致性，并评估是否制造了非自愿的受害者。",
+   "scenario": "审查政策或AI系统伦理时",
+   "tags": [
+    "ANALYSIS",
+    "EXTRACT",
+    "CR THINKING"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract and analyze the implicit ethical framework embedded in policies, proposals, or any prescriptive text.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_ethical_framework/system.md",
+   "upstream_path": "data/patterns/extract_ethical_framework/system.md",
+   "content_hash": "2aa2b31f1b1057a7",
+   "status": "translated"
+  },
+  {
+   "name": "extract_ideas",
+   "zh_title": "提取重要想法",
+   "zh_desc": "通读任意输入内容，提取其中最重要的观点和概念，并整理成可复用的想法集合，突出其实际应用价值和启发意义。",
+   "scenario": "从长文中收集核心概念时",
+   "tags": [
+    "EXTRACT",
+    "ANALYSIS",
+    "WISDOM"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract/organize concepts and applications into idea collections.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_ideas/system.md",
+   "upstream_path": "data/patterns/extract_ideas/system.md",
+   "content_hash": "4528373a96b7a0ed",
+   "status": "translated"
+  },
+  {
+   "name": "extract_insights",
+   "zh_title": "提取深刻洞见",
+   "zh_desc": "从内容中提取关于人生意义、科技未来、学习成长等主题最意外、最有力的洞见，压缩成每条八字左右的要点列表。",
+   "scenario": "从文章视频中提炼启发时",
+   "tags": [
+    "EXTRACT",
+    "SELF"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract insights about life, tech, presenting as bullet points.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_insights/system.md",
+   "upstream_path": "data/patterns/extract_insights/system.md",
+   "content_hash": "162746ee7332ac33",
+   "status": "translated"
+  },
+  {
+   "name": "extract_insights_dm",
+   "zh_title": "从私信提取洞见",
+   "zh_desc": "从私信对话记录中提取有趣、新颖且发人深省的信息，聚焦人生、科技与持续成长等主题，整理出收获与可带走的启示。",
+   "scenario": "复盘聊天记录寻找收获时",
+   "tags": [
+    "EXTRACT",
+    "SELF",
+    "WISDOM"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract insights from DMs, focusing on learnings and takeaways.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_insights_dm/system.md",
+   "upstream_path": "data/patterns/extract_insights_dm/system.md",
+   "content_hash": "cc95eafdba04386e",
+   "status": "translated"
+  },
+  {
+   "name": "extract_instructions",
+   "zh_title": "提取视频操作步骤",
+   "zh_desc": "从教学视频文字稿中提取清晰的分步操作说明，整理出目标要点和编号步骤，输出易于照着执行的操作指南格式。",
+   "scenario": "把教程视频变成文字指南时",
+   "tags": [
+    "EXTRACT",
+    "LEARNING",
+    "BUSINESS"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract procedures into clear instructions for implementation.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_instructions/system.md",
+   "upstream_path": "data/patterns/extract_instructions/system.md",
+   "content_hash": "b376f0f28c464810",
+   "status": "translated"
+  },
+  {
+   "name": "extract_main_activities",
+   "zh_title": "提取主要事件",
+   "zh_desc": "从任意文字稿或记录中提取实际发生的关键事件和主要活动，按要点逐条列出，忽略闲聊和无关的细枝末节内容。",
+   "scenario": "梳理会议或访谈记录时",
+   "tags": [
+    "EXTRACT",
+    "ANALYSIS"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract and list main events from transcripts.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_main_activities/system.md",
+   "upstream_path": "data/patterns/extract_main_activities/system.md",
+   "content_hash": "398f1fc0e788cf86",
+   "status": "translated"
+  },
+  {
+   "name": "extract_patterns",
+   "zh_title": "发现重复模式主题",
+   "zh_desc": "从一组想法、数据或观察记录中寻找反复出现、最有趣也最出人意料的共性模式与主题，整理成可复用的模板框架。",
+   "scenario": "从大量观察中找规律时",
+   "tags": [
+    "EXTRACT",
+    "ANALYSIS",
+    "BUSINESS"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract patterns and themes to create reusable templates.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_patterns/system.md",
+   "upstream_path": "data/patterns/extract_patterns/system.md",
+   "content_hash": "06622e86bf2fb454",
+   "status": "translated"
+  },
+  {
+   "name": "extract_predictions",
+   "zh_title": "提取并分析预测",
+   "zh_desc": "完整消化输入内容，提取其中作出的所有预测，并分析每条预测的主张内容、置信程度以及后续如何验证其真伪。",
+   "scenario": "追踪专家预言留待备查时",
+   "tags": [
+    "ANALYSIS",
+    "EXTRACT",
+    "CR THINKING"
+   ],
+   "group": "信息提取",
+   "desc_en": "Identify/analyze predictions, claims, confidence, and verification.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_predictions/system.md",
+   "upstream_path": "data/patterns/extract_predictions/system.md",
+   "content_hash": "fff99bc94f54774e",
+   "status": "translated"
+  },
+  {
+   "name": "extract_primary_problem",
+   "zh_title": "提炼首要问题",
+   "zh_desc": "剖析演讲、文章或作者全部作品，提炼作者眼中世界最根本的首要问题及其根源，用清晰准确的语言表达其问题意识。",
+   "scenario": "深入理解作者的问题观时",
+   "tags": [
+    "ANALYSIS",
+    "EXTRACT",
+    "CR THINKING"
+   ],
+   "group": "信息提取",
+   "desc_en": "Identify/analyze the core problem / root causes.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_primary_problem/system.md",
+   "upstream_path": "data/patterns/extract_primary_problem/system.md",
+   "content_hash": "0be31c5922dffb15",
+   "status": "translated"
+  },
+  {
+   "name": "extract_primary_solution",
+   "zh_title": "提炼首要方案",
+   "zh_desc": "剖析演讲、文章或作者全部作品，提炼作者针对世界问题提出的首要解决方案，清晰说明其主张的核心解法路径。",
+   "scenario": "理解作者的解决方案时",
+   "tags": [
+    "ANALYSIS",
+    "EXTRACT"
+   ],
+   "group": "信息提取",
+   "desc_en": "Identify/analyze the main solution proposed in content.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_primary_solution/system.md",
+   "upstream_path": "data/patterns/extract_primary_solution/system.md",
+   "content_hash": "6a02dbef73055215",
+   "status": "translated"
+  },
+  {
+   "name": "extract_questions",
+   "zh_title": "提取访谈问题",
+   "zh_desc": "从对话或访谈记录中提取采访者提出的全部问题，并进行分类整理，形成可复用的问答资源和访谈问题资料库。",
+   "scenario": "复用访谈问题整理素材时",
+   "tags": [
+    "EXTRACT",
+    "LEARNING",
+    "BUSINESS"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract/categorize questions to create Q&A resources.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_questions/system.md",
+   "upstream_path": "data/patterns/extract_questions/system.md",
+   "content_hash": "2ef0baef9572a607",
+   "status": "translated"
+  },
+  {
+   "name": "extract_recommendations",
+   "zh_title": "提取行动建议",
+   "zh_desc": "解读任意内容中包含的建议和推荐事项，提取后整理成条理清晰、可直接执行的行动指南，帮助读者落地实践。",
+   "scenario": "把内容变成可执行清单时",
+   "tags": [
+    "EXTRACT",
+    "ANALYSIS",
+    "SELF",
+    "WISDOM"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract recommendations, organizing into actionable guidance.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_recommendations/system.md",
+   "upstream_path": "data/patterns/extract_recommendations/system.md",
+   "content_hash": "d3abdf0f9a86c7be",
+   "status": "translated"
+  },
+  {
+   "name": "extract_references",
+   "zh_title": "提取参考文献",
+   "zh_desc": "从内容中提取提及的艺术、故事、书籍、论文等参考来源，格式化整理成结构化的参考文献清单，便于延伸阅读。",
+   "scenario": "整理论文延伸阅读清单时",
+   "tags": [
+    "EXTRACT",
+    "RESEARCH",
+    "WRITING",
+    "LEARNING"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract/format citations into a structured reference list.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_references/system.md",
+   "upstream_path": "data/patterns/extract_references/system.md",
+   "content_hash": "dada08eff4dda660",
+   "status": "translated"
+  },
+  {
+   "name": "extract_skills",
+   "zh_title": "提取岗位技能",
+   "zh_desc": "从岗位描述中提取全部技能词汇，并区分硬技能与软技能进行分类，形成结构化的技能清单供招聘或求职分析使用。",
+   "scenario": "分析招聘JD技能要求时",
+   "tags": [
+    "EXTRACT",
+    "ANALYSIS",
+    "BUSINESS"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract/classify hard/soft skills from job descriptions into skill inventory.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_skills/system.md",
+   "upstream_path": "data/patterns/extract_skills/system.md",
+   "content_hash": "94cbc9abf25830ab",
+   "status": "translated"
+  },
+  {
+   "name": "extract_sponsors",
+   "zh_title": "提取赞助商信息",
+   "zh_desc": "从播客、视频文字稿或文章中提取赞助商及潜在赞助商信息，整理其名称和赞助口播内容，形成结构化的赞助清单。",
+   "scenario": "整理播客节目赞助信息时",
+   "tags": [
+    "EXTRACT",
+    "BUSINESS"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract/organize sponsorship info, including names and messages.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_sponsors/system.md",
+   "upstream_path": "data/patterns/extract_sponsors/system.md",
+   "content_hash": "082559279e1818d9",
+   "status": "translated"
+  },
+  {
+   "name": "extract_video_commerce_entities",
+   "zh_title": "提取视频商业实体",
+   "zh_desc": "以联营营销视角扫描视频文字稿，识别所有具商业价值的实体，包括出镜产品、使用工具、品牌、服务和提及书籍。",
+   "scenario": "寻找视频带货选品机会时",
+   "tags": [
+    "EXTRACT",
+    "BUSINESS"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract commercially relevant entities, products, and brands from video transcripts.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_video_commerce_entities/system.md",
+   "upstream_path": "data/patterns/extract_video_commerce_entities/system.md",
+   "content_hash": "978b34e0c098a263",
+   "status": "translated"
+  },
+  {
+   "name": "extract_videoid",
+   "zh_title": "提取视频ID",
+   "zh_desc": "从任意形式的URL中提取和解析视频ID，生成干净的视频列表，供其他应用或工作流进一步调用处理视频内容。",
+   "scenario": "需要批量处理视频链接时",
+   "tags": [
+    "EXTRACT",
+    "CONVERSION"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract/parse video IDs and URLs to create video lists.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_videoid/system.md",
+   "upstream_path": "data/patterns/extract_videoid/system.md",
+   "content_hash": "2b740091408bec1a",
+   "status": "translated"
+  },
+  {
+   "name": "extract_wisdom",
+   "zh_title": "提取人生智慧",
+   "zh_desc": "从文本中提取令人意外、有洞察力的智慧内容，聚焦人生意义、科技未来、学习成长等主题，整理成想法与建议清单。",
+   "scenario": "从长内容中淘金提炼时",
+   "tags": [
+    "EXTRACT",
+    "WISDOM",
+    "SELF"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract insightful ideas and recommendations focusing on life wisdom.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom/system.md",
+   "upstream_path": "data/patterns/extract_wisdom/system.md",
+   "content_hash": "1dfc5719961081cd",
+   "status": "translated"
+  },
+  {
+   "name": "extract_wisdom_agents",
+   "zh_title": "多智能体提取智慧",
+   "zh_desc": "以多组AI智能体协作的方式从文本中提取智慧，聚焦人生意义、科技与人类未来、学习成长等主题的洞见和收获。",
+   "scenario": "多智能体协作提炼内容时",
+   "tags": [
+    "AI",
+    "ANALYSIS",
+    "EXTRACT"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract insights from AI agent interactions, focusing on learning.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom_agents/system.md",
+   "upstream_path": "data/patterns/extract_wisdom_agents/system.md",
+   "content_hash": "d7cf071cf27aba54",
+   "status": "translated"
+  },
+  {
+   "name": "extract_wisdom_dm",
+   "zh_title": "从私信提取智慧",
+   "zh_desc": "从私信对话中提取令人意外、有洞察力的智慧内容，聚焦个人成长、人生意义与科技未来等主题的学习收获与启示。",
+   "scenario": "从聊天中提炼成长收获时",
+   "tags": [
+    "EXTRACT",
+    "SELF",
+    "WISDOM",
+    "WELLNESS"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract learnings from DMs, focusing on personal growth.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom_dm/system.md",
+   "upstream_path": "data/patterns/extract_wisdom_dm/system.md",
+   "content_hash": "fd114a9e6d798826",
+   "status": "translated"
+  },
+  {
+   "name": "extract_wisdom_nometa",
+   "zh_title": "提取纯智慧无元数据",
+   "zh_desc": "从文本中提取纯粹的智慧洞见，聚焦人生、科技未来与持续成长等主题，只输出洞见本身，不附带任何元数据说明。",
+   "scenario": "只要洞见不要附加信息时",
+   "tags": [
+    "EXTRACT",
+    "CR THINKING",
+    "WISDOM"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract pure wisdom from content without metadata.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom_nometa/system.md",
+   "upstream_path": "data/patterns/extract_wisdom_nometa/system.md",
+   "content_hash": "69596b21b9eb0846",
+   "status": "translated"
+  },
+  {
+   "name": "extract_wisdom_with_attribution",
+   "zh_title": "提取带出处的智慧",
+   "zh_desc": "从文本中提取有洞察力的想法和建议，并标注每条内容的说话者出处，保留引语归属，便于引用时追溯来源人物。",
+   "scenario": "整理带出处引用的金句时",
+   "tags": [
+    "EXTRACT",
+    "WISDOM",
+    "SELF"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract insightful ideas and recommendations with speaker attribution for quotes.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_wisdom_with_attribution/system.md",
+   "upstream_path": "data/patterns/extract_wisdom_with_attribution/system.md",
+   "content_hash": "d14e3fa0aeb4fec1",
+   "status": "translated"
+  },
+  {
+   "name": "generate_frontmatter",
+   "zh_title": "生成笔记Frontmatter",
+   "zh_desc": "为文档、文章、会议记录等任意文本生成规范的YAML前置元数据，包含标签、别名和摘要，可直接粘贴到笔记顶部使用。",
+   "scenario": "整理PKM笔记元数据时",
+   "tags": [
+    "WRITING",
+    "EXTRACT",
+    "CONVERSION"
+   ],
+   "group": "信息提取",
+   "desc_en": "Generate YAML frontmatter with tags, aliases and summary for PKM notes.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/generate_frontmatter/system.md",
+   "upstream_path": "data/patterns/generate_frontmatter/system.md",
+   "content_hash": "8c16917715941125",
+   "status": "translated"
+  },
+  {
+   "name": "t_extract_intro_sentences",
+   "zh_title": "开场句提取分析",
+   "zh_desc": "从给定文本中提取开头的引入句子，结合背景分析其吸引读者的策略和钩子设计，供写作时借鉴学习。",
+   "scenario": "拆解好文章开头写法时",
+   "tags": [
+    "EXTRACT",
+    "ANALYSIS",
+    "WRITING"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract intro sentences to identify engagement strategies.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_extract_intro_sentences/system.md",
+   "upstream_path": "data/patterns/t_extract_intro_sentences/system.md",
+   "content_hash": "4ccd84df56e3df12",
+   "status": "translated"
+  },
+  {
+   "name": "t_extract_panel_topics",
+   "zh_title": "圆桌议题提取",
+   "zh_desc": "从背景资料和讨论素材中提炼适合圆桌或访谈的话题清单，帮助组织出有吸引力、能引发深入讨论的议程。",
+   "scenario": "策划圆桌访谈活动议程时",
+   "tags": [
+    "EXTRACT",
+    "ANALYSIS",
+    "WRITING"
+   ],
+   "group": "信息提取",
+   "desc_en": "Extract panel topics to create engaging discussions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_extract_panel_topics/system.md",
+   "upstream_path": "data/patterns/t_extract_panel_topics/system.md",
+   "content_hash": "6e0269c59736d13e",
+   "status": "translated"
+  },
+  {
+   "name": "ai",
+   "zh_title": "极简要点问答",
+   "zh_desc": "针对任意问题抓住核心本质，用简短要点形式给出有洞察的回答，不展开长篇论述，适合快速获得关键概念和结论。",
+   "scenario": "快速理解概念和抓要点时",
+   "tags": [
+    "AI",
+    "ANALYSIS"
+   ],
+   "group": "AI 与提示词工程",
+   "desc_en": "Provide concise, insightful answers in brief bullets focused on core concepts.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/ai/system.md",
+   "upstream_path": "data/patterns/ai/system.md",
+   "content_hash": "aee9312e9d01e622",
+   "status": "translated"
+  },
+  {
+   "name": "create_ai_jobs_analysis",
+   "zh_title": "AI就业影响分析",
+   "zh_desc": "输入就业报告与分析师数据，分析AI自动化对各职业的冲击，列出相对安全的岗位清单，并给出个人提升职业抗风险能力的建议。",
+   "scenario": "评估职业自动化风险时",
+   "tags": [
+    "ANALYSIS",
+    "AI",
+    "BUSINESS"
+   ],
+   "group": "AI 与提示词工程",
+   "desc_en": "Identify automation risks and career resilience strategies.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_ai_jobs_analysis/system.md",
+   "upstream_path": "data/patterns/create_ai_jobs_analysis/system.md",
+   "content_hash": "c9765c01560eb84c",
+   "status": "translated"
+  },
+  {
+   "name": "create_prediction_block",
+   "zh_title": "格式化预测记录块",
+   "zh_desc": "从输入文本中提取作者作出的预测，将其整理成标准Markdown预测块，便于写入预测日志、长期跟踪与事后验证对错。",
+   "scenario": "追踪专家预测、复盘判断时",
+   "tags": [
+    "AI",
+    "ANALYSIS",
+    "WRITING"
+   ],
+   "group": "AI 与提示词工程",
+   "desc_en": "Format predictions for tracking/verification in markdown prediction logs.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_prediction_block/system.md",
+   "upstream_path": "data/patterns/create_prediction_block/system.md",
+   "content_hash": "9ba3a994d12ddedc",
+   "status": "translated"
+  },
+  {
+   "name": "judge_output",
+   "zh_title": "Honeycomb查询评判",
+   "zh_desc": "输入一条Honeycomb查询语句，依据其查询语言的细节规范和数据分析价值来评判这条查询写得好不好、是否真正有用，并给出判断。",
+   "scenario": "评审Honeycomb查询质量时",
+   "tags": [
+    "AI",
+    "ANALYSIS",
+    "REVIEW"
+   ],
+   "group": "AI 与提示词工程",
+   "desc_en": "Evaluate AI outputs for quality and accuracy.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/judge_output/system.md",
+   "upstream_path": "data/patterns/judge_output/system.md",
+   "content_hash": "e72596f9452b2786",
+   "status": "translated"
+  },
+  {
+   "name": "rate_ai_response",
+   "zh_title": "AI回答质量评分",
+   "zh_desc": "输入一条AI生成的回答，对照超高水平人类完成同一任务的标准来评判其质量高低，给出它到底有多好的评分与判断。",
+   "scenario": "评估大模型回答质量的时候",
+   "tags": [
+    "AI",
+    "ANALYSIS",
+    "REVIEW"
+   ],
+   "group": "AI 与提示词工程",
+   "desc_en": "Evaluate AI responses for quality and effectiveness.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/rate_ai_response/system.md",
+   "upstream_path": "data/patterns/rate_ai_response/system.md",
+   "content_hash": "67972770cd8a9bb9",
+   "status": "translated"
+  },
+  {
+   "name": "rate_ai_result",
+   "zh_title": "AI成果质量评估",
+   "zh_desc": "输入AI、机器学习或大模型相关的工作成果，由资深AI研究者视角评估其质量并给出评分，判断该成果的实际水平。",
+   "scenario": "评审AI项目成果质量时",
+   "tags": [
+    "AI",
+    "ANALYSIS",
+    "REVIEW"
+   ],
+   "group": "AI 与提示词工程",
+   "desc_en": "Assess AI outputs against criteria, providing scores and feedback.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/rate_ai_result/system.md",
+   "upstream_path": "data/patterns/rate_ai_result/system.md",
+   "content_hash": "15d8a7c66ea6f9ae",
+   "status": "translated"
+  },
+  {
+   "name": "raw_query",
+   "zh_title": "万能直问",
+   "zh_desc": "不设固定任务和格式，输入任何直接的问题或请求，它会理解你的意图并以通用AI的方式给出当前条件下最好的结果。",
+   "scenario": "无固定模板的随手提问时",
+   "tags": [
+    "AI",
+    "ANALYSIS"
+   ],
+   "group": "AI 与提示词工程",
+   "desc_en": "Process direct queries by interpreting intent.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/raw_query/system.md",
+   "upstream_path": "data/patterns/raw_query/system.md",
+   "content_hash": "6aa1a1caef96cf42",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_prompt",
+   "zh_title": "提示词意图摘要",
+   "zh_desc": "输入一段AI聊天提示词，分析其指令要求和预期输出，用简洁格式概括这条提示词到底想让模型做什么。",
+   "scenario": "整理和归类提示词库时",
+   "tags": [
+    "ANALYSIS",
+    "AI"
+   ],
+   "group": "AI 与提示词工程",
+   "desc_en": "Summarize AI prompts to identify instructions and outputs.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_prompt/system.md",
+   "upstream_path": "data/patterns/summarize_prompt/system.md",
+   "content_hash": "5cd7f85303e4c4de",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_discord_structure",
+   "zh_title": "Discord服务器结构诊断",
+   "zh_desc": "审查Discord服务器的频道结构、权限设置和组织方式，找出混乱与权限问题，给出优化服务器社区体验的建议。",
+   "scenario": "运营Discord社区做整改时",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Analyze Discord server structures for organizational issues, permissions, and optimization.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_discord_structure/system.md",
+   "upstream_path": "data/patterns/analyze_discord_structure/system.md",
+   "content_hash": "150db51d576509fc",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_interviewer_techniques",
+   "zh_title": "访谈技巧拆解",
+   "zh_desc": "剖析优秀访谈者的提问方式和访谈方法，提炼其问题设计背后的独特之处，总结可学习借鉴的访谈技巧。",
+   "scenario": "学习播客记者访谈方法时",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Study interviewer questions/methods to identify effective interview techniques.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_interviewer_techniques/system.md",
+   "upstream_path": "data/patterns/analyze_interviewer_techniques/system.md",
+   "content_hash": "d17f4d72656ffe36",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_monetization_opportunities",
+   "zh_title": "创作者变现机会分析",
+   "zh_desc": "从创作者内容中挖掘变现机会，结合受众购买意图与信任基础，指出适合的联盟带货、赞助、数字产品和付费社群切入点。",
+   "scenario": "自媒体规划商业化路径时",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS",
+    "STRATEGY"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Identify affiliate, sponsorship, product, and community monetization opportunities in creator content.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_monetization_opportunities/system.md",
+   "upstream_path": "data/patterns/analyze_monetization_opportunities/system.md",
+   "content_hash": "2f8238d378cf6f76",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_patent",
+   "zh_title": "专利审查分析",
+   "zh_desc": "以资深专利审查员视角审视专利申请，结合现有技术和专利法，评估其新颖性、技术优势与潜在问题，给出专业判断。",
+   "scenario": "申请前评估专利价值时",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Analyze patents to evaluate novelty and technical advantages.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_patent/system.md",
+   "upstream_path": "data/patterns/analyze_patent/system.md",
+   "content_hash": "0428f30f27c91615",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_presentation",
+   "zh_title": "演示文稿评审",
+   "zh_desc": "评审演讲演示内容，从信息新颖度、价值和表达效果打分反馈，同时洞察讲者背后的心理与真实意图。",
+   "scenario": "打磨路演和汇报演示时",
+   "tags": [
+    "ANALYSIS",
+    "REVIEW",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Evaluate presentations scoring novelty, value for feedback.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_presentation/system.md",
+   "upstream_path": "data/patterns/analyze_presentation/system.md",
+   "content_hash": "6a8ec9655d9b02c5",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_product_feedback",
+   "zh_title": "产品反馈归纳排序",
+   "zh_desc": "处理大量用户反馈，去重合并同类意见，提炼主题并按价值优先级排序，帮助产品负责人看清最值得解决的问题。",
+   "scenario": "产品经理整理用户意见时",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Process user feedback to identify themes and prioritize insights.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_product_feedback/system.md",
+   "upstream_path": "data/patterns/analyze_product_feedback/system.md",
+   "content_hash": "fb95247f1e7776d1",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_sales_call",
+   "zh_title": "销售通话评估",
+   "zh_desc": "从多个绩效维度为销售通话记录打分，评估话术推介、基本功和客户互动质量，指出销售过程中的优点与问题。",
+   "scenario": "复盘销售电话提升成交时",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Evaluate sales calls analyzing pitch, fundamentals, and customer interaction.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_sales_call/system.md",
+   "upstream_path": "data/patterns/analyze_sales_call/system.md",
+   "content_hash": "4c7a067ffdba368f",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_tech_impact",
+   "zh_title": "技术项目社会影响评估",
+   "zh_desc": "评估技术项目的社会影响，按摘要、所用技术、受益人群和预期成果等板块拆解其意图、结果、广泛影响与伦理考量。",
+   "scenario": "评估新技术项目落地影响时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Evaluate tech projects' societal impact across dimensions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_tech_impact/system.md",
+   "upstream_path": "data/patterns/analyze_tech_impact/system.md",
+   "content_hash": "17bbdec6ee59edb1",
+   "status": "translated"
+  },
+  {
+   "name": "check_agreement",
+   "zh_title": "合同协议审查",
+   "zh_desc": "审查合同协议文本，找出关键条款、潜在陷阱和不利约定，指出可协商修改之处，输出Markdown格式的风险摘要。",
+   "scenario": "签合同前排查不利条款时",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Review contract to identify stipulations, issues, and changes for negotiation.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/check_agreement/system.md",
+   "upstream_path": "data/patterns/check_agreement/system.md",
+   "content_hash": "d5a27aa1bba59deb",
+   "status": "translated"
+  },
+  {
+   "name": "chinese_contract_review",
+   "zh_title": "中文合同审阅",
+   "zh_desc": "输入中文合同，依据民法典识别关键条款的法律风险与缺失条款，以表格标注风险等级、问题和修改建议，并给出谈判优先级。",
+   "scenario": "签约前审查中文合同时",
+   "tags": [
+    "ANALYSIS",
+    "REVIEW",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Review Chinese contracts under PRC Civil Code for legal risks and missing clauses.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/chinese_contract_review/system.md",
+   "upstream_path": "data/patterns/chinese_contract_review/system.md",
+   "content_hash": "7f91ca2099197a93",
+   "status": "translated"
+  },
+  {
+   "name": "create_formal_email",
+   "zh_title": "正式邮件撰写",
+   "zh_desc": "输入邮件意图或来信，按商务礼仪与正式通信规范起草或回复邮件，语气专业、清晰、得体，结构符合正式函件要求。",
+   "scenario": "撰写正式商务往来邮件时",
+   "tags": [
+    "WRITING",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Compose professional emails with proper tone and structure.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_formal_email/system.md",
+   "upstream_path": "data/patterns/create_formal_email/system.md",
+   "content_hash": "377d28aa87afab4d",
+   "status": "translated"
+  },
+  {
+   "name": "create_hormozi_offer",
+   "zh_title": "Hormozi式报价方案",
+   "zh_desc": "输入产品或服务信息，运用Alex Hormozi《$100M Offers》的方法论，设计出价值感强、难以拒绝的商业报价与套餐方案。",
+   "scenario": "设计产品促销报价方案时",
+   "tags": [
+    "BUSINESS",
+    "WRITING"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Create compelling business offers using Alex Hormozi's methodology.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_hormozi_offer/system.md",
+   "upstream_path": "data/patterns/create_hormozi_offer/system.md",
+   "content_hash": "3bfa7686b606ce6f",
+   "status": "translated"
+  },
+  {
+   "name": "eisenhower_matrix",
+   "zh_title": "任务四象限分类",
+   "zh_desc": "按紧急与重要两维度把输入任务分入艾森豪威尔四象限，并据此制定一周聚焦计划，帮助用户优先处理真正重要的事。",
+   "scenario": "任务太多理不清优先级时",
+   "tags": [
+    "BUSINESS",
+    "SELF",
+    "STRATEGY"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Sort tasks into Eisenhower quadrants by urgency and importance, then make a weekly focus plan.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/eisenhower_matrix/system.md",
+   "upstream_path": "data/patterns/eisenhower_matrix/system.md",
+   "content_hash": "79a562fe58f78c2d",
+   "status": "translated"
+  },
+  {
+   "name": "extract_business_ideas",
+   "zh_title": "挖掘商业创意",
+   "zh_desc": "从文章、访谈等内容中提取全部重要商业想法，再精选最好的十个并延展为差异化的相邻创意，输出结构化的机会清单。",
+   "scenario": "寻找创业或业务创新机会时",
+   "tags": [
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Identify business opportunities and insights",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_business_ideas/system.md",
+   "upstream_path": "data/patterns/extract_business_ideas/system.md",
+   "content_hash": "69fd43d41257b0fa",
+   "status": "translated"
+  },
+  {
+   "name": "prepare_7s_strategy",
+   "zh_title": "麦肯锡7S战略简报",
+   "zh_desc": "输入组织相关资料，按麦肯锡7S框架准备战略分析简报，梳理战略、结构、系统、风格、员工、技能与共同价值观的匹配情况。",
+   "scenario": "做组织战略一致性分析前",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS",
+    "STRATEGY"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Apply McKinsey 7S framework to analyze organizational alignment.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/prepare_7s_strategy/system.md",
+   "upstream_path": "data/patterns/prepare_7s_strategy/system.md",
+   "content_hash": "2133005939bc57ac",
+   "status": "translated"
+  },
+  {
+   "name": "rate_value",
+   "zh_title": "内容价值评分",
+   "zh_desc": "输入文章、视频或播客等内容，评估它给读者或听众带来的实际价值，用每分钟价值VPM这一指标量化其干货密度。",
+   "scenario": "判断一份内容干货密度时",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS",
+    "REVIEW"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Assess practical value of content by evaluating utility.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/rate_value/system.md",
+   "upstream_path": "data/patterns/rate_value/system.md",
+   "content_hash": "cce12129748f02ee",
+   "status": "translated"
+  },
+  {
+   "name": "summarize_board_meeting",
+   "zh_title": "董事会会议纪要",
+   "zh_desc": "输入董事会的原始会议记录或转录文本，将其整理成正式、规范的会议纪要，满足公司治理与法律存档要求，适合作为官方公司记录。",
+   "scenario": "整理董事会正式纪要时",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Convert board meeting transcripts into formal meeting notes for corporate records.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/summarize_board_meeting/system.md",
+   "upstream_path": "data/patterns/summarize_board_meeting/system.md",
+   "content_hash": "5b730111f5a687f8",
+   "status": "translated"
+  },
+  {
+   "name": "t_check_metrics",
+   "zh_title": "指标数据体检",
+   "zh_desc": "结合业务背景资料，分析给定的各项指标数据，追踪进展变化、识别趋势和异常，提炼值得关注的关键结论。",
+   "scenario": "定期复盘业务数据指标时",
+   "tags": [
+    "ANALYSIS",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Analyze metrics, tracking progress and identifying trends.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_check_metrics/system.md",
+   "upstream_path": "data/patterns/t_check_metrics/system.md",
+   "content_hash": "a60ea875d04f2bd8",
+   "status": "translated"
+  },
+  {
+   "name": "t_create_h3_career",
+   "zh_title": "H3职业规划",
+   "zh_desc": "结合个人背景资料，运用Head理性、Heart热情、Hands行动的H3框架，为其生成一份结构化的职业发展计划。",
+   "scenario": "做个人职业转型规划时",
+   "tags": [
+    "BUSINESS",
+    "WRITING",
+    "SELF"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Generate career plans using the Head, Heart, Hands framework.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_create_h3_career/system.md",
+   "upstream_path": "data/patterns/t_create_h3_career/system.md",
+   "content_hash": "e7af026e58735820",
+   "status": "translated"
+  },
+  {
+   "name": "t_year_in_review",
+   "zh_title": "年度回顾总结",
+   "zh_desc": "结合全年的背景资料与记录，分析这一年的主要成就、转折和教训，生成一份结构完整的年度回顾总结。",
+   "scenario": "年底写个人年终总结时",
+   "tags": [
+    "ANALYSIS",
+    "WRITING",
+    "BUSINESS"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Generate annual reviews by analyzing achievements and learnings.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_year_in_review/system.md",
+   "upstream_path": "data/patterns/t_year_in_review/system.md",
+   "content_hash": "4b7a29695e280d49",
+   "status": "translated"
+  },
+  {
+   "name": "transcribe_minutes",
+   "zh_title": "会议转写成纪要",
+   "zh_desc": "输入会议录音的转写文本，提取正式纪要结构，尤其识别所有待办行动项，并保留会议中有价值的观点洞察。",
+   "scenario": "录音转文字后出纪要时",
+   "tags": [
+    "WRITING",
+    "BUSINESS",
+    "CONVERSION"
+   ],
+   "group": "商业与产品",
+   "desc_en": "Convert meeting recordings into structured minutes.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/transcribe_minutes/system.md",
+   "upstream_path": "data/patterns/transcribe_minutes/system.md",
+   "content_hash": "47683f325f363ace",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_answers",
+   "zh_title": "学生答案评估反馈",
+   "zh_desc": "以学科专家视角评估学生对问题的回答，结合其水平给出详细反馈，指出对错、遗漏和改进方向，帮助针对性提升。",
+   "scenario": "教学批改和自学答题复盘时",
+   "tags": [
+    "ANALYSIS",
+    "LEARNING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Evaluate student responses providing detailed feedback adapted to levels.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_answers/system.md",
+   "upstream_path": "data/patterns/analyze_answers/system.md",
+   "content_hash": "c119f5cf0ee4b1ad",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_candidates",
+   "zh_title": "候选人对比分析",
+   "zh_desc": "系统对比两位竞选候选人在关键议题上的立场、政策优缺点和个人背景，梳理异同，帮助读者全面理解双方差异。",
+   "scenario": "选举前对比候选人政策时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Compare candidate positions, policy differences and backgrounds.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_candidates/system.md",
+   "upstream_path": "data/patterns/analyze_candidates/system.md",
+   "content_hash": "0a1d12ff39f79f9b",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_claims",
+   "zh_title": "主张真伪核查",
+   "zh_desc": "客观拆解文本中的事实主张，逐条列出支持证据与反驳证据，识别逻辑问题并给出可信度评级，呈现均衡完整的判断。",
+   "scenario": "核查文章论点和新闻说法时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH",
+    "CR THINKING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Evaluate truth claims by analyzing evidence and logical fallacies.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_claims/system.md",
+   "upstream_path": "data/patterns/analyze_claims/system.md",
+   "content_hash": "5650bdfcad97f140",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_paper",
+   "zh_title": "学术论文分析",
+   "zh_desc": "分析科研论文的核心发现，并评估其科学严谨性与研究质量，帮助读者快速判断论文结论是否可靠、价值有多大。",
+   "scenario": "快速筛选和精读论文时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH",
+    "LEARNING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Analyze scientific papers to identify findings and assess conclusion.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_paper/system.md",
+   "upstream_path": "data/patterns/analyze_paper/system.md",
+   "content_hash": "95bb5d707959e406",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_paper_simple",
+   "zh_title": "学术论文简明分析",
+   "zh_desc": "以更简明的方式分析科研论文的主要发现和科学严谨性，给出易懂的质量评估，适合非深度研读时快速把握论文分量。",
+   "scenario": "批量初筛论文文献资料时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH",
+    "WRITING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Analyze research papers to determine primary findings and assess scientific rigor.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_paper_simple/system.md",
+   "upstream_path": "data/patterns/analyze_paper_simple/system.md",
+   "content_hash": "f53b2bb1a5e8e63e",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_personality",
+   "zh_title": "语言人格分析",
+   "zh_desc": "运用心理学知识分析文本语言特征，推断作者的性格特质与行为倾向，给出基于表达方式的人格画像。",
+   "scenario": "从文字了解人物性格时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH",
+    "SELF"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Psychological analysis by examining language to reveal personality traits.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_personality/system.md",
+   "upstream_path": "data/patterns/analyze_personality/system.md",
+   "content_hash": "d567b7f70c301838",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_proposition",
+   "zh_title": "选票提案分析",
+   "zh_desc": "解析各级选票提案的目的、潜在影响与正反方论点，结合背景信息全面说明提案通过或否决意味着什么。",
+   "scenario": "投票前理解公投提案时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Examine ballot propositions to assess purpose and potential impact.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_proposition/system.md",
+   "upstream_path": "data/patterns/analyze_proposition/system.md",
+   "content_hash": "b16e6db29be2807f",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_spiritual_text",
+   "zh_title": "宗教文本对比分析",
+   "zh_desc": "对比分析宗教灵性文本的教义与主张，与钦定版圣经等参照文本对照，梳理教义异同和关键论断差异。",
+   "scenario": "研读宗教典籍教义差异时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH",
+    "SELF",
+    "WELLNESS"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Compare religious texts with KJV, identifying claims and doctrinal variations.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_spiritual_text/system.md",
+   "upstream_path": "data/patterns/analyze_spiritual_text/system.md",
+   "content_hash": "c77b84d967c6e59d",
+   "status": "translated"
+  },
+  {
+   "name": "chinese_poetry_analysis",
+   "zh_title": "古诗词赏析",
+   "zh_desc": "输入中国古典诗词，解读作者背景、逐句诗意、格律用典与艺术手法，输出含作品概述、逐句赏析和整体评价的中文赏析文章。",
+   "scenario": "学习赏析中国古典诗词时",
+   "tags": [
+    "ANALYSIS",
+    "LEARNING",
+    "WRITING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Analyze classical Chinese poetry for imagery, meter, allusions and literary context.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/chinese_poetry_analysis/system.md",
+   "upstream_path": "data/patterns/chinese_poetry_analysis/system.md",
+   "content_hash": "26c44a449f114e38",
+   "status": "translated"
+  },
+  {
+   "name": "create_academic_paper",
+   "zh_title": "生成学术论文",
+   "zh_desc": "输入素材内容，将其改写组织成结构规范、表述权威的LaTeX学术论文，清晰阐释概念，输出可直接排版的高质量论文稿。",
+   "scenario": "把研究素材整理成论文时",
+   "tags": [
+    "WRITING",
+    "RESEARCH",
+    "LEARNING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Transform content into academic papers using LaTeX layout.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_academic_paper/system.md",
+   "upstream_path": "data/patterns/create_academic_paper/system.md",
+   "content_hash": "6bc228a615e954d6",
+   "status": "translated"
+  },
+  {
+   "name": "create_diy",
+   "zh_title": "DIY教程生成",
+   "zh_desc": "输入一个动手项目，先梳理所需材料与工具，再按步骤组织成结构清晰、易于跟做的DIY教程，逐步指导完成整个制作过程。",
+   "scenario": "撰写手工制作类教程时",
+   "tags": [
+    "WRITING",
+    "LEARNING",
+    "SELF"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Create step-by-step DIY tutorials with clear instructions and materials.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_diy/system.md",
+   "upstream_path": "data/patterns/create_diy/system.md",
+   "content_hash": "81161fa76f781c30",
+   "status": "translated"
+  },
+  {
+   "name": "create_flash_cards",
+   "zh_title": "学习闪卡生成",
+   "zh_desc": "输入一段学习材料，提炼其中的关键概念与定义，生成一问一答式的闪卡，帮助快速记忆和复习核心知识点。",
+   "scenario": "把教材内容做成复习卡时",
+   "tags": [
+    "LEARNING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Generate flashcards for key concepts and definitions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_flash_cards/system.md",
+   "upstream_path": "data/patterns/create_flash_cards/system.md",
+   "content_hash": "ee127a50fc972f72",
+   "status": "translated"
+  },
+  {
+   "name": "create_mnemonic_phrases",
+   "zh_title": "记忆口诀句",
+   "zh_desc": "输入一组必须按原顺序出现的单词，保持拼写与顺序不变，创作五句突出这些词的短句作为记忆桥梁，帮助牢记词序。",
+   "scenario": "背诵需按顺序记的词表时",
+   "tags": [
+    "CREATIVITY",
+    "LEARNING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Create memorable mnemonic sentences using given words in exact order for memory aids.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_mnemonic_phrases/system.md",
+   "upstream_path": "data/patterns/create_mnemonic_phrases/system.md",
+   "content_hash": "3ddea2a56c4d1700",
+   "status": "translated"
+  },
+  {
+   "name": "create_quiz",
+   "zh_title": "生成复习测验题",
+   "zh_desc": "针对输入学科主题生成复习问题：依据学生水平调整难度，输出帮助检验理解与巩固知识点的测验题目。",
+   "scenario": "备课出题、学生自测复习时",
+   "tags": [
+    "LEARNING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Generate review questions adapting difficulty to student levels.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_quiz/system.md",
+   "upstream_path": "data/patterns/create_quiz/system.md",
+   "content_hash": "fdbd849782c1ded4",
+   "status": "translated"
+  },
+  {
+   "name": "create_reading_plan",
+   "zh_title": "制定三阶段阅读计划",
+   "zh_desc": "输入作者名或学习目标，设计三阶段递进阅读计划：输出精选书单顺序，帮助系统掌握某位作者作品或某个主题全貌。",
+   "scenario": "想系统读懂作者或主题时",
+   "tags": [
+    "LEARNING",
+    "SELF"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Design three-phase reading plans to build knowledge of topics.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_reading_plan/system.md",
+   "upstream_path": "data/patterns/create_reading_plan/system.md",
+   "content_hash": "05f1d2bd83a7344b",
+   "status": "translated"
+  },
+  {
+   "name": "create_story_explanation",
+   "zh_title": "故事化讲解概念",
+   "zh_desc": "把复杂内容改写成故事化讲解：从多角度分析原文，用流畅叙事串联关键概念，让读者轻松理解其影响与意义。",
+   "scenario": "科普写作、向小白讲概念时",
+   "tags": [
+    "WRITING",
+    "LEARNING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Transform complex concepts into clear, engaging narratives.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_story_explanation/system.md",
+   "upstream_path": "data/patterns/create_story_explanation/system.md",
+   "content_hash": "e2c12875f0195b53",
+   "status": "translated"
+  },
+  {
+   "name": "dialog_with_socrates",
+   "zh_title": "苏格拉底式对话",
+   "zh_desc": "扮演现代哲学家苏格拉底与用户展开深度对话：不直接表达自身信念，用苏格拉底诘问法引导对方探讨知识、美德与行为。",
+   "scenario": "想深入拷问自己想法时用",
+   "tags": [
+    "LEARNING",
+    "SELF",
+    "CR THINKING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Engage in Socratic dialogue to explore ideas via questioning.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/dialog_with_socrates/system.md",
+   "upstream_path": "data/patterns/dialog_with_socrates/system.md",
+   "content_hash": "2099a31418f657df",
+   "status": "translated"
+  },
+  {
+   "name": "explain_math",
+   "zh_title": "讲解数学概念",
+   "zh_desc": "以数学老师身份讲解输入的公式或概念：用易懂语言给出分步解题说明、演示不同技巧，并推荐可进一步学习的资源。",
+   "scenario": "中小学生学数学遇到难题时",
+   "tags": [
+    "LEARNING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Explain math concepts for students using step-by-step instructions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_math/system.md",
+   "upstream_path": "data/patterns/explain_math/system.md",
+   "content_hash": "a0147a01ebd041fd",
+   "status": "translated"
+  },
+  {
+   "name": "explain_terms",
+   "zh_title": "生成术语词汇表",
+   "zh_desc": "从输入内容中挑出理解所需的全部重要术语，为每个术语生成两句话的定义解释，并配类比帮助读者快速扫清障碍。",
+   "scenario": "读专业文章术语太多时",
+   "tags": [
+    "WRITING",
+    "LEARNING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Create glossaries of advanced terms with definitions and analogies.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_terms/system.md",
+   "upstream_path": "data/patterns/explain_terms/system.md",
+   "content_hash": "77891b3b73e758e5",
+   "status": "translated"
+  },
+  {
+   "name": "extract_extraordinary_claims",
+   "zh_title": "提取反共识主张",
+   "zh_desc": "从对话或文本中提取非同寻常的主张，即已被科学界否定、难以验证或被专家共识认为不成立的说法，并逐条列出。",
+   "scenario": "核查访谈中的可疑说法时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH",
+    "CR THINKING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Identify/extract claims contradicting scientific consensus.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_extraordinary_claims/system.md",
+   "upstream_path": "data/patterns/extract_extraordinary_claims/system.md",
+   "content_hash": "be66d37e6bdfb8ab",
+   "status": "translated"
+  },
+  {
+   "name": "find_hidden_message",
+   "zh_title": "发现隐藏信息",
+   "zh_desc": "以政治宣传分析视角审视对话或文章，区分显性表述与隐藏的政治信息，揭露演讲者背后的真实意图和叙事操控。",
+   "scenario": "分析宣传话术背后意图时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH",
+    "CR THINKING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Analyze content to uncover concealed meanings and implications.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/find_hidden_message/system.md",
+   "upstream_path": "data/patterns/find_hidden_message/system.md",
+   "content_hash": "133aae33fcbc81bd",
+   "status": "translated"
+  },
+  {
+   "name": "find_logical_fallacies",
+   "zh_title": "找出逻辑谬误",
+   "zh_desc": "识别输入文本中使用的各类逻辑谬误，逐条指出谬误类型及其出现位置，帮助评估论证过程是否成立、是否可靠。",
+   "scenario": "检查辩论或文章论证时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH",
+    "CR THINKING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Identify/analyze logical fallacies to evaluate argument validity.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/find_logical_fallacies/system.md",
+   "upstream_path": "data/patterns/find_logical_fallacies/system.md",
+   "content_hash": "ef4e0afe46f4bbed",
+   "status": "translated"
+  },
+  {
+   "name": "identify_dsrp_distinctions",
+   "zh_title": "DSRP区分识别",
+   "zh_desc": "用DSRP系统思维框架分析输入内容，专门识别其中的关键区分与概念边界，挖掘边界背后的含义以及由此产生的新洞见。",
+   "scenario": "用系统思维拆解概念边界时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Analyze content using DSRP to identify key distinctions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/identify_dsrp_distinctions/system.md",
+   "upstream_path": "data/patterns/identify_dsrp_distinctions/system.md",
+   "content_hash": "ca861f265cd02f42",
+   "status": "translated"
+  },
+  {
+   "name": "identify_dsrp_perspectives",
+   "zh_title": "DSRP视角识别",
+   "zh_desc": "用DSRP系统思维框架分析输入内容，专门梳理不同观察者或利益相关方的视角观点，呈现同一议题的多元看法及其差异。",
+   "scenario": "梳理议题的多方视角时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Analyze content using DSRP to identify different viewpoints.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/identify_dsrp_perspectives/system.md",
+   "upstream_path": "data/patterns/identify_dsrp_perspectives/system.md",
+   "content_hash": "d446b0982bb9068a",
+   "status": "translated"
+  },
+  {
+   "name": "identify_dsrp_relationships",
+   "zh_title": "DSRP关系识别",
+   "zh_desc": "用DSRP系统思维框架分析输入内容，专门识别各要素之间的关联关系，揭示隐藏的连接、影响链条和涌现出的模式。",
+   "scenario": "分析要素间的关联关系时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Analyze content using DSRP to identify connections.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/identify_dsrp_relationships/system.md",
+   "upstream_path": "data/patterns/identify_dsrp_relationships/system.md",
+   "content_hash": "7503ef58e67c4297",
+   "status": "translated"
+  },
+  {
+   "name": "identify_dsrp_systems",
+   "zh_title": "DSRP系统识别",
+   "zh_desc": "用DSRP系统思维框架分析输入内容，专门识别其中整体与部分的系统结构，拆解系统的组成、层级与边界划分。",
+   "scenario": "拆解复杂事物的系统结构时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Analyze content using DSRP to identify systems and structures.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/identify_dsrp_systems/system.md",
+   "upstream_path": "data/patterns/identify_dsrp_systems/system.md",
+   "content_hash": "beeadfe13be5758a",
+   "status": "translated"
+  },
+  {
+   "name": "improve_academic_writing",
+   "zh_title": "学术写作润色",
+   "zh_desc": "输入学术或科学类文本，用规范的学术语言重新润色，在保持专业性的同时提升清晰度、连贯性和可读性，让表达更易理解。",
+   "scenario": "润色论文和学术稿件时",
+   "tags": [
+    "WRITING",
+    "RESEARCH"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Enhance academic writing by improving clarity and structure.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/improve_academic_writing/system.md",
+   "upstream_path": "data/patterns/improve_academic_writing/system.md",
+   "content_hash": "ba8e75ab5d9ac19e",
+   "status": "translated"
+  },
+  {
+   "name": "provide_guidance",
+   "zh_title": "人生指导建议",
+   "zh_desc": "输入你的问题和相关背景情境，以精神科医生、心理学家兼人生教练的视角，给出诚实、简洁且可落地的专家建议和行动步骤。",
+   "scenario": "寻求人生困惑的专业建议时",
+   "tags": [
+    "ANALYSIS",
+    "LEARNING",
+    "SELF",
+    "WELLNESS"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Offer expert advice tailored to situations, providing steps.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/provide_guidance/system.md",
+   "upstream_path": "data/patterns/provide_guidance/system.md",
+   "content_hash": "76ab1dcaf67ec648",
+   "status": "translated"
+  },
+  {
+   "name": "recommend_artists",
+   "zh_title": "电音艺人推荐",
+   "zh_desc": "输入某场音乐节的艺人名单和演出时间表，作为电音专家为你挑出最可能喜欢的艺人，并排出一份个性化的看演出程安排。",
+   "scenario": "规划音乐节看演路线时",
+   "tags": [
+    "ANALYSIS",
+    "RESEARCH",
+    "SELF"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Suggest artists based on user preferences and style.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/recommend_artists/system.md",
+   "upstream_path": "data/patterns/recommend_artists/system.md",
+   "content_hash": "4898f10720fc82d4",
+   "status": "translated"
+  },
+  {
+   "name": "to_flashcards",
+   "zh_title": "转Anki记忆卡片",
+   "zh_desc": "输入任意学习文本，像专业制卡师一样提炼知识点并拆成问答对，输出可直接导入Anki的抽认卡格式内容。",
+   "scenario": "把教材笔记做成记忆卡时",
+   "tags": [
+    "LEARNING",
+    "CONVERSION"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Convert content into flashcard format for learning.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/to_flashcards/system.md",
+   "upstream_path": "data/patterns/to_flashcards/system.md",
+   "content_hash": "3a51b055d7777a22",
+   "status": "translated"
+  },
+  {
+   "name": "write_essay_pg",
+   "zh_title": "PG风格论说文",
+   "zh_desc": "输入一个话题，模仿Paul Graham简洁清晰、从第一性原理出发的论说风格，写出带中心论点和论证的文章。",
+   "scenario": "写创业科技类深度评论时",
+   "tags": [
+    "WRITING",
+    "RESEARCH",
+    "LEARNING"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Create essays with thesis statements and arguments in the style of Paul Graham.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_essay_pg/system.md",
+   "upstream_path": "data/patterns/write_essay_pg/system.md",
+   "content_hash": "6d2cd8f88e75c3bb",
+   "status": "translated"
+  },
+  {
+   "name": "write_latex",
+   "zh_title": "生成LaTeX文档",
+   "zh_desc": "输入文档主题或内容要求，输出语法正确、排版规范的完整.tex文档源码，可直接用pdflatex编译成PDF不报错。",
+   "scenario": "写学术论文或正式报告时",
+   "tags": [
+    "WRITING",
+    "RESEARCH",
+    "CONVERSION"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Generate LaTeX documents with proper formatting.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_latex/system.md",
+   "upstream_path": "data/patterns/write_latex/system.md",
+   "content_hash": "f7877fddd9be3b86",
+   "status": "translated"
+  },
+  {
+   "name": "write_micro_essay",
+   "zh_title": "微型短文写作",
+   "zh_desc": "输入一个想法或话题，写一篇篇幅极短、只聚焦一个核心观点的微型文章，做到清晰透彻、一文一义。",
+   "scenario": "写短观点卡片或专栏时",
+   "tags": [
+    "WRITING",
+    "RESEARCH"
+   ],
+   "group": "学习与研究",
+   "desc_en": "Create concise essays presenting a single key idea.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_micro_essay/system.md",
+   "upstream_path": "data/patterns/write_micro_essay/system.md",
+   "content_hash": "895db1719fcba5b7",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_mistakes",
+   "zh_title": "思维错误复盘",
+   "zh_desc": "分析过去预测或决策中的思维模式与错误根源，找出导致失误的认知问题，并预判当前思考中可能重蹈的覆辙。",
+   "scenario": "决策复盘和纠正认知偏差时",
+   "tags": [
+    "ANALYSIS",
+    "SELF",
+    "CR THINKING"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Analyze past errors to prevent similar mistakes in predictions/decisions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_mistakes/system.md",
+   "upstream_path": "data/patterns/analyze_mistakes/system.md",
+   "content_hash": "8c1731107677be17",
+   "status": "translated"
+  },
+  {
+   "name": "create_better_frame",
+   "zh_title": "积极心态重构",
+   "zh_desc": "输入一篇描述困境的文章或处境，帮你找到更积极、更有建设性的心理框架重新看待同一问题，输出可落地的正向视角转换。",
+   "scenario": "面对困境需调整心态时",
+   "tags": [
+    "ANALYSIS",
+    "STRATEGY",
+    "SELF",
+    "WELLNESS"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Develop positive mental frameworks for challenging situations.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_better_frame/system.md",
+   "upstream_path": "data/patterns/create_better_frame/system.md",
+   "content_hash": "1d8cb832fb0fef15",
+   "status": "translated"
+  },
+  {
+   "name": "create_story_about_person",
+   "zh_title": "写单人心理故事",
+   "zh_desc": "根据输入的人物心理画像推断其日常困境与真实应对方式，创作500至700词的共情短篇故事，保持人物性格前后一致。",
+   "scenario": "人物写作、心理题材创作时",
+   "tags": [
+    "WRITING",
+    "SELF"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Infer everyday challenges and realistic coping strategies from a psychological profile and craft an empathetic 500–700-word story consistent with the character.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_story_about_person/system.md",
+   "upstream_path": "data/patterns/create_story_about_person/system.md",
+   "content_hash": "3bd8d884d9d2cdb9",
+   "status": "translated"
+  },
+  {
+   "name": "explain_terms_and_conditions",
+   "zh_title": "解读法律条款",
+   "zh_desc": "以法律分析师与消费者维权视角把密集复杂的法律合同译成清晰可执行的大白话，聚焦隐私与财务风险并标出陷阱条款。",
+   "scenario": "签协议前想看懂条款时",
+   "tags": [
+    "ANALYSIS",
+    "SELF"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Analyze legal agreements translating complex legalese into plain English with red flags.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_terms_and_conditions/system.md",
+   "upstream_path": "data/patterns/explain_terms_and_conditions/system.md",
+   "content_hash": "6921e30d1418fac5",
+   "status": "translated"
+  },
+  {
+   "name": "extract_most_redeeming_thing",
+   "zh_title": "找出最可取之处",
+   "zh_desc": "审视任意输入对象，即使整体观感很差，也要找出其中最值得肯定、最有救赎价值的那一点积极之处并加以说明。",
+   "scenario": "需要客观评价负面对象时",
+   "tags": [
+    "ANALYSIS",
+    "SELF",
+    "WISDOM"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Identify the most positive aspect from content.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_most_redeeming_thing/system.md",
+   "upstream_path": "data/patterns/extract_most_redeeming_thing/system.md",
+   "content_hash": "d43c4ff5f369110f",
+   "status": "translated"
+  },
+  {
+   "name": "extract_recipe",
+   "zh_title": "提取格式化菜谱",
+   "zh_desc": "以厨师视角把输入中的菜谱提取并格式化，整理出清晰的食材清单和烹饪步骤，输出便于照着做菜的标准食谱。",
+   "scenario": "从视频文章中扒菜谱时",
+   "tags": [
+    "SELF"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Extract/format recipes into instructions with ingredients and steps.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_recipe/system.md",
+   "upstream_path": "data/patterns/extract_recipe/system.md",
+   "content_hash": "21957bf3e9c72def",
+   "status": "translated"
+  },
+  {
+   "name": "extract_song_meaning",
+   "zh_title": "解读歌曲含义",
+   "zh_desc": "以词曲作者视角分析歌曲的歌词与相关输入，挖掘歌曲的深层含义、主题思想和情感表达，输出对这首歌的解读。",
+   "scenario": "想理解一首歌的深意时",
+   "tags": [
+    "ANALYSIS",
+    "SELF"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Analyze song lyrics to uncover deeper meanings and themes.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_song_meaning/system.md",
+   "upstream_path": "data/patterns/extract_song_meaning/system.md",
+   "content_hash": "bc118a04039ac0aa",
+   "status": "translated"
+  },
+  {
+   "name": "find_female_life_partner",
+   "zh_title": "概括择偶标准",
+   "zh_desc": "接收男性对女性终身伴侣的择偶标准描述，将零散的要求澄清并概括成一句直接、完整、精准表达诉求的完美句子。",
+   "scenario": "梳理自己终身伴侣要求时",
+   "tags": [
+    "SELF"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Clarify and summarize partner criteria in direct language.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/find_female_life_partner/system.md",
+   "upstream_path": "data/patterns/find_female_life_partner/system.md",
+   "content_hash": "e99d777490c2ec60",
+   "status": "translated"
+  },
+  {
+   "name": "heal_person",
+   "zh_title": "心理疗愈方案",
+   "zh_desc": "输入一个人的心理画像或心理学数据文件，分析其问题与优势，输出结构化、有同理心的个性化方案，助力精神、心理和生活层面的改善。",
+   "scenario": "基于心理画像制定疗愈计划时",
+   "tags": [
+    "ANALYSIS",
+    "SELF",
+    "WELLNESS"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Analyze a psychological profile, pinpoint issues and strengths, and deliver compassionate, structured strategies for spiritual, mental, and life improvement.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/heal_person/system.md",
+   "upstream_path": "data/patterns/heal_person/system.md",
+   "content_hash": "c5e4663698d1ef34",
+   "status": "translated"
+  },
+  {
+   "name": "model_as_sherlock_freud",
+   "zh_title": "福尔摩斯-弗洛伊德心理建模",
+   "zh_desc": "结合侦探式推理与精神分析洞察，对输入对象进行心理建模，分析其意识与潜意识、人格结构、情绪模式和内在冲突，构建动态的心理模型。",
+   "scenario": "深度刻画人物心理模型时",
+   "tags": [
+    "ANALYSIS",
+    "SELF",
+    "WELLNESS"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Builds psychological models using detective reasoning and psychoanalytic insight.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/model_as_sherlock_freud/system.md",
+   "upstream_path": "data/patterns/model_as_sherlock_freud/system.md",
+   "content_hash": "4e4cf09889805bb1",
+   "status": "translated"
+  },
+  {
+   "name": "predict_person_actions",
+   "zh_title": "人物行为预测",
+   "zh_desc": "同时输入某个人的心理画像和他面临的具体挑战，基于其人格与心理特征预测他最可能如何应对和行动，并给出行为预判。",
+   "scenario": "预判某人面对挑战的反应时",
+   "tags": [
+    "ANALYSIS",
+    "SELF",
+    "WELLNESS"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Predicts behavioral responses based on psychological profiles and challenges",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/predict_person_actions/system.md",
+   "upstream_path": "data/patterns/predict_person_actions/system.md",
+   "content_hash": "69b4b777dd30964b",
+   "status": "translated"
+  },
+  {
+   "name": "recommend_yoga_practice",
+   "zh_title": "个性化瑜伽练习",
+   "zh_desc": "输入个人的身体状况与需求画像，由资深瑜伽教练给出个性化的瑜伽体式序列、正念冥想指导以及整体健康生活方式建议。",
+   "scenario": "定制个人瑜伽练习计划时",
+   "tags": [
+    "WELLNESS",
+    "SELF"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Provides personalized yoga sequences, meditation guidance, and holistic lifestyle advice based on individual profiles.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/recommend_yoga_practice/system.md",
+   "upstream_path": "data/patterns/recommend_yoga_practice/system.md",
+   "content_hash": "849f5fd9ecb13258",
+   "status": "translated"
+  },
+  {
+   "name": "t_check_dunning_kruger",
+   "zh_title": "达克效应自查",
+   "zh_desc": "结合人物背景资料，运用达克效应原理分析其言行中的过度自信或能力低估，指出认知偏差所在并给出提醒。",
+   "scenario": "评估自己或他人自信度时",
+   "tags": [
+    "ANALYSIS",
+    "CR THINKING",
+    "SELF"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Analyze cognitive biases to identify overconfidence and underestimation of abilities using Dunning-Kruger principles.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_check_dunning_kruger/system.md",
+   "upstream_path": "data/patterns/t_check_dunning_kruger/system.md",
+   "content_hash": "0ed96ca91b2e6891",
+   "status": "translated"
+  },
+  {
+   "name": "t_describe_life_outlook",
+   "zh_title": "人生观剖析",
+   "zh_desc": "结合人物背景资料与言行文本，分析其个人哲学和核心信念，描绘这个人看待世界与人生的底层态度。",
+   "scenario": "想深入理解某个人物时",
+   "tags": [
+    "ANALYSIS",
+    "WRITING",
+    "SELF"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Analyze personal philosophies to understand core beliefs.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_describe_life_outlook/system.md",
+   "upstream_path": "data/patterns/t_describe_life_outlook/system.md",
+   "content_hash": "57d894613bfc8cd4",
+   "status": "translated"
+  },
+  {
+   "name": "t_find_neglected_goals",
+   "zh_title": "被忽视目标挖掘",
+   "zh_desc": "结合人物背景和现状资料，对照其目标清单找出长期被搁置忽视的目标，并指出重新拾起的机会与价值。",
+   "scenario": "做个人年度目标盘点时",
+   "tags": [
+    "STRATEGY",
+    "CR THINKING",
+    "SELF"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Identify neglected goals to surface opportunities.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_find_neglected_goals/system.md",
+   "upstream_path": "data/patterns/t_find_neglected_goals/system.md",
+   "content_hash": "3b10f4b3bfc09947",
+   "status": "translated"
+  },
+  {
+   "name": "t_give_encouragement",
+   "zh_title": "个性化鼓励话语",
+   "zh_desc": "结合收信人的背景、处境和性格特点，生成真诚贴合其现状的个性化鼓励话语，而不是空泛的心灵鸡汤。",
+   "scenario": "给低谷中的朋友打气时",
+   "tags": [
+    "WRITING",
+    "SELF",
+    "WELLNESS"
+   ],
+   "group": "个人成长与身心",
+   "desc_en": "Generate personalized messages of encouragement.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_give_encouragement/system.md",
+   "upstream_path": "data/patterns/t_give_encouragement/system.md",
+   "content_hash": "d2450dc6be6700fc",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_prose",
+   "zh_title": "文章质量评审",
+   "zh_desc": "以编辑视角评估文章写作质量，从新颖度、清晰度和整体传达效果打分，并给出具体的修改提升建议。",
+   "scenario": "投稿前打磨文章质量时",
+   "tags": [
+    "ANALYSIS",
+    "WRITING",
+    "REVIEW"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Evaluate writing quality by rating novelty, clarity, and style.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_prose/system.md",
+   "upstream_path": "data/patterns/analyze_prose/system.md",
+   "content_hash": "9b2d62fcd2b1973c",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_prose_pinker",
+   "zh_title": "平克风格写作诊断",
+   "zh_desc": "依据史蒂芬·平克《风格感觉》的原则审视文章，诊断表达清晰度和有效性问题，给出让文字更明快有力的修改建议。",
+   "scenario": "提升英文写作清晰度时",
+   "tags": [
+    "ANALYSIS",
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Analyze writing style using Pinker's principles to improve clarity and effectiveness.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_prose_pinker/system.md",
+   "upstream_path": "data/patterns/analyze_prose_pinker/system.md",
+   "content_hash": "186978f5d4b52c66",
+   "status": "translated"
+  },
+  {
+   "name": "chinese_news_translate",
+   "zh_title": "英文新闻汉译",
+   "zh_desc": "输入英文新闻报道，译成符合中文新闻语体的流畅报道，人名机构首次出现附英文原名，必要时加注释并按中文逻辑重组段落。",
+   "scenario": "编译国际新闻报道稿件时",
+   "tags": [
+    "CONVERSION",
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Translate English news articles into natural, journalistic Chinese.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/chinese_news_translate/system.md",
+   "upstream_path": "data/patterns/chinese_news_translate/system.md",
+   "content_hash": "c64bd58fbd8e99da",
+   "status": "translated"
+  },
+  {
+   "name": "clean_text",
+   "zh_title": "文本清理排版",
+   "zh_desc": "输入断行错乱、标点混乱的文本，修复换行与标点、规范排版，完整保留原有内容和含义，输出干净可读的纯文本。",
+   "scenario": "清理PDF复制的乱文本时",
+   "tags": [
+    "WRITING",
+    "CONVERSION"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Format/clean text by fixing breaks, punctuation, preserving content/meaning.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/clean_text/system.md",
+   "upstream_path": "data/patterns/clean_text/system.md",
+   "content_hash": "80b535b41e20bc8f",
+   "status": "translated"
+  },
+  {
+   "name": "compare_and_contrast",
+   "zh_title": "对比分析",
+   "zh_desc": "输入一组待比较的条目，简明地对比它们的异同点，输出突出关键差异与共同点的结构化比较，帮助快速做取舍判断。",
+   "scenario": "对比多个方案或产品时",
+   "tags": [
+    "ANALYSIS",
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Create comparisons table, highlighting key differences and similarities.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/compare_and_contrast/system.md",
+   "upstream_path": "data/patterns/compare_and_contrast/system.md",
+   "content_hash": "c130f06e041da732",
+   "status": "translated"
+  },
+  {
+   "name": "convert_to_markdown",
+   "zh_title": "转Markdown格式",
+   "zh_desc": "输入任意内容，识别其结构并完整转换为干净的Markdown，保留全部原文和层级，去除周边噪音，不遗漏任何内容。",
+   "scenario": "把网页文档转Markdown时",
+   "tags": [
+    "CONVERSION",
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Convert content to markdown, preserving original content and structure.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/convert_to_markdown/system.md",
+   "upstream_path": "data/patterns/convert_to_markdown/system.md",
+   "content_hash": "513042ba489bf0e5",
+   "status": "translated"
+  },
+  {
+   "name": "create_show_intro",
+   "zh_title": "创作节目开场白",
+   "zh_desc": "为播客或媒体节目创作简短有力的开场介绍词：在节目开始前朗读，用几句话抓住听众注意力并预告本期亮点。",
+   "scenario": "录播客、做节目片头时",
+   "tags": [
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Craft compelling podcast/show intros to engage audience.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_show_intro/system.md",
+   "upstream_path": "data/patterns/create_show_intro/system.md",
+   "content_hash": "8b65b5f40205f543",
+   "status": "translated"
+  },
+  {
+   "name": "create_story_about_people_interaction",
+   "zh_title": "写双人互动故事",
+   "zh_desc": "先对输入的两个人做心理画像、比较其性格与动机，再据此创作人物驱动的现实主义故事，还原两人互动的张力与化学反应。",
+   "scenario": "人物关系分析、小说创作时",
+   "tags": [
+    "ANALYSIS",
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Analyze two personas, compare their dynamics, and craft a realistic, character-driven story from those insights.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_story_about_people_interaction/system.md",
+   "upstream_path": "data/patterns/create_story_about_people_interaction/system.md",
+   "content_hash": "269d20b146ad7f90",
+   "status": "translated"
+  },
+  {
+   "name": "extract_characters",
+   "zh_title": "提取文本角色",
+   "zh_desc": "从任意文本中识别所有人物与非人类角色，消解别名和代词指代，按叙事重要性排序并说明各自角色、动机与互动关系。",
+   "scenario": "分析小说剧本或故事人物时",
+   "tags": [
+    "ANALYSIS",
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Identify all characters (human and non-human), resolve their aliases and pronouns into canonical names, and produce detailed descriptions of each character's role, motivations, and interactions ranked by narrative importance.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_characters/system.md",
+   "upstream_path": "data/patterns/extract_characters/system.md",
+   "content_hash": "54511908418dbec4",
+   "status": "translated"
+  },
+  {
+   "name": "fix_typos",
+   "zh_title": "校对修正错别字",
+   "zh_desc": "通读输入文本，仔细找出所有拼写、语法、标点等文字错误，输出修正后的干净版本，确保文本准确、专业、无错漏。",
+   "scenario": "文稿发布前校对纠错时",
+   "tags": [
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Proofreads and corrects typos, spelling, grammar, and punctuation errors.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/fix_typos/system.md",
+   "upstream_path": "data/patterns/fix_typos/system.md",
+   "content_hash": "ecb2c15caea4649e",
+   "status": "translated"
+  },
+  {
+   "name": "humanize",
+   "zh_title": "文本口语化改写",
+   "zh_desc": "输入生硬或技术化的文本，用短句、主动语态和日常用词改写成像真人说话一样自然亲切、简单易懂的版本，像给朋友讲解一样。",
+   "scenario": "让文案读起来更像真人说话时",
+   "tags": [
+    "WRITING",
+    "CONVERSION"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Transform technical content into approachable language.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/humanize/system.md",
+   "upstream_path": "data/patterns/humanize/system.md",
+   "content_hash": "76a611009c523709",
+   "status": "translated"
+  },
+  {
+   "name": "improve_writing",
+   "zh_title": "通用写作润色",
+   "zh_desc": "输入任意待打磨的文本，从清晰度、连贯性、语法和文风等方面全面润色，输出更流畅、更易读、表达更到位的改进版本。",
+   "scenario": "日常文稿润色改稿的时候",
+   "tags": [
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Enhance writing by improving clarity, flow, and style.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/improve_writing/system.md",
+   "upstream_path": "data/patterns/improve_writing/system.md",
+   "content_hash": "98288d12a0aa175b",
+   "status": "translated"
+  },
+  {
+   "name": "label_and_rate",
+   "zh_title": "内容贴标评分",
+   "zh_desc": "输入任意内容，为其打上一组逗号分隔的单字标签进行分类，再给出一个整体质量评分，实现快速的内容标注与分级。",
+   "scenario": "批量给内容打标签评分时",
+   "tags": [
+    "ANALYSIS",
+    "REVIEW",
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Categorize/evaluate content by assigning labels and ratings.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/label_and_rate/system.md",
+   "upstream_path": "data/patterns/label_and_rate/system.md",
+   "content_hash": "4280fb6d0f294964",
+   "status": "translated"
+  },
+  {
+   "name": "lens_rhetorical",
+   "zh_title": "修辞学阅读透镜",
+   "zh_desc": "用古典修辞学透镜分析输入文本，不看它论证什么而看它如何说服，拆解其诉诸权威、情感、逻辑与时机这四种说服策略的运用。",
+   "scenario": "分析演讲文案的说服手法时",
+   "tags": [
+    "ANALYSIS",
+    "CR THINKING",
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Analyze how texts persuade through ethos, pathos, logos and kairos.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/lens_rhetorical/system.md",
+   "upstream_path": "data/patterns/lens_rhetorical/system.md",
+   "content_hash": "ed109c0cd569f015",
+   "status": "translated"
+  },
+  {
+   "name": "md_callout",
+   "zh_title": "Markdown标注块生成",
+   "zh_desc": "输入一段文本，先判断它最适合哪种标注类型，再将其转换成Markdown的callout标注块，用来醒目地突出提示、警告等信息。",
+   "scenario": "给文档添加醒目标注块时",
+   "tags": [
+    "WRITING",
+    "CONVERSION"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Generate markdown callout blocks to highlight info.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/md_callout/system.md",
+   "upstream_path": "data/patterns/md_callout/system.md",
+   "content_hash": "0670bf5ca3d80e41",
+   "status": "translated"
+  },
+  {
+   "name": "rate_content",
+   "zh_title": "内容质量评分",
+   "zh_desc": "输入任意内容，从多个维度对其质量进行评价打分，同时给出分类标签，给出这份内容到底值不值得看的量化判断。",
+   "scenario": "筛选和评估内容质量时",
+   "tags": [
+    "ANALYSIS",
+    "REVIEW",
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Evaluate content quality across dimensions, providing scoring.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/rate_content/system.md",
+   "upstream_path": "data/patterns/rate_content/system.md",
+   "content_hash": "1d1d54510add3eef",
+   "status": "translated"
+  },
+  {
+   "name": "recommend_talkpanel_topics",
+   "zh_title": "演讲圆桌话题推荐",
+   "zh_desc": "输入一个人的背景、目标、兴趣和想法，为其生成一份干净可直接发送的提案，包含建议的演讲题目或圆桌讨论话题要点，供提交给会议主办方。",
+   "scenario": "为嘉宾准备会议提案时",
+   "tags": [
+    "ANALYSIS",
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Generate discussion topics for panel talks based on interests.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/recommend_talkpanel_topics/system.md",
+   "upstream_path": "data/patterns/recommend_talkpanel_topics/system.md",
+   "content_hash": "4dd035d07113ff78",
+   "status": "translated"
+  },
+  {
+   "name": "t_create_opening_sentences",
+   "zh_title": "吸睛开头句生成",
+   "zh_desc": "结合内容主题与背景资料，为文章或演讲创作多个抓人眼球的开场句，帮助读者在第一句就被吸引住。",
+   "scenario": "写文章缺一个好开头时",
+   "tags": [
+    "WRITING"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Generate compelling opening sentences for content.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_create_opening_sentences/system.md",
+   "upstream_path": "data/patterns/t_create_opening_sentences/system.md",
+   "content_hash": "dc8a9e4ccb156bd3",
+   "status": "translated"
+  },
+  {
+   "name": "tweet",
+   "zh_title": "内容转推文",
+   "zh_desc": "输入任意内容素材，按280字符限制和推文写作规范改写成吸引人的短推文，善用emoji提升互动和传播效果。",
+   "scenario": "把长内容改发成推文时",
+   "tags": [
+    "WRITING",
+    "CONVERSION"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Transform content into concise tweets.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/tweet/system.md",
+   "upstream_path": "data/patterns/tweet/system.md",
+   "content_hash": "7b9b53b9e8e1cd16",
+   "status": "translated"
+  },
+  {
+   "name": "write_essay",
+   "zh_title": "仿名家风格写文",
+   "zh_desc": "输入一个主题并指定某位作者，模仿其用词、句式和文风特点，写出一篇带有该作者鲜明风格印记的散文文章。",
+   "scenario": "想用名家笔法写话题时",
+   "tags": [
+    "WRITING",
+    "CREATIVITY"
+   ],
+   "group": "写作与文本加工",
+   "desc_en": "Write essays on given topics in the distinctive style of specified authors.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_essay/system.md",
+   "upstream_path": "data/patterns/write_essay/system.md",
+   "content_hash": "dee6044e64d91a3d",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_bill",
+   "zh_title": "法案深度解析",
+   "zh_desc": "深入分析立法法案文本，揭示其真实目标与意图，兼顾明面条款和隐含影响，指出陷阱条款并汇总法案要点与后果。",
+   "scenario": "研读法案和评估立法影响时",
+   "tags": [
+    "ANALYSIS",
+    "BILL"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Analyze a legislative bill and implications.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_bill/system.md",
+   "upstream_path": "data/patterns/analyze_bill/system.md",
+   "content_hash": "c7a3cf369cd6b915",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_bill_short",
+   "zh_title": "法案精简解析",
+   "zh_desc": "analyze_bill的精简版，快速解析法案的核心目标、明面与隐含意图及陷阱条款，用更短篇幅输出法案概要和影响判断。",
+   "scenario": "需要快速浏览法案要点时",
+   "tags": [
+    "ANALYSIS",
+    "BILL"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Condensed - Analyze a legislative bill and implications.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_bill_short/system.md",
+   "upstream_path": "data/patterns/analyze_bill_short/system.md",
+   "content_hash": "95b021a6df750742",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_cfp_submission",
+   "zh_title": "会议投稿评审",
+   "zh_desc": "评审会议演讲投稿摘要，从内容质量、准确性、教育价值、娱乐性和讲者资质等维度评估，判断是否适合入选议程。",
+   "scenario": "技术大会筛选演讲议题时",
+   "tags": [
+    "ANALYSIS",
+    "REVIEW"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Evaluate conference submissions for content, speaker qualifications and educational value.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_cfp_submission/system.md",
+   "upstream_path": "data/patterns/analyze_cfp_submission/system.md",
+   "content_hash": "371aa7414672306e",
+   "status": "translated"
+  },
+  {
+   "name": "analyze_military_strategy",
+   "zh_title": "历史战役战略分析",
+   "zh_desc": "以军事史视角剖析历史战役，对比交战双方的战略战术，总结关键优劣势与成败因素，提炼可借鉴的军事经验教训。",
+   "scenario": "研读战史和战略案例时",
+   "tags": [
+    "ANALYSIS",
+    "STRATEGY"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Examine battles analyzing strategic decisions to extract military lessons.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/analyze_military_strategy/system.md",
+   "upstream_path": "data/patterns/analyze_military_strategy/system.md",
+   "content_hash": "d0ddbca64eea22a4",
+   "status": "translated"
+  },
+  {
+   "name": "apply_ul_tags",
+   "zh_title": "内容标准标签标注",
+   "zh_desc": "为任意内容打上标准化主题标签，覆盖人工智能、网络安全、政治、文化等类别，便于内容分类、检索和聚合。",
+   "scenario": "批量给文章内容打标签时",
+   "tags": [
+    "ANALYSIS",
+    "CLASSIFICATION"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Apply standardized content tags to categorize topics like AI, cybersecurity, politics, and culture.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/apply_ul_tags/system.md",
+   "upstream_path": "data/patterns/apply_ul_tags/system.md",
+   "content_hash": "6154aec592d7f5cc",
+   "status": "translated"
+  },
+  {
+   "name": "audit_consent",
+   "zh_title": "同意真实性审计",
+   "zh_desc": "审计互动、协议或系统中的同意是否真实自愿，剖析权力不对等、经济压力、信息操纵如何制造虚假同意。",
+   "scenario": "审视协议条款是否真自愿时",
+   "tags": [
+    "ANALYSIS",
+    "CR THINKING"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Evaluate whether consent is genuine or manufactured by analyzing power asymmetries, information gaps, and coercion.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/audit_consent/system.md",
+   "upstream_path": "data/patterns/audit_consent/system.md",
+   "content_hash": "cfb3adf57c59e5d2",
+   "status": "translated"
+  },
+  {
+   "name": "audit_transparency",
+   "zh_title": "透明度审计",
+   "zh_desc": "审计影响他人的决策与系统是否可解释，判断其不透明是源于真实复杂性还是为掩盖权力与伤害，给出评估结论。",
+   "scenario": "审查算法决策是否可解释时",
+   "tags": [
+    "ANALYSIS",
+    "CR THINKING"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Audit decisions and systems for explainability, assessing whether opacity is justified or conceals harm.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/audit_transparency/system.md",
+   "upstream_path": "data/patterns/audit_transparency/system.md",
+   "content_hash": "dcc8ba62503dcc53",
+   "status": "translated"
+  },
+  {
+   "name": "check_falsifiability",
+   "zh_title": "可证伪性检查",
+   "zh_desc": "输入一个主张、定义或论证，逐项审计它是否能被经验证伪、是否可测试，指出不可证伪的断言并说明为何不能作为决策依据。",
+   "scenario": "评审理论主张或AI结论时",
+   "tags": [
+    "ANALYSIS",
+    "CR THINKING"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Evaluate whether claims, definitions, and arguments are falsifiable and can be proven wrong.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/check_falsifiability/system.md",
+   "upstream_path": "data/patterns/check_falsifiability/system.md",
+   "content_hash": "99d0d71b5e0ce4c4",
+   "status": "translated"
+  },
+  {
+   "name": "detect_mind_virus",
+   "zh_title": "检测思想病毒",
+   "zh_desc": "以认知免疫视角分析内容、提案或意识形态，识别靠利用认知捷径传播、靠重定义关键词抵制纠错的操纵性信念体系。",
+   "scenario": "辨别煽动话术与极端观念时",
+   "tags": [
+    "ANALYSIS",
+    "CR THINKING"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Detect manipulative belief systems that spread by exploiting cognitive shortcuts while resisting correction.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/detect_mind_virus/system.md",
+   "upstream_path": "data/patterns/detect_mind_virus/system.md",
+   "content_hash": "da873a9abe537a3c",
+   "status": "translated"
+  },
+  {
+   "name": "detect_silent_victims",
+   "zh_title": "找出沉默受害者",
+   "zh_desc": "分析行动、政策、系统或提案，找出因尚未出生、缺乏权力、意识或发声渠道而受害却无法申诉的沉默受害方。",
+   "scenario": "评估政策隐性代价时用",
+   "tags": [
+    "ANALYSIS",
+    "CR THINKING"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Identify parties harmed by actions or systems who cannot speak up due to power, awareness, or temporal gaps.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/detect_silent_victims/system.md",
+   "upstream_path": "data/patterns/detect_silent_victims/system.md",
+   "content_hash": "0c6f98face4dca9a",
+   "status": "translated"
+  },
+  {
+   "name": "get_wow_per_minute",
+   "zh_title": "每分钟惊艳点计算",
+   "zh_desc": "输入视频、播客或文章等内容，识别其中令人印象深刻的精彩瞬间，计算每分钟的Wow密度，用来量化内容的吸引力和参与度。",
+   "scenario": "评估视频或播客的精彩程度时",
+   "tags": [
+    "ANALYSIS",
+    "REVIEW"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Calculate frequency of impressive moments to measure engagement.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/get_wow_per_minute/system.md",
+   "upstream_path": "data/patterns/get_wow_per_minute/system.md",
+   "content_hash": "e62b04e6458f4501",
+   "status": "translated"
+  },
+  {
+   "name": "judge_ultimate_law",
+   "zh_title": "终极法则推导裁决",
+   "zh_desc": "输入一个具体情境，先将其翻译成事实，再按Ultimate Law的可执行If/then规则手册逐条推导裁决，输出推导链及能翻转结论的事实。",
+   "scenario": "按终极法则框架推导裁决时",
+   "tags": [
+    "ANALYSIS",
+    "CR THINKING"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Derive Ultimate Law verdicts step by step through an executable rulebook of If/then rules and integrity constraints, with derivation chains and the facts that would flip each verdict.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/judge_ultimate_law/system.md",
+   "upstream_path": "data/patterns/judge_ultimate_law/system.md",
+   "content_hash": "d911b5b1b2b8f6ce",
+   "status": "translated"
+  },
+  {
+   "name": "lens_deconstructive",
+   "zh_title": "解构主义阅读透镜",
+   "zh_desc": "用德里达解构主义方法细读输入文本，找出其依赖的二元对立与等级秩序，揭示被压抑、缺席的部分以及文本自我矛盾之处。",
+   "scenario": "深挖文本隐含结构与矛盾时",
+   "tags": [
+    "ANALYSIS",
+    "CR THINKING"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Read texts deconstructively to expose binaries, absences and self-contradictions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/lens_deconstructive/system.md",
+   "upstream_path": "data/patterns/lens_deconstructive/system.md",
+   "content_hash": "8d0fda5977f92ab0",
+   "status": "translated"
+  },
+  {
+   "name": "lens_stoic",
+   "zh_title": "哲学阅读透镜",
+   "zh_desc": "用思想史的哲学透镜细读输入文本，追溯其思想源流与传统，揭示隐含假设和内在张力，并提出作者没有追问的问题。",
+   "scenario": "深挖文本的思想脉络时",
+   "tags": [
+    "ANALYSIS",
+    "CR THINKING",
+    "WISDOM"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Read texts philosophically to trace intellectual lineage, tensions and unasked questions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/lens_stoic/system.md",
+   "upstream_path": "data/patterns/lens_stoic/system.md",
+   "content_hash": "7b37a141bb24ea2e",
+   "status": "translated"
+  },
+  {
+   "name": "t_analyze_challenge_handling",
+   "zh_title": "应对挑战方式分析",
+   "zh_desc": "结合人物或组织的深层背景资料，分析其面对挑战时的回应策略和处理方式，提炼其中的规律与得失洞察。",
+   "scenario": "复盘人物危机应对表现时",
+   "tags": [
+    "ANALYSIS",
+    "STRATEGY",
+    "CR THINKING"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Evaluate challenge handling by analyzing response strategies.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_analyze_challenge_handling/system.md",
+   "upstream_path": "data/patterns/t_analyze_challenge_handling/system.md",
+   "content_hash": "f7c8f12f21328ef7",
+   "status": "translated"
+  },
+  {
+   "name": "t_find_blindspots",
+   "zh_title": "思维盲点发现",
+   "zh_desc": "结合人物或组织的背景资料，审视其计划与言论中被忽略的角度和未意识到的假设，找出潜在的思维盲点。",
+   "scenario": "做重要决策前查漏补缺时",
+   "tags": [
+    "ANALYSIS",
+    "STRATEGY",
+    "CR THINKING"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Identify blind spots in thinking to improve awareness.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_find_blindspots/system.md",
+   "upstream_path": "data/patterns/t_find_blindspots/system.md",
+   "content_hash": "aed3fa9c14e5fbd1",
+   "status": "translated"
+  },
+  {
+   "name": "t_find_negative_thinking",
+   "zh_title": "消极思维识别",
+   "zh_desc": "结合背景资料分析给定文本，识别其中的消极思维模式和认知扭曲，帮助当事人看清负面想法的来源。",
+   "scenario": "做个人自我心理觉察时",
+   "tags": [
+    "ANALYSIS",
+    "STRATEGY",
+    "CR THINKING"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Identify negative thinking patterns to recognize distortions.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/t_find_negative_thinking/system.md",
+   "upstream_path": "data/patterns/t_find_negative_thinking/system.md",
+   "content_hash": "bd008a930860c14e",
+   "status": "translated"
+  },
+  {
+   "name": "ultimate_law_safety",
+   "zh_title": "终极法则安全评估",
+   "zh_desc": "输入拟议的行动、政策或系统，用Ultimate Law框架评估其是否制造非自愿受害者这一最低伦理红线，给出违规判定。",
+   "scenario": "评估AI或政策伦理底线时",
+   "tags": [
+    "ANALYSIS",
+    "CR THINKING"
+   ],
+   "group": "分析与批判性思维",
+   "desc_en": "Evaluate actions and policies against the Ultimate Law framework to identify violations creating unwilling victims.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/ultimate_law_safety/system.md",
+   "upstream_path": "data/patterns/ultimate_law_safety/system.md",
+   "content_hash": "02f70eb57db5ba63",
+   "status": "translated"
+  },
+  {
+   "name": "create_npc",
+   "zh_title": "生成D&D NPC角色",
+   "zh_desc": "为龙与地下城5版生成详细NPC：输入角色构想或随机要求，输出含背景故事、性格、属性数值与装备的完整非玩家角色卡。",
+   "scenario": "跑团备团、临时需要NPC时",
+   "tags": [
+    "GAMING"
+   ],
+   "group": "格式转换与其他",
+   "desc_en": "Generate detailed D&D 5E NPC characters with backgrounds and game stats.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_npc/system.md",
+   "upstream_path": "data/patterns/create_npc/system.md",
+   "content_hash": "243bae65fe75c04a",
+   "status": "translated"
+  },
+  {
+   "name": "create_rpg_summary",
+   "zh_title": "总结跑团游戏记录",
+   "zh_desc": "把面对面角色扮演游戏的录音转录文本整理成会话总结：输出关键事件、战斗数据、角色缺陷与剧情进展等要点。",
+   "scenario": "D&D跑团结束后做记录时",
+   "tags": [
+    "GAMING"
+   ],
+   "group": "格式转换与其他",
+   "desc_en": "Summarize RPG sessions capturing events, combat, and narrative.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_rpg_summary/system.md",
+   "upstream_path": "data/patterns/create_rpg_summary/system.md",
+   "content_hash": "c126cbd95aa3ab63",
+   "status": "translated"
+  },
+  {
+   "name": "extract_jokes",
+   "zh_title": "提取笑话段子",
+   "zh_desc": "从文本内容中专门提取笑话、双关语和机智俏皮话，按条目列出每个笑点及其包袱，不混入其他无关的内容信息。",
+   "scenario": "从节目文本中收集笑点时",
+   "tags": [
+    "OTHER"
+   ],
+   "group": "格式转换与其他",
+   "desc_en": "Extract/categorize jokes, puns, and witty remarks.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_jokes/system.md",
+   "upstream_path": "data/patterns/extract_jokes/system.md",
+   "content_hash": "832c5e92b78b644e",
+   "status": "translated"
+  },
+  {
+   "name": "pattern_explanations.md",
+   "zh_title": "Pattern说明文档",
+   "zh_desc": "它不是可运行的Pattern，没有对应的system.md提示词正文，仅是Pattern相关的说明文档条目，无实际的输入处理与输出生成功能。",
+   "scenario": "查阅Pattern说明文档时",
+   "tags": [],
+   "group": "格式转换与其他",
+   "desc_en": "",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/pattern_explanations.md",
+   "upstream_path": "data/patterns/pattern_explanations.md",
+   "content_hash": "5ce208c5953a6f19",
+   "status": "translated"
+  },
+  {
+   "name": "translate",
+   "zh_title": "按语言代码翻译",
+   "zh_desc": "输入句子或文档并指定目标语言代码，如en-us或ja-jp，逐句准确翻译且保持原文格式、语气和排版不变。",
+   "scenario": "翻译文档且需保留格式时",
+   "tags": [
+    "CONVERSION"
+   ],
+   "group": "格式转换与其他",
+   "desc_en": "Convert content between languages while preserving meaning.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/translate/system.md",
+   "upstream_path": "data/patterns/translate/system.md",
+   "content_hash": "ae70cf1ef7742e9e",
+   "status": "translated"
+  }
+ ]
+}
