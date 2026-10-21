@@ -95,8 +95,12 @@ def render_html(data):
                 f' · <a href="{ZH_BLOB}{esc(m["zh_prompt"])}" target="_blank">中文版提示词 ↗</a>'
                 if m.get("zh_prompt") else ""
             )
+            hay = " ".join([
+                m["name"], m["zh_title"], m["zh_desc"], m["scenario"], tags,
+                g, m.get("desc_en", ""),
+            ]).lower()
             rows.append(
-                f'<div class="row" data-search="{esc((m["name"] + " " + m["zh_title"] + " " + m["zh_desc"] + " " + m["scenario"] + " " + tags).lower())}">'
+                f'<div class="row" data-search="{esc(hay)}">'
                 f'<div class="rname"><a href="{esc(m["source_url"])}" target="_blank">{esc(m["name"])}</a>'
                 f'<div class="rtitle">{esc(m["zh_title"])}{badge}</div></div>'
                 f'<div class="rdesc">{esc(m["zh_desc"] or m.get("desc_en",""))}</div>'
@@ -144,14 +148,17 @@ h2{{font-size:25px;margin:52px 0 4px}}h2 .cnt{{color:var(--acc);font-size:16px}}
 <div class="stat"><b>{data['synced_at']}</b><span>最近同步日期</span></div>
 <div class="stat"><b>{esc(data['upstream_commit'][:7])}</b><span>上游 commit</span></div>
 </div>
-<div class="search"><input id="q" type="text" placeholder="搜索：英文名、中文名或关键词，如 review、审查、视频、威胁建模…"></div>
+<div class="search"><input id="q" type="text" placeholder="搜索：英文名、中文名、简介或场景关键词，如 review、审查、视频、威胁建模…支持隔字模糊匹配，如「日志排障」"></div>
 <nav>{''.join(nav)}</nav>
 {''.join(sections)}
 <footer>数据来源：github.com/danielmiessler/Fabric（MIT）。中文简介为依据原文的概括；中文版提示词为原文全文翻译，保留原结构与输出格式约束，个别输出章节名等格式标签按原文保留英文。本目录由脚本从 data/patterns.json 生成。</footer>
 </div>
 <script>
 const q=document.getElementById('q');
-q.addEventListener('input',()=>{{const v=q.value.trim().toLowerCase();document.querySelectorAll('.row').forEach(r=>{{r.classList.toggle('hide',v&&!r.dataset.search.includes(v))}});document.querySelectorAll('section').forEach(s=>{{const vis=[...s.querySelectorAll('.row')].some(r=>!r.classList.contains('hide'));s.classList.toggle('hide',!!v&&!vis)}})}});
+const compact=s=>s.replace(/[\s\p{{P}}]+/gu,'');
+const subseq=(needle,hay)=>{{let i=0;for(const ch of hay){{if(ch===needle[i])i++;if(i===needle.length)return true}}return needle.length>0&&i===needle.length}};
+const tokenHit=(tok,hay,flat)=>hay.includes(tok)||subseq(compact(tok),flat);
+q.addEventListener('input',()=>{{const toks=q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);document.querySelectorAll('.row').forEach(r=>{{const hay=r.dataset.search,flat=compact(hay);const vis=!toks.length||toks.every(t=>tokenHit(t,hay,flat));r.classList.toggle('hide',!vis)}});document.querySelectorAll('section').forEach(s=>{{const vis=[...s.querySelectorAll('.row')].some(r=>!r.classList.contains('hide'));s.classList.toggle('hide',!!toks.length&&!vis)}});}});
 </script></body></html>"""
 
 
