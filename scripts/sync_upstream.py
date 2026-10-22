@@ -129,35 +129,38 @@ def main():
         old = {p["name"]: p for p in data["patterns"]}
         added, changed, removed = [], [], []
         merged = []
-        for name, f in fresh.items():
-            if name not in old:
-                added.append(name)
-                merged.append({
-                    "name": name, "zh_title": "", "zh_desc": f["desc_en"],
-                    "scenario": "", "tags": f["tags"], "group": "格式转换与其他",
-                    "desc_en": f["desc_en"],
-                    "source_url": f"https://github.com/danielmiessler/Fabric/blob/main/{f['upstream_path']}",
-                    "upstream_path": f["upstream_path"],
-                    "content_hash": f["content_hash"],
-                    "status": "pending_translation",
-                    "_purpose_en": f["purpose"],
-                })
-            else:
-                e = dict(old[name])
-                e["tags"] = f["tags"] or e.get("tags", [])
-                e["desc_en"] = f["desc_en"]
-                e["upstream_path"] = f["upstream_path"]
-                e["source_url"] = f"https://github.com/danielmiessler/Fabric/blob/main/{f['upstream_path']}"
-                if e.get("content_hash") != f["content_hash"]:
-                    changed.append(name)
-                    e["content_hash"] = f["content_hash"]
-                    if e.get("status") == "translated":
-                        e["status"] = "needs_review"
-                    e["_purpose_en"] = f["purpose"]
-                merged.append(e)
+        # Keep existing entry order (sorted by Chinese title); append new entries at the end.
         for name in old:
             if name not in fresh:
                 removed.append(name)
+                continue
+            f = fresh[name]
+            e = dict(old[name])
+            e["tags"] = f["tags"] or e.get("tags", [])
+            e["desc_en"] = f["desc_en"]
+            e["upstream_path"] = f["upstream_path"]
+            e["source_url"] = f"https://github.com/danielmiessler/Fabric/blob/main/{f['upstream_path']}"
+            if e.get("content_hash") != f["content_hash"]:
+                changed.append(name)
+                e["content_hash"] = f["content_hash"]
+                if e.get("status") == "translated":
+                    e["status"] = "needs_review"
+                e["_purpose_en"] = f["purpose"]
+            merged.append(e)
+        for name, f in fresh.items():
+            if name in old:
+                continue
+            added.append(name)
+            merged.append({
+                "name": name, "zh_title": "", "zh_desc": f["desc_en"],
+                "scenario": "", "tags": f["tags"], "group": "格式转换与其他",
+                "desc_en": f["desc_en"],
+                "source_url": f"https://github.com/danielmiessler/Fabric/blob/main/{f['upstream_path']}",
+                "upstream_path": f["upstream_path"],
+                "content_hash": f["content_hash"],
+                "status": "pending_translation",
+                "_purpose_en": f["purpose"],
+            })
 
         data["patterns"] = merged
         data["count"] = len(merged)
