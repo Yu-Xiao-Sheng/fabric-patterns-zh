@@ -1,6 +1,6 @@
 # Fabric 全部提示词中文目录
 
-上游：[danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) · 同步于 2026-11-03 · 上游 commit `00a653f` · 共 266 条
+上游：[danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) · 同步于 2026-11-04 · 上游 commit `8e8511c` · 共 266 条
 
 每条的英文名即直达链接，指向源仓库中该 Pattern 的 `system.md` 原文；「中文版」链接指向本仓库 `patterns-zh/` 下的中文全文译版。
 
