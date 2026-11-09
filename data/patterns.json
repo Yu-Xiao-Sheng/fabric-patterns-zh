@@ -1,8 +1,8 @@
 {
  "upstream_repo": "danielmiessler/Fabric",
- "upstream_commit": "8e8511c770b2589a6066398a86343fbf8c2a56a3",
- "upstream_commit_date": "2026-11-03",
- "synced_at": "2026-11-04",
+ "upstream_commit": "64f7ba73a8211b900044ab4b1d9553e1a2da8222",
+ "upstream_commit_date": "2026-11-08",
+ "synced_at": "2026-11-09",
  "count": 266,
  "patterns": [
   {
