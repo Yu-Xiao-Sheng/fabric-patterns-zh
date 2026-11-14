@@ -1,10 +1,10 @@
 # Fabric 全部提示词中文目录
 
-上游：[danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) · 同步于 2026-11-13 · 上游 commit `fd2775c` · 共 266 条
+上游：[danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) · 同步于 2026-11-14 · 上游 commit `7fd6866` · 共 267 条
 
 每条的英文名即直达链接，指向源仓库中该 Pattern 的 `system.md` 原文；「中文版」链接指向本仓库 `patterns-zh/` 下的中文全文译版。
 
-## 安全攻防（32 个）
+## 安全攻防（33 个）
 
 作者是安全研究者出身，这是全库最硬核的一组：威胁建模、恶意代码与日志分析、Sigma/Semgrep 规则生成等。
 
@@ -24,6 +24,7 @@
 | [create_cyber_summary](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_cyber_summary/system.md)（[中文版](patterns-zh/create_cyber_summary/system.zh.md)） | 网络安全简报 | 输入安全事件或漏洞信息，为忙碌的技术人员提炼要点，输出简洁清晰的网络安全情报简报，突出关键事实与影响。 | 汇总安全事件与漏洞情报时 | SECURITY |  |
 | [create_graph_from_input](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_graph_from_input/system.md)（[中文版](patterns-zh/create_graph_from_input/system.zh.md)） | 安全进展图数据 | 输入安全项目的各项指标数据，将其整理成CSV格式的时间序列数据，用于绘制安全工作随时间改进的进展图表。 | 制作安全度量趋势图时 | VISUALIZE/SECURITY/CONVERSION |  |
 | [create_investigation_visualization](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_investigation_visualization/system.md)（[中文版](patterns-zh/create_investigation_visualization/system.zh.md)） | 调查关系图谱 | 输入情报调查数据，用GraphViz生成完整的关系可视化图，呈现数据中最关键、最出人意料的关联与发现，便于研判案情。 | 可视化情报调查数据时 | VISUALIZE/SECURITY/ANALYSIS |  |
+| [create_investigation_visualization_mermaid](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_investigation_visualization_mermaid/system.md)（[中文版](patterns-zh/create_investigation_visualization_mermaid/system.zh.md)） | 调查 Mermaid 关系图 | 输入调查资料，用 Mermaid 流程图呈现人物、组织、事件与证据的关系，并附要点分析与结论，可在 GitHub 等处直接渲染。 | 把调查资料画成关系流程图时 | VISUALIZE/SECURITY/ANALYSIS |  |
 | [create_network_threat_landscape](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_network_threat_landscape/system.md)（[中文版](patterns-zh/create_network_threat_landscape/system.zh.md)） | 网络威胁态势报告 | 输入端口扫描得到的开放端口与服务统计，分析潜在威胁，输出Markdown格式的威胁态势报告与整改建议，供正式安全报告引用。 | 分析网络端口扫描结果时 | SECURITY |  |
 | [create_report_finding](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_report_finding/system.md)（[中文版](patterns-zh/create_report_finding/system.zh.md)） | 撰写安全评估发现 | 根据漏洞标题和简要说明撰写安全评估报告条目：输出含描述、风险、整改建议、参考、趋势与引用证据的Markdown发现项。 | 渗透测试后写评估报告时 | SECURITY |  |
 | [create_security_update](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_security_update/system.md)（[中文版](patterns-zh/create_security_update/system.zh.md)） | 编写安全动态简报 | 汇总整理安全资讯成简洁的新闻简报条目：输入威胁情报与公告素材，输出含威胁、咨询与进展并附链接的安全更新。 | 做安全周报、内部简报时 | SECURITY |  |

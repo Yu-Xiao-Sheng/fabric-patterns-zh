@@ -1,9 +1,9 @@
 {
  "upstream_repo": "danielmiessler/Fabric",
- "upstream_commit": "fd2775c7ca7148b02d845f4c411259a6c697dc19",
+ "upstream_commit": "7fd68668e31cceb1f354e8b7fec0ca5157f281b0",
  "upstream_commit_date": "2026-11-13",
- "synced_at": "2026-11-13",
- "count": 266,
+ "synced_at": "2026-11-14",
+ "count": 267,
  "patterns": [
   {
    "name": "analyze_email_headers",
@@ -1267,10 +1267,11 @@
    "desc_en": "Recommend Fabric patterns based on user requirements.",
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/suggest_pattern/system.md",
    "upstream_path": "data/patterns/suggest_pattern/system.md",
-   "content_hash": "571a7c2499cd24ab",
+   "content_hash": "4ac23c9fe6edec48",
    "status": "translated",
    "zh_prompt": "patterns-zh/suggest_pattern/system.zh.md",
-   "zh_base_hash": "571a7c2499cd24ab"
+   "zh_base_hash": "4ac23c9fe6edec48",
+   "_purpose_en": "You are an expert AI assistant specialized in the Fabric framework - an open-source tool for augmenting human capabilities with AI. Your primary responsibility is to analyze user requests and suggest the most appropriate fabric patterns or commands to accomplish their goals. You have comprehensive knowledge of all available patterns, their categories, capabilities, and use cases. Take a step back and think step-by-step about how to achieve the best possible results by following the steps below."
   },
   {
    "name": "summarize_git_changes",
@@ -4852,8 +4853,9 @@
    "desc_en": "",
    "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/pattern_explanations.md",
    "upstream_path": "data/patterns/pattern_explanations.md",
-   "content_hash": "5ce208c5953a6f19",
-   "status": "translated"
+   "content_hash": "82529d62c584e57a",
+   "status": "translated",
+   "_purpose_en": ""
   },
   {
    "name": "translate",
@@ -4871,6 +4873,26 @@
    "status": "translated",
    "zh_prompt": "patterns-zh/translate/system.zh.md",
    "zh_base_hash": "ae70cf1ef7742e9e"
+  },
+  {
+   "name": "create_investigation_visualization_mermaid",
+   "zh_title": "调查 Mermaid 关系图",
+   "zh_desc": "输入调查资料，用 Mermaid 流程图呈现人物、组织、事件与证据的关系，并附要点分析与结论，可在 GitHub 等处直接渲染。",
+   "scenario": "把调查资料画成关系流程图时",
+   "tags": [
+    "VISUALIZE",
+    "SECURITY",
+    "ANALYSIS"
+   ],
+   "group": "安全攻防",
+   "desc_en": "Create Mermaid vis. of investigation data showing relationships and findings.",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_investigation_visualization_mermaid/system.md",
+   "upstream_path": "data/patterns/create_investigation_visualization_mermaid/system.md",
+   "content_hash": "2e92dee6a2ad1832",
+   "status": "translated",
+   "_purpose_en": "",
+   "zh_prompt": "patterns-zh/create_investigation_visualization_mermaid/system.zh.md",
+   "zh_base_hash": "2e92dee6a2ad1832"
   }
  ]
 }
