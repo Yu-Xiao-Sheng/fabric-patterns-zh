@@ -1,6 +1,6 @@
 # Fabric 全部提示词中文目录
 
-上游：[danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) · 同步于 2026-11-19 · 上游 commit `2d653cb` · 共 267 条
+上游：[danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) · 同步于 2026-11-21 · 上游 commit `4fb7593` · 共 268 条
 
 每条的英文名即直达链接，指向源仓库中该 Pattern 的 `system.md` 原文；「中文版」链接指向本仓库 `patterns-zh/` 下的中文全文译版。
 
@@ -44,7 +44,7 @@
 | [write_nuclei_template_rule](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_nuclei_template_rule/system.md)（[中文版](patterns-zh/write_nuclei_template_rule/system.zh.md)） | Nuclei扫描模板 | 输入漏洞或检测需求，编写符合ProjectDiscovery Nuclei规范的YAML扫描模板，包含完整的请求与匹配检测逻辑。 | 做安全扫描规则开发时 | SECURITY/DEVELOPMENT |  |
 | [write_semgrep_rule](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/write_semgrep_rule/system.md)（[中文版](patterns-zh/write_semgrep_rule/system.zh.md)） | Semgrep规则编写 | 输入想检测的代码模式或安全问题，编写可直接用于静态代码分析的Semgrep规则，含匹配模式和提示信息。 | 做代码安全静态扫描时 | SECURITY/DEVELOPMENT |  |
 
-## 开发与代码（42 个）
+## 开发与代码（43 个）
 
 写代码、审代码、解释代码、生成提交信息与设计文档，日常开发最常用的一组。
 
@@ -71,6 +71,7 @@
 | [create_user_story](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/create_user_story/system.md)（[中文版](patterns-zh/create_user_story/system.zh.md)） | 撰写用户故事 | 为复杂软件的新功能撰写简洁清晰的技术用户故事：输出角色需求描述与验收标准，帮助开发团队明确要实现什么。 | 敏捷开发写需求条目时 | DEVELOPMENT/WRITING |  |
 | [explain_code](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_code/system.md)（[中文版](patterns-zh/explain_code/system.zh.md)） | 讲解代码 | 深入分析输入的代码、安全工具输出或配置文件并加以讲解，帮助读者理解其功能、逻辑与关键细节，自由组织讲法。 | 拿到陌生代码需要看懂时 | DEVELOPMENT/LEARNING |  |
 | [explain_docs](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_docs/system.md)（[中文版](patterns-zh/explain_docs/system.zh.md)） | 重写技术文档说明 | 抓住技术文档与使用说明中最重要的部分，将其改写成更清晰易懂的新说明，配以更好理解的步骤与表达方式。 | 官方文档难懂需简化时 | WRITING/DEVELOPMENT |  |
+| [explain_http_error](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_http_error/system.md)（[中文版](patterns-zh/explain_http_error/system.zh.md)） | HTTP 客户端错误解读 | 解读单个 HTTP 4xx 响应：结合状态码、响应头与错误体找出原因，给出诊断、证据和一个可直接执行的下一步。 | 调用 API 收到 4xx 报错时 |  |  |
 | [explain_project](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_project/system.md)（[中文版](patterns-zh/explain_project/system.zh.md)） | 讲解项目全貌 | 读取项目文档后输出面向用户与开发者的精炼概览：说明项目做什么、如何使用，并给出使用说明与示例要点。 | 快速了解新开源项目时 | DEVELOPMENT/BUSINESS |  |
 | [export_data_as_csv](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/export_data_as_csv/system.md)（[中文版](patterns-zh/export_data_as_csv/system.zh.md)） | 导出数据为CSV | 扫描输入文本中出现的所有数据结构，将其提取整理成格式规范的CSV数据输出，确保数据完整性不丢失不失真。 | 把文档数据搬进表格时 | CONVERSION/DEVELOPMENT |  |
 | [extract_algorithm_update_recommendations](https://github.com/danielmiessler/Fabric/blob/main/data/patterns/extract_algorithm_update_recommendations/system.md)（[中文版](patterns-zh/extract_algorithm_update_recommendations/system.zh.md)） | 提取算法改进建议 | 解读输入内容中描述的做事算法与流程，输出一份建议清单，指出应如何改进现有做法的步骤与具体的调整方向。 | 想优化工作流程方法时 | EXTRACT/DEVELOPMENT/ANALYSIS |  |

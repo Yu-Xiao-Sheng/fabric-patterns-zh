@@ -1,9 +1,9 @@
 {
  "upstream_repo": "danielmiessler/Fabric",
- "upstream_commit": "2d653cb7afd0b1cc6dc24d92bf3582c888d02691",
- "upstream_commit_date": "2026-11-18",
- "synced_at": "2026-11-19",
- "count": 267,
+ "upstream_commit": "4fb759364ae37c72ca899e833d2533733ed6bfbb",
+ "upstream_commit_date": "2026-11-20",
+ "synced_at": "2026-11-21",
+ "count": 268,
  "patterns": [
   {
    "name": "analyze_email_headers",
@@ -4893,6 +4893,21 @@
    "_purpose_en": "",
    "zh_prompt": "patterns-zh/create_investigation_visualization_mermaid/system.zh.md",
    "zh_base_hash": "2e92dee6a2ad1832"
+  },
+  {
+   "name": "explain_http_error",
+   "zh_title": "HTTP 客户端错误解读",
+   "zh_desc": "解读单个 HTTP 4xx 响应：结合状态码、响应头与错误体找出原因，给出诊断、证据和一个可直接执行的下一步。",
+   "scenario": "调用 API 收到 4xx 报错时",
+   "tags": [],
+   "group": "开发与代码",
+   "desc_en": "",
+   "source_url": "https://github.com/danielmiessler/Fabric/blob/main/data/patterns/explain_http_error/system.md",
+   "upstream_path": "data/patterns/explain_http_error/system.md",
+   "content_hash": "9533b2697aa0ba65",
+   "status": "translated",
+   "zh_prompt": "patterns-zh/explain_http_error/system.zh.md",
+   "zh_base_hash": "9533b2697aa0ba65"
   }
  ]
 }
